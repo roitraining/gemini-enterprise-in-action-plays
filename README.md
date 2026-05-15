@@ -44,11 +44,3 @@ Example image reference:
 ![Screen capture](images/sample-image.png)
 ```
 
-## How to Add a New Course
-
-1. Copy `0-course-template/`.
-2. Rename the course folder with the next numeric prefix and course name.
-3. Add a short course overview and case study summary to the course `README.md`.
-4. Create numbered play folders.
-5. Fill in each play's `instructions.md` and place assets in that play's `images/` folder.
-
