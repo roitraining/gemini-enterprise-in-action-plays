@@ -1,9 +1,18 @@
 # UX Design from a Napkin Sketch (Image to Code)
 
 ## Scenario
-Cymbal Logistics is modernizing its back-office operations. The team urgently needs a Fleet & Shipment Dashboard to help managers quickly assess daily shipment performance. 
+Cymbal Logistics is modernizing its back-office operations. The team  needs a Fleet & Shipment Dashboard to help managers quickly assess daily shipment performance. 
 
-This application will empower logistics managers to scan the day’s shipment activity, catch delays or exceptions, and review operational summaries at a glance. What begins here as a simple dashboard shell—built straight from a hand-drawn sketch—will soon evolve into a fully functioning, data-driven tool supporting real-time decisions.
+This application will empower logistics managers to scan the day’s shipment activity, catch delays or exceptions, and review operational summaries at a glance. 
+
+### Dashboard design
+The UI dashboard should include easy-to-read status cards which include the following metrics:
+- Active Shipments
+- Deliveries today
+- Fleet status
+- Pending Alerts
+
+Users also want charts which display volume and Fleet Utilization. There should be a grid with active shipments and the ability to add new shipments. 
 
 ## Overview
 In this lab, you'll use a rough, hand-drawn sketch to generate the first iteration of the Cymbal Fleet & Shipment Dashboard using Gemini Canvas. 
@@ -22,9 +31,10 @@ By completing this lab, you learn how to:
 ## Lab Instructions
 
 ### Task 1: Sketch the UI Design
+
 Before writing any code, grab a piece of paper and a pen (or a digital whiteboard) and sketch out your vision for the dashboard based on the scenario. 
 
-1. Review the requirements. 
+1. Review the scenario descrioption above. 
 
 2. Draw a rough wireframe that includes these core structural regions:
    - A header and title area
@@ -32,9 +42,8 @@ Before writing any code, grab a piece of paper and a pen (or a digital whiteboar
    - Two distinct chart placeholders
    - A data table section at the bottom
 
-3. **Important:** Ignore fine visual details for now. Focus entirely on the structure and layout of the page.
+**Important:** Ignore fine visual details for now. Focus entirely on the structure and layout of the page.
 
-**Checkpoint:** You should have a rough sketch with a clearly defined block layout before asking Gemini to generate anything.
 
 ### Task 2: Upload the Sketch and Generate the Initial UI
 Now, let's bring the sketch to life in Canvas. 
