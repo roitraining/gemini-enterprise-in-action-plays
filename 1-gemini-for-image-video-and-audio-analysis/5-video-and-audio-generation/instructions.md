@@ -1,18 +1,28 @@
 # A Happy Family Shopping Trip
 
 ## Overview
-This play teaches you how to generate a high-fidelity video and compose a synchronized audio script.
+This play teaches you how to generate a high-fidelity marketing video and engineer a synchronized 10-second audio script. You will start with a basic video prompt, build a timing-aware script, and then produce an advanced version that aligns voiceover pacing with cinematic visuals.
 
 ### Objectives
 In this play, you learn how to:
-- bridge the gap between static brand identity and cinematic content generation.
-- combine visual assets and natural language to create production-ready marketing assets.
+- Generate a baseline 10-second branded video from a simple prompt.
+- Create and refine a production-ready audio script with second-by-second timing.
+- Combine visual direction and audio timing into a stronger final prompt.
+- Compare output quality between a basic and advanced generation workflow.
 
 
 ## Instructions
+
+---
+
+### Part 1: Generate a Baseline Video
+Goal: Create a first-pass holiday ad quickly to establish a baseline.
+
+Timebox: 6 minutes
+
 1. Open Gemini in your browser.
 
-	Note: Make sure you are using Gemini, not Gemini Enterprise.
+   Note: Make sure you are using Gemini, not Gemini Enterprise.
 
 2. In the chat bar, select the Tools icon and then choose Create video.
 
@@ -25,11 +35,99 @@ In this play, you learn how to:
 5. In the chat, copy and paste the following prompt, then press ENTER.
 
 ```
-You are a marketing manager at Cymbal-Mart, a modern retail company.  Create a 10-second holiday social media ad with the following elements.
-Visual Prompt: Write a highly descriptive, cinematic prompt that captures a family shopping with excitement. Incorporate the attached file [cymballogo.png] as a natural part of the environment, appearing on shopping bags and digital signage in the background. Mention lighting, camera movement, and brand colors (blue and silver).
-Audio Script: Write a punchy, 10-second voiceover script that fits the 'Cymbal-Mart' vibe—smart, festive, and tech-forward.
-The Goal: Ensure the dialogue timing matches the visual energy of the video.
+Create a 10-second holiday social media ad for Cymbal-Mart.
+Scene: A happy family shopping in a modern store decorated for the holidays.
+Branding: Use [CymbalLogo.png] naturally on shopping bags and digital screens in the store.
+Style: Bright, festive, modern, and energetic.
+Camera: Smooth movement with a mix of wide and close-up shots.
+Color Direction: Emphasize blue and silver accents.
 ```
 
-6. Save your final result for sharing.
+6. Let the video generate and review the output.
 
+7. Reflection check (quick notes):
+- What worked visually?
+- What felt generic or unclear?
+- Where did pacing or story flow feel weak?
+
+---
+
+### Part 2: Engineer a 10-Second Audio Script
+Goal: Build a voiceover script that matches the intended visual rhythm.
+
+Timebox: 6 minutes
+
+1. Click `New chat` to start a fresh session.
+
+2. In the chat, copy and paste the following prompt, then press ENTER.
+
+```
+You are a senior advertising copywriter for Cymbal-Mart.
+Write a 10-second holiday voiceover for a social media ad featuring a family shopping in-store.
+
+Requirements:
+- Tone: Smart, festive, and tech-forward.
+- Mention Cymbal-Mart by name.
+- Keep language simple, warm, and energetic.
+- Include a clear call to action in the final line.
+
+Output format:
+1) Final voiceover script (single read, max 28 words).
+2) Second-by-second timing map from 0s to 10s showing which words/phrases should be spoken.
+3) One alternate version with slightly faster pacing.
+```
+
+3. Read the script out loud once to validate timing.
+
+4. If needed, ask Gemini to tighten the script to fit 10 seconds naturally.
+
+5. Save your preferred script in a document for use in Part 3.
+
+6. Reflection check (quick notes):
+- Does it sound natural at speaking speed?
+- Is the brand message clear?
+- Does the ending call to action land in the final second?
+
+---
+
+### Part 3: Generate an Advanced Video with Script Alignment
+Goal: Produce a higher-quality final ad by combining cinematic direction with voiceover timing.
+
+Timebox: 8 minutes
+
+1. Click `New chat` to start a fresh session.
+
+2. In the chat bar, select the Tools icon and choose Create video.
+
+3. Select + Add files and choose Upload files.
+
+4. In the dialog, select CymbalLogo.png and click Open.
+
+5. In the chat, paste your saved script from Part 2 into the placeholder below, then copy and paste the full prompt and press ENTER.
+
+```
+You are producing a premium 10-second holiday social media ad for Cymbal-Mart.
+
+Use this approved voiceover script exactly:
+[PASTE FINAL SCRIPT FROM PART 2 HERE]
+
+Creative direction:
+- Story: A family enters Cymbal-Mart, discovers holiday offers, and checks out with excitement.
+- Brand integration: Place [CymbalLogo.png] naturally on shopping bags, aisle signage, and one digital display.
+- Cinematic style: Warm holiday lighting, realistic reflections, gentle depth of field.
+- Camera plan: Start with an establishing wide shot, transition to medium action shots, end on a confident brand-focused close.
+- Color direction: Blue and silver brand accents with seasonal highlights.
+
+Synchronization requirements:
+- Align scene beats to the script pacing so spoken emphasis matches visual emphasis.
+- Ensure the final call to action lands with a strong closing visual.
+
+Output:
+- Generate one polished 10-second video ad.
+```
+
+6. Review your final output and compare it to Part 1.
+
+7. Save the final video for sharing.
+
+---
