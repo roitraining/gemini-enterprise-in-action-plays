@@ -28,7 +28,7 @@ Goal: Start with a simple prompt to establish the baseline.
 A person working out in a gym for a company ad.
 ```
 
-5. Review the image and discuss what is missing: identity fidelity, brand presence, realism, and composition.
+5. Review the image. Clearly, our brand presence is missing.
 
 ---
 
@@ -49,18 +49,16 @@ Goal: Add identity grounding and natural brand placement while keeping style det
 Create a realistic marketing image of a person exercising in a gym. Use headshot.jpg as the face reference so the subject looks like the same person. Integrate CymbalLogo.png naturally into the environment or gear so it feels physically part of the scene, not pasted on top.
 ```
 
-6. Save this output image as your `Version A - initial` result.
+6. Hover over the image and click `Download image`. You can take a moment to rename your image as `Version A - initial`.
 
 ---
 
 ### Part 3: Critique Loop and Prompt Augmentation
 Goal: Critique the draft, then use the feedback to strengthen the prompt.
 
-1. Download or save the image from Part 2 so you can upload it into a new chat.
+1. Click `New chat` to start a fresh session.
 
-2. Click `New chat` to start a fresh session.
-
-3. Upload the Part 2 image and paste this critique loop prompt:
+3. Upload your image from Part 2 and paste this critique loop prompt:
 
 ```
 You are a creative director reviewing a marketing image draft.
@@ -109,11 +107,10 @@ Goal: Try a variation that emphasizes ad-style emotion.
 3. Use this variation prompt to emphasize ad-style emotion:
 
 ```
-Create a realistic, premium athletic marketing image using headshot.jpg as the subject identity. The subject should look genuinely happy, energized, and confident while working out. Keep CymbalLogo.png naturally integrated into gear or architecture. Maintain realism and avoid artificial overlays.
+*A cinematic, photorealistic marketing image for "Cymbal," a modern fitness brand. The shot is a medium close-up of a focused, athletic man in his late 30s during a dumbbell workout in a bright, clean gym. He is positioned on the right side of the frame, looking off-camera to the left. He should look genuinely happy, energized, and confident while working out. The lighting is soft and natural, streaming in from large windows on the left, realistically highlighting his features and the texture of his grey heather t-shirt. In the background, the "Cymbal" logo is presented as a physical, white 3D sign mounted on a dark grey wall. The logo and wall must realistically interact with the gym's ambient and directional lighting, showing subtle highlights and shadows. The image should have a shallow depth of field, with the focus sharp on the man, while the logo and background elements are slightly soft to create a sense of depth. Include a "Cymbal" logo on the sleeve of his shirt and on a water bottle nearby, both seamlessly integrated.*
 ```
 
 4. Generate and save as `Version B - emotion emphasis`.
 
 5. Compare `Version A - improved` vs `Version B - emotion emphasis` and discuss when each style is better for campaign goals.
-
 ---

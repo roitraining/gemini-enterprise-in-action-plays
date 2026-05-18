@@ -13,12 +13,8 @@ In this play, you learn how to:
 
 ## Instructions
 
----
-
 ### Part 1: Generate a Baseline Video
 Goal: Create a first-pass holiday ad quickly to establish a baseline.
-
-Timebox: 6 minutes
 
 1. Open Gemini in your browser.
 
@@ -55,8 +51,6 @@ Color Direction: Emphasize blue and silver accents.
 ### Part 2: Engineer a 10-Second Audio Script
 Goal: Build a voiceover script that matches the intended visual rhythm.
 
-Timebox: 6 minutes
-
 1. Click `New chat` to start a fresh session.
 
 2. In the chat, copy and paste the following prompt, then press ENTER.
@@ -81,9 +75,19 @@ Output format:
 
 4. If needed, ask Gemini to tighten the script to fit 10 seconds naturally.
 
-5. Save your preferred script in a document for use in Part 3.
+5. You can save your generated script in a document for use in Part 3, or you can copy our generated script below.
 
-6. Reflection check (quick notes):
+```
+1) Final Voiceover Script"The brightest gifts, the smartest tech, and more time for what matters. Find your family’s holiday magic at Cymbal-Mart. Shop the season’s best deals in-store today!"(27 words)
+
+2) Second-by-Second Timing MapTimePhrase / Words:
+0s – 2s "The brightest gifts, the smartest tech
+2s – 4s "and more time for what matters."
+4s – 7s "Find your family’s holiday magic at Cymbal-Mart."
+7s – 10s "Shop the season’s best deals in-store today!"
+```
+
+6. Take a moment to do a sanity check:
 - Does it sound natural at speaking speed?
 - Is the brand message clear?
 - Does the ending call to action land in the final second?
@@ -93,8 +97,6 @@ Output format:
 ### Part 3: Generate an Advanced Video with Script Alignment
 Goal: Produce a higher-quality final ad by combining cinematic direction with voiceover timing.
 
-Timebox: 8 minutes
-
 1. Click `New chat` to start a fresh session.
 
 2. In the chat bar, select the Tools icon and choose Create video.
@@ -103,31 +105,31 @@ Timebox: 8 minutes
 
 4. In the dialog, select CymbalLogo.png and click Open.
 
-5. In the chat, paste your saved script from Part 2 into the placeholder below, then copy and paste the full prompt and press ENTER.
+5. In the chat, copy and paste the prompt given below, then press ENTER.
+
+	Note: Feel free to replace our voiceover script with the one you generated in Part 2.
 
 ```
-You are producing a premium 10-second holiday social media ad for Cymbal-Mart.
+Task: Generate a 10-second premium holiday video ad for Cymbal-Mart.
 
-Use this approved voiceover script exactly:
-[PASTE FINAL SCRIPT FROM PART 2 HERE]
+Strict Audio Requirement: You MUST use the following voiceover script verbatim. Do not paraphrase, shorten, or extend it.
 
-Creative direction:
-- Story: A family enters Cymbal-Mart, discovers holiday offers, and checks out with excitement.
-- Brand integration: Place [CymbalLogo.png] naturally on shopping bags, aisle signage, and one digital display.
-- Cinematic style: Warm holiday lighting, realistic reflections, gentle depth of field.
-- Camera plan: Start with an establishing wide shot, transition to medium action shots, end on a confident brand-focused close.
-- Color direction: Blue and silver brand accents with seasonal highlights.
+Script: "The brightest gifts, the smartest tech, and more time for what matters. Find your family’s holiday magic at Cymbal-Mart. Shop the season’s best deals in-store today!"
 
-Synchronization requirements:
-- Align scene beats to the script pacing so spoken emphasis matches visual emphasis.
-- Ensure the final call to action lands with a strong closing visual.
+Technical Synchronization Map:
+0s–2s: [Visual: Wide shot of a family walking into a festive Cymbal-Mart] Audio: "The brightest gifts, the smartest tech"
+2s–4s: [Visual: Medium shot of the family laughing over a gadget] Audio: "and more time for what matters."
+4s–7s: [Visual: Aisle shot with [CymbalLogo.png] on signage; warm holiday lighting] Audio: "Find your family’s holiday magic at Cymbal-Mart."
+7s–10s: [Visual: Close-up of shopping bags with [CymbalLogo.png] at checkout] Audio: "Shop the season’s best deals in-store today!"
 
-Output:
-- Generate one polished 10-second video ad.
+Visual Direction:
+Cinematic Style: Warm, high-end holiday lighting, realistic reflections, and blue/silver brand accents.
+Branding: Overlay [CymbalLogo.png] naturally on physical assets within the store and end on a high-contrast brand close.
+
+Output: One 10-second video with the audio perfectly synced to the timing map above.
 ```
 
 6. Review your final output and compare it to Part 1.
 
 7. Save the final video for sharing.
-
 ---

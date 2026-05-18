@@ -11,12 +11,10 @@ In this play, you learn how to:
 
 ## Instructions
 
----
+
 
 ### Part 1: Baseline Video Analysis
 Goal: Establish a baseline and show what Gemini can do with minimal instructions.
-
-Estimated time: 5 to 7 minutes
 
 1. Open Gemini Enterprise in your browser.
 2. Click the `+ Add files` icon and select `Upload files`.
@@ -37,8 +35,6 @@ Include timestamps and a short description of each issue.
 
 ### Part 2: Add Company Standards
 Goal: Improve precision by grounding the analysis in policy.
-
-Estimated time: 6 to 8 minutes
 
 1. Click `New chat` to start a fresh session.
 2. Click the `+ Add files` icon and select `Upload files`.
@@ -61,8 +57,6 @@ For each issue found, include the timestamp and cite the relevant policy section
 
 ### Part 3: Add Structured Output Requirements
 Goal: Convert policy-grounded findings into an action-ready audit format.
-
-Estimated time: 7 to 9 minutes
 
 1. Click `New chat` to start a fresh session.
 2. Click the `+ Add files` icon and select `Upload files`.
@@ -95,23 +89,43 @@ Output Format:
 
 ---
 
-### Bonus: Generate a Manager Memo
-Goal: Turn technical findings into a communication artifact leaders can use immediately.
+### Bonus: Generate a Manager Memo with the CARE Prompt Format
+Goal: Apply a CARE prompt to transform your raw audit findings into a professional memo leaders can use immediately. The CARE framework is a structured prompt technique that improves clarity and consistency. CARE stands for:
 
-Estimated time: 4 to 6 minutes
+- **Context**: Establish the background, situation, and stakes.
+- **Action**: Specify exactly what you want the model to do and how.
+- **Result**: Define the output format, tone, and expected deliverables.
+- **Evaluation**: State how success will be measured.
 
-1. In the same chat from Part 3, copy and paste the following prompt, then press ENTER.
+1. In the same chat from Part 3, copy and paste the following CARE-structured prompt, then press ENTER.
 
 ```
-Using your audit results, draft a professional memo addressed to the Store Manager.
+Context:
+You are a Senior Compliance Auditor for a national retail chain. You have just completed a high-stakes operational audit of a local branch. The audit revealed several critical failures in inventory management, safety protocols, and cash handling that require immediate intervention to prevent financial loss and safety hazards.
 
-Requirements:
-- Tone: Professional, direct, and constructive.
-- Include: Executive summary, top risks, and required immediate actions.
-- Include a 7-day action plan with owner roles and deadlines.
-- Close with a short follow-up request for status reporting.
+Action:
+Using the audit data provided, draft a professional memo addressed to the Store Manager. Your writing must be direct, constructive, and avoid fluff. You must:
+
+Synthesize the findings into a concise Executive Summary.
+
+Identify and prioritize the 'Top 3 Risks' based on their impact on the business.
+
+Outline specific 'Immediate Actions' to be taken within 24 hours.
+
+Construct a 7-day Action Plan in a table format with columns for Task, Owner (e.g., Ops Lead, Floor Manager), and Deadline (Day 1–7).
+
+Result:
+The final memo should be formatted for internal distribution, using clear headings and a tone that balances accountability with professional support. It must conclude with a formal request for a status report by a specific date.
+
+Evaluation:
+"Success will be measured by the clarity of the risk assessment and the feasibility of the 7-day plan. Ensure the language is firm enough to convey urgency but constructive enough to maintain a positive working relationship with the Store Manager.
 ```
 
-2. Save the memo and the structured audit output for sharing.
+2. Review the output and notice how the CARE structure delivered:
+   - Clear expectations about tone and format.
+   - A logical flow from summary to risk to action.
+   - Credible, actionable next steps the Store Manager can execute.
+
+3. Save the memo and the structured audit output for sharing.
 
 ---

@@ -46,9 +46,8 @@ Goal: Gather current, source-backed statistics before creating the next infograp
 Research current U.S. back-to-school spending statistics for families with K-12 students.
 Find 3-5 high-confidence figures suitable for a retail infographic, including:
 - Average annual household spend
-- Percent of shoppers planning to shop early
-- Top spending categories
-- Value-seeking behavior (discounts, private label, or deal participation)
+- Percent of increase of cost year over year
+- Total U.S. Speanding
 
 Requirements:
 - Prioritize 2024-2025 data.
@@ -73,13 +72,15 @@ Estimated time: 9 minutes
 
 1. Click `New chat` to start a fresh session.
 2. In the chat bar, select the Tools icon and choose `Generate images (NB2)`.
-3. Copy and paste the prompt below. Replace `[PASTE APPROVED DATA BLOCK HERE]` with your research output.
+3. Copy and paste the prompt below. We've included our research numbers from Part 2 for you, but feel free to change them to your research output.
 
 ```text
 Create a striking, horizontal infographic-style image promoting "Cymbal-Mart: Back-to-School Super Sale."
 
 Use this approved data exactly as written:
-[PASTE APPROVED DATA BLOCK HERE]
+- Average annual back-to-school spend per K-12 household = $858.07
+- Total K-12 back-to-school spending in the U.S. = $39.4 Billion
+- 7.3% Year-over-year increase in the cost of basic school supplies
 
 Composition:
 - Left panel: family spending challenge
@@ -111,7 +112,24 @@ Persona, Role, Inputs, Steps, Constraints, and Output Format.
 Preserve all campaign intent and all approved numeric values exactly.
 Then provide one final optimized prompt.
 
-[PASTE YOUR PART 3 PROMPT HERE]
+"Create a striking, horizontal infographic-style image promoting "Cymbal-Mart: Back-to-School Super Sale."
+
+Use this approved data exactly as written:
+- Average annual back-to-school spend per K-12 household = $858.07
+- Total K-12 back-to-school spending in the U.S. = $39.4 Billion
+- 7.3% Year-over-year increase in the cost of basic school supplies
+
+Composition:
+- Left panel: family spending challenge
+- Right panel: Cymbal-Mart value solution
+- Include all 3 approved numbers as highly legible callouts
+- Add one strong CTA banner at the bottom
+
+Design constraints:
+- Clean visual hierarchy and high contrast for readability
+- Keep copy concise and presentation-ready
+- Do not change any numeric values
+- Keep the image horizontal"
 ```
 
 3. Copy the optimized prompt Gemini returns.
@@ -120,8 +138,4 @@ Then provide one final optimized prompt.
 - Which output is most persuasive?
 - Which one is most trustworthy?
 - How did prompt structure affect quality?
-
 ---
-
-### Wrap-Up
-Save your best final image for sharing. In your reflection, include one thing that improved after research and one thing that improved after meta-prompt engineering.
