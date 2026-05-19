@@ -15,6 +15,10 @@ In this lab, you'll use a rough, hand-drawn sketch to generate the first iterati
 
 ![Cymbal Logo](images/cymbal-logistics-logo-dark.png)
 
+<p align="left">
+  <img src="images/cymbal-logistics-logo-dark.png" width="300" alt="Cymbal Logo" />
+</p>
+
 Cymbal Logistics is modernizing its back-office operations. The team wants a Fleet & Shipment Dashboard to help managers quickly assess daily shipment performance. 
 
 This application will empower logistics managers to scan the day’s shipment activity, catch delays or exceptions, and review operational summaries at a glance. 
