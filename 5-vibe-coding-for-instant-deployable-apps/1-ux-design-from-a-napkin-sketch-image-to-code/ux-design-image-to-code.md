@@ -44,8 +44,8 @@ Before writing any code, grab a piece of paper and a pen (or a digital whiteboar
    - Two distinct chart placeholders
    - A data table section at the bottom
 
-[!IMPORTANT] 
-Ignore fine visual details for now. Focus entirely on the structure and layout of the page.
+> [!IMPORTANT] 
+> Ignore fine visual details for now. Focus entirely on the structure and layout of the page.
 
 ### Task 2: Upload the Sketch and Generate the Initial UI
 Now, let's bring the sketch to life in Canvas. 
@@ -118,7 +118,8 @@ Output:
 
 7. Let's ask Gemini to make a slight improvement. Ask it to implement a toggle button that allows the user to switch between a Light and Dark theme. Once the prompt runs, examine the results. 
 
-**Checkpoint:** Your generated page should now clearly resemble a logistics dashboard layout, but the functionality is not enabled yet. Your program should be similar to the screenshot below. 
+> [!NOTE] 
+> Your generated page should now clearly resemble a logistics dashboard layout, but the functionality is not enabled yet. Your program should be similar to the screenshot below. 
 
    <p align="left">
      <img src="images/dark-theme.png" width="50%" alt="Dark Theme" style="border: 1px solid black;" />
@@ -161,7 +162,8 @@ Keep this as a front-end dashboard shell that is perfectly prepared for data int
 
 5. Verify that your final UI still faithfully matches the initial sketch while looking considerably cleaner.
 
-**Checkpoint:** You should now have a polished, responsive dashboard shell. Remember, it should not yet be a fully featured or data-driven application!
+> [!NOTE] 
+> You should now have a polished, responsive dashboard shell. Remember, it should not yet be a fully featured or data-driven application!
 
 ## Congratulations
 In this lab, you have:
