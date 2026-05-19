@@ -13,8 +13,6 @@ In this lab, you'll use a rough, hand-drawn sketch to generate the first iterati
 
 ## Scenario
 
-![Cymbal Logo](images/cymbal-logistics-logo-dark.png)
-
 <p align="left">
   <img src="images/cymbal-logistics-logo-dark.png" width="50%" alt="Cymbal Logo" />
 </p>
@@ -55,7 +53,11 @@ Now, let's bring the sketch to life in Canvas.
 
 2. Take a photo of your sketch and send it to yourself.  Then, paste it into your Gemini prompt window. Alternatively, you can use the example sketch below. Right-click the sketch, copy it, and paste it into your prompt:
 
-   ![Cymbal Fleet and Shipment Dashboard sketch](images/ui-sketch.png)
+   <p align="left">
+     <img src="images/ui-sketch.png" width="75%" alt="Cymbal Fleet and Shipment Dashboard sketch" />
+     <br>
+     <em>Cymbal Fleet &amp; Shipment Dashboard — wireframe sketch</em>
+   </p>
 
 3. Start small. Try a very brief, basic prompt to see how Gemini interprets the image natively:
 
@@ -65,15 +67,27 @@ Program this dashboard.
 
 4. It will take a little while to complete. 
 
-   ![Code Generation](images/code-generating.png)
+   <p align="left">
+     <img src="images/code-generating.png" width="50%" alt="Code Generation" />
+     <br>
+     <em>Gemini Canvas generating the dashboard code</em>
+   </p>
 
 5. While it is working you can click on the __Code__ tab of the __Canvas__ and watch the code being generated. 
 
-   ![Code View](images/code-view.png)
+   <p align="left">
+     <img src="images/code-view.png" width="50%" alt="Code View" />
+     <br>
+     <em>Viewing the generated code in the Code tab</em>
+   </p>
 
 6. When the code completes, click the __Preview__ tab. The should look pretty impressive. 
 
-   ![Preview](images/code-preview.png)
+   <p align="left">
+     <img src="images/code-preview.png" width="50%" alt="Preview" />
+     <br>
+     <em>Dashboard preview rendered in the Preview tab</em>
+   </p>
 
 
 7. OK, you're done! Well, not really. The program doesn't work, it's just simulating a Dashboard. Our prompt was so open-ended the model just made up whatever it needed to to fulfill the task. Let's refine the prompt by narrow it's goal and adding some more instructions. 
@@ -105,7 +119,11 @@ Output:
 
 **Checkpoint:** Your generated page should now clearly resemble a logistics dashboard layout, but the functionality is not enabled yet. Your program should be similar to the screenshot below. 
 
-   ![Dark Theme](images/dark-theme.png)
+   <p align="left">
+     <img src="images/dark-theme.png" width="50%" alt="Dark Theme" />
+     <br>
+     <em>Dashboard with Light/Dark theme toggle enabled</em>
+   </p>
 
 ### Task 3: Refine and Polish the UI
 With the structure established, your final task is to polish the design to make it production-ready. 

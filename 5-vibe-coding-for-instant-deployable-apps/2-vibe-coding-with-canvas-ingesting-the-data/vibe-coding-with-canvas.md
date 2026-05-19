@@ -16,7 +16,9 @@ First, you will recreate a consistent baseline UI. Then, you will use "vibe codi
 
 ## Scenario
 
-![Cymbal Logo](images/cymbal-logistics-logo-light.png)
+<p align="left">
+  <img src="images/cymbal-logistics-logo-light.png" width="50%" alt="Cymbal Logo" />
+</p>
 
 With the structural shell of the Cymbal Fleet & Shipment Dashboard completed, logistics managers now need actual data to make informed decisions. A beautiful layout means nothing if it doesn't surface real operational insights.
 
@@ -35,7 +37,11 @@ To ensure a consistent starting point for the complex logic ahead, we will quick
 
 2. Right-click the sketch below, copy it, and paste it into your Gemini prompt window:
 
-   ![Cymbal Fleet and Shipment Dashboard sketch](images/ui-sketch.png)
+   <p align="left">
+     <img src="images/ui-sketch.png" width="75%" alt="Cymbal Fleet and Shipment Dashboard sketch" />
+     <br>
+     <em>Cymbal Fleet &amp; Shipment Dashboard — wireframe sketch</em>
+   </p>
 
 3. Run the following structured prompt to generate the clean dashboard shell. 
 
