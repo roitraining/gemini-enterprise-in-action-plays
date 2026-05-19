@@ -14,7 +14,7 @@ In this lab, you'll use a rough, hand-drawn sketch to generate the first iterati
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-logistics-logo-dark.png" width="50%" alt="Cymbal Logo" />
+  <img src="images/cymbal-logistics-logo-dark.png" width="50%" alt="Cymbal Logo" style="border: 1px solid black;" />
 </p>
 
 Cymbal Logistics is modernizing its back-office operations. The team wants a Fleet & Shipment Dashboard to help managers quickly assess daily shipment performance. 
@@ -54,7 +54,7 @@ Now, let's bring the sketch to life in Canvas.
 2. Take a photo of your sketch and send it to yourself.  Then, paste it into your Gemini prompt window. Alternatively, you can use the example sketch below. Right-click the sketch, copy it, and paste it into your prompt:
 
    <p align="left">
-     <img src="images/ui-sketch.png" width="75%" alt="Cymbal Fleet and Shipment Dashboard sketch" />
+     <img src="images/ui-sketch.png" width="75%" alt="Cymbal Fleet and Shipment Dashboard sketch" style="border: 1px solid black;" />
      <br>
      <em>Cymbal Fleet &amp; Shipment Dashboard — wireframe sketch</em>
    </p>
@@ -68,7 +68,7 @@ Program this dashboard.
 4. It will take a little while to complete. 
 
    <p align="left">
-     <img src="images/code-generating.png" width="50%" alt="Code Generation" />
+     <img src="images/code-generating.png" width="50%" alt="Code Generation" style="border: 1px solid black;" />
      <br>
      <em>Gemini Canvas generating the dashboard code</em>
    </p>
@@ -76,7 +76,7 @@ Program this dashboard.
 5. While it is working you can click on the __Code__ tab of the __Canvas__ and watch the code being generated. 
 
    <p align="left">
-     <img src="images/code-view.png" width="50%" alt="Code View" />
+     <img src="images/code-view.png" width="50%" alt="Code View" style="border: 1px solid black;" />
      <br>
      <em>Viewing the generated code in the Code tab</em>
    </p>
@@ -84,7 +84,7 @@ Program this dashboard.
 6. When the code completes, click the __Preview__ tab. The should look pretty impressive. 
 
    <p align="left">
-     <img src="images/code-preview.png" width="50%" alt="Preview" />
+     <img src="images/code-preview.png" width="50%" alt="Preview" style="border: 1px solid black;" />
      <br>
      <em>Dashboard preview rendered in the Preview tab</em>
    </p>
@@ -120,7 +120,7 @@ Output:
 **Checkpoint:** Your generated page should now clearly resemble a logistics dashboard layout, but the functionality is not enabled yet. Your program should be similar to the screenshot below. 
 
    <p align="left">
-     <img src="images/dark-theme.png" width="50%" alt="Dark Theme" />
+     <img src="images/dark-theme.png" width="50%" alt="Dark Theme" style="border: 1px solid black;" />
      <br>
      <em>Dashboard with Light/Dark theme toggle enabled</em>
    </p>
