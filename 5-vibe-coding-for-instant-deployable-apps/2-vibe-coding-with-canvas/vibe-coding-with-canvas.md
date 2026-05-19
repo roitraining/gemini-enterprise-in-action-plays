@@ -17,16 +17,12 @@ First, you will recreate a consistent baseline UI. Then, you will use "vibe codi
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-logistics-logo-light.png" width="50%" alt="Cymbal Logo" style="border: 1px solid black;" />
+  <img src="images/cymbal-logistics-logo-light.png" width="50%" alt="Cymbal Logo" />
 </p>
 
 With the structural shell of the Cymbal Fleet & Shipment Dashboard completed, logistics managers now need actual data to make informed decisions. A beautiful layout means nothing if it doesn't surface real operational insights.
 
 In this phase, you will transition the static dashboard into a dynamic, data-driven application. You will ingest the current status of the Cymbal truck fleet, populate the grid, and write logic to calculate vital metrics like Total Fleet Value and Fleet Utilization. Finally, you will synthesize automated and manual alerts into a single view.
-
-
-
-
 
 ## Lab Instructions
 
@@ -63,7 +59,6 @@ Output:
 - Return only the code needed for the layout.
 - Use Tailwind CSS for styling.
 ```
-
 
 ### Task 2: Ingest the Data and Calculate KPIs
 Now we will use iterative prompting to ingest data and add dynamic functionality. Do not paste all these requirements at once. Vibe coding requires solving problems one step at a time.
@@ -220,7 +215,8 @@ Start with the existing application (Don't rewrite the whole thing), and make th
 
 3. Try adding a new alert.
 
-**Checkpoint:** You should have a functional CSV importer driving KPI calculations, alongside a unified Pending Alerts manager that displays both automated tracking alerts and manual dispatches.
+> [!NOTE]
+> You should have a functional CSV importer driving KPI calculations, alongside a unified Pending Alerts manager that displays both automated tracking alerts and manual dispatches.
 
 ### Bonus Task 3: Build Interactive State (Pending Alerts)
 
