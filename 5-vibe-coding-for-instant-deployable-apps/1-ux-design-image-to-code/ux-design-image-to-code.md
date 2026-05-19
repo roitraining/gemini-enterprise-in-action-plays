@@ -13,7 +13,9 @@ In this lab, you'll use a rough, hand-drawn sketch to generate the first iterati
 
 ## Scenario
 
-![Cymbal Logo](images/cymbal-logistics-logo-dark.png)
+<p align="left">
+  <img src="images/cymbal-logistics-logo-dark.png" width="50%" alt="Cymbal Logo" />
+</p>
 
 Cymbal Logistics is modernizing its back-office operations. The team wants a Fleet & Shipment Dashboard to help managers quickly assess daily shipment performance. 
 
@@ -42,7 +44,8 @@ Before writing any code, grab a piece of paper and a pen (or a digital whiteboar
    - Two distinct chart placeholders
    - A data table section at the bottom
 
-**Important:** Ignore fine visual details for now. Focus entirely on the structure and layout of the page.
+> [!IMPORTANT] 
+> Ignore fine visual details for now. Focus entirely on the structure and layout of the page.
 
 ### Task 2: Upload the Sketch and Generate the Initial UI
 Now, let's bring the sketch to life in Canvas. 
@@ -51,7 +54,11 @@ Now, let's bring the sketch to life in Canvas.
 
 2. Take a photo of your sketch and send it to yourself.  Then, paste it into your Gemini prompt window. Alternatively, you can use the example sketch below. Right-click the sketch, copy it, and paste it into your prompt:
 
-   ![Cymbal Fleet and Shipment Dashboard sketch](images/ui-sketch.png)
+   <p align="left">
+     <img src="images/ui-sketch.png" width="75%" alt="Cymbal Fleet and Shipment Dashboard sketch" style="border: 1px solid black;" />
+     <br>
+     <em>Cymbal Fleet &amp; Shipment Dashboard — wireframe sketch</em>
+   </p>
 
 3. Start small. Try a very brief, basic prompt to see how Gemini interprets the image natively:
 
@@ -61,15 +68,27 @@ Program this dashboard.
 
 4. It will take a little while to complete. 
 
-   ![Code Generation](images/code-generating.png)
+   <p align="left">
+     <img src="images/code-generating.png" width="50%" alt="Code Generation" />
+     <br>
+     <em>Gemini Canvas generating the dashboard code</em>
+   </p>
 
 5. While it is working you can click on the __Code__ tab of the __Canvas__ and watch the code being generated. 
 
-   ![Code View](images/code-view.png)
+   <p align="left">
+     <img src="images/code-view.png" width="50%" alt="Code View" />
+     <br>
+     <em>Viewing the generated code in the Code tab</em>
+   </p>
 
 6. When the code completes, click the __Preview__ tab. The should look pretty impressive. 
 
-   ![Preview](images/code-preview.png)
+   <p align="left">
+     <img src="images/code-preview.png" width="50%" alt="Preview" />
+     <br>
+     <em>Dashboard preview rendered in the Preview tab</em>
+   </p>
 
 
 7. OK, you're done! Well, not really. The program doesn't work, it's just simulating a Dashboard. Our prompt was so open-ended the model just made up whatever it needed to to fulfill the task. Let's refine the prompt by narrow it's goal and adding some more instructions. 
@@ -99,9 +118,14 @@ Output:
 
 7. Let's ask Gemini to make a slight improvement. Ask it to implement a toggle button that allows the user to switch between a Light and Dark theme. Once the prompt runs, examine the results. 
 
-**Checkpoint:** Your generated page should now clearly resemble a logistics dashboard layout, but the functionality is not enabled yet. Your program should be similar to the screenshot below. 
+> [!NOTE] 
+> Your generated page should now clearly resemble a logistics dashboard layout, but the functionality is not enabled yet. Your program should be similar to the screenshot below. 
 
-   ![Dark Theme](images/dark-theme.png)
+   <p align="left">
+     <img src="images/dark-theme.png" width="50%" alt="Dark Theme" />
+     <br>
+     <em>Dashboard with Light/Dark theme toggle enabled</em>
+   </p>
 
 ### Task 3: Refine and Polish the UI
 With the structure established, your final task is to polish the design to make it production-ready. 
@@ -138,7 +162,8 @@ Keep this as a front-end dashboard shell that is perfectly prepared for data int
 
 5. Verify that your final UI still faithfully matches the initial sketch while looking considerably cleaner.
 
-**Checkpoint:** You should now have a polished, responsive dashboard shell. Remember, it should not yet be a fully featured or data-driven application!
+> [!NOTE] 
+> You should now have a polished, responsive dashboard shell. Remember, it should not yet be a fully featured or data-driven application!
 
 ## Congratulations
 In this lab, you have:
