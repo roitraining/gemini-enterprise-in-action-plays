@@ -44,7 +44,7 @@ Before writing any code, grab a piece of paper and a pen (or a digital whiteboar
    - Two distinct chart placeholders
    - A data table section at the bottom
 
-**Important:** Ignore fine visual details for now. Focus entirely on the structure and layout of the page.
+[!IMPORTANT] Ignore fine visual details for now. Focus entirely on the structure and layout of the page.
 
 ### Task 2: Upload the Sketch and Generate the Initial UI
 Now, let's bring the sketch to life in Canvas. 
