@@ -1,7 +1,21 @@
-# UX Design from a Napkin Sketch (Image to Code)
+# UX Design: Image to Code
+
+## Time Required
+20-30 minutes
+
+## Overview
+In this lab, you'll use a rough, hand-drawn sketch to generate the first iteration of the Cymbal Fleet & Shipment Dashboard using Gemini Canvas. 
+
+### You learn how to:
+- Translate a low-fidelity UI sketch into a structured web layout.
+- Prompt Gemini Canvas to generate functional HTML, CSS, and JavaScript from an image.
+- Refine and iterate on a generated interface through focused prompting.
 
 ## Scenario
-Cymbal Logistics is modernizing its back-office operations. The team  needs a Fleet & Shipment Dashboard to help managers quickly assess daily shipment performance. 
+
+![Cymbal Logo](images/cymbal-logistics-logo-dark.png)
+
+Cymbal Logistics is modernizing its back-office operations. The team wants a Fleet & Shipment Dashboard to help managers quickly assess daily shipment performance. 
 
 This application will empower logistics managers to scan the day’s shipment activity, catch delays or exceptions, and review operational summaries at a glance. 
 
@@ -13,20 +27,6 @@ The UI dashboard should include easy-to-read status cards which include the foll
 - Pending Alerts
 
 Users also want charts which display volume and Fleet Utilization. There should be a grid with active shipments and the ability to add new shipments. 
-
-## Overview
-In this lab, you'll use a rough, hand-drawn sketch to generate the first iteration of the Cymbal Fleet & Shipment Dashboard using Gemini Canvas. 
-
-Your objective is to produce a clean, structural dashboard shell. It needs to match the overall layout of the sketch and serve as a solid foundation, perfectly primed for data ingestion in your next lab.
-
-## Time Required
-20-30 minutes
-
-## What You Learn
-By completing this lab, you learn how to:
-- Translate a low-fidelity UI sketch into a structured web layout.
-- Prompt Gemini Canvas to generate functional HTML, CSS, and JavaScript from an image.
-- Refine and iterate on a generated interface through focused prompting.
 
 ## Lab Instructions
 
@@ -43,7 +43,6 @@ Before writing any code, grab a piece of paper and a pen (or a digital whiteboar
    - A data table section at the bottom
 
 **Important:** Ignore fine visual details for now. Focus entirely on the structure and layout of the page.
-
 
 ### Task 2: Upload the Sketch and Generate the Initial UI
 Now, let's bring the sketch to life in Canvas. 
