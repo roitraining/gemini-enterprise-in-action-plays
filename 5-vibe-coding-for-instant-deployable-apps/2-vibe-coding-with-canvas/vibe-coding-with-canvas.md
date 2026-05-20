@@ -29,7 +29,14 @@ In this phase, you will transition the static dashboard into a dynamic, data-dri
 ### Task 1: Establish the Baseline UI
 To ensure a consistent starting point for the complex logic ahead, we will quickly recreate the UI shell using a standardized prompt and a provided sketch.
 
-1. Open [Gemini](https://gemini.google.com/app), and select the **Canvas** from the __Tools__ menu.
+1. Open [Gemini](https://gemini.google.com/app), click the __+__ icon, and select **Canvas** from the __Tools__ list. 
+
+   <p align="left">
+     <img src="images/tools-canvas.png" width="50%" alt="Tools" />
+     <br>
+     <em>Tools | Canvas menu</em>
+   </p>
+
 
 2. Right-click the sketch below, copy it, and paste it into your Gemini prompt window:
 
@@ -60,6 +67,16 @@ Output:
 - Use Tailwind CSS for styling.
 ```
 
+> [!NOTE] 
+> Your program should be similar to the screenshot below. 
+
+   <p align="left">
+     <img src="images/initial-screen.png" width="50%" alt="Initial Screen" />
+     <br>
+     <em>Initial screen of the dashboard</em>
+   </p>
+
+
 ### Task 2: Ingest the Data and Calculate KPIs
 Now we will use iterative prompting to ingest data and add dynamic functionality. Do not paste all these requirements at once. Vibe coding requires solving problems one step at a time.
 
@@ -68,13 +85,23 @@ Now we will use iterative prompting to ingest data and add dynamic functionality
 ```text
 I want to ingest data into this dashboard. 
 - Add a dialog with a text area (for pasting CSV data) and a "Load Data" button to the header area. The user clicks "Load Data" and the dialog pops up. They can paste CSV, then click "OK" (or "Cancel" to do nothing). 
-- Write JavaScript to parse the pasted CSV data and populate the data table section with the rows. Create a paging feature that alllows users to see the data 20 rows at a time. 
+- Write JavaScript to parse the pasted CSV data and populate the data table section with the rows. Create a paging feature that allows users to see the data 20 rows at a time. 
 - The CSV headers will be: Truck_ID, Origin, Destination, Status, and Value.
 
 At this point, just populate the grid and enable paging. Don't implement any other functionality. 
 ```
 
-2. Now you need sample data to test the new feature. Below is a mock CSV dataset representing Cymbal's 100-truck fleet. Trucks that are "Unassigned" or "In-Maintenance" have no destination and a delivery value of $0. Copy this entire block of text to your clipboard.
+> [!NOTE] 
+> Your program should be similar to the screenshot below. 
+
+   <p align="left">
+     <img src="images/input-data-screen.png" width="50%" alt="Input Data Screen" />
+     <br>
+     <em>Dashboard with data input enabled.</em>
+   </p>
+
+
+2. Now you need sample data to test the new feature. Below is a mock CSV dataset representing Cymbal's truck fleet. Trucks that are "Unassigned" or "In-Maintenance" have no destination and a delivery value of $0. Copy this entire block of text to your clipboard.
 
 ```csv
 Truck_ID,Origin,Destination,Status,Value
@@ -182,6 +209,16 @@ TRK-100,Parma,,In-Maintenance,0
 
 3. **Test it:** Click the "Load Data" button. Paste your mocked CSV string into the text area field in the Canvas preview and click "OK". The grid should instantly populate. 
 
+> [!NOTE] 
+> Scroll to the bottom of your program and verify that the data was added to the grid. 
+
+   <p align="left">
+     <img src="images/data-grid.png" width="50%" alt="Data Grid" />
+     <br>
+     <em>Dashboard with data imported into grid.</em>
+   </p>
+
+
 4. Now that we have data in the app's state, let's calculate the KPI cards. Run this prompt:
 
 ```text
@@ -189,13 +226,22 @@ Start with the existing application (Don't rewrite the whole thing), and update 
 1. "Total Fleet Value" (sum the exact numeric amount in the Value column across all trucks).
 2. "Fleet Utilization" (a Doughnut graph depicting the percentage of trucks in each status category).
 3. Active Shipments - The number of trucks that are Loading, En-route, or Delayed. 
-4. Deliveries today - The number of trucks returning and a percentage based on how many trucks not In-maintence or Unassigned (i.e. those that are scheduled to make a delivdery).
+4. Deliveries today - The number of trucks returning and a percentage based on how many trucks not In-Maintenance or Unassigned (i.e. those that are scheduled to make a delivery).
 5. Pending Alerts - Show delayed trucks. 
 
 Update the UI when data is loaded, also add a Refresh button to the header that refreshes calculations. 
 ```
 
-**Test it:** Paste the data into the app again and click load. You should see a highly populated grid, a Total Fleet Value (exceeding $2 million), and a Fleet Utilization percentage dynamically extracted from the statuses.
+5. **Test it:** Paste the data into the app again and click load. You should see a populated grid, a Total Fleet Value (exceeding $2 million), and a Fleet Utilization percentage dynamically extracted from the statuses.
+
+> [!NOTE] 
+> The KPIs on your Dashboard should now be calculated based on the data imported. 
+
+   <p align="left">
+     <img src="images/dashboard-kpis.png" width="50%" alt="Dashboard KPIs" />
+     <br>
+     <em>Dashboard with KPIs.</em>
+   </p>
 
 ### Task 3: Build Interactive State (Pending Alerts)
 Finally, let's synthesize automated data filtering with interactive, user-driven state in the "Pending Alerts" card. 
@@ -208,21 +254,37 @@ Start with the existing application (Don't rewrite the whole thing), and make th
 1. Automatically populate the alerts list with any truck from the parsed CSV that has a Status of "Delayed".
 2. Add an "Add" button that pops up a dialog to manually add an alert. 
 3. The dialog should have a dropdown for Custom Alerts (Weather, Accident, Traffic, Other), an optional notes field, and "OK" and "Cancel" buttons.
-3. Clicking "OK" should append a new manual alert to the same list.
+4. Clicking "OK" should append a new manual alert to the same list.
 ```
+
 
 2. Once Gemini completes the code update, load your CSV data again. The Pending Alerts component should instantly fill up with the delayed trucks.
 
+   <p align="left">
+     <img src="images/add-alerts.png" width="50%" alt="Add Alerts Feature" />
+     <br>
+     <em>Add Alerts feature.</em>
+   </p>
+
+
 3. Try adding a new alert.
+
+
+   <p align="left">
+     <img src="images/create-alert.png" width="50%" alt="Create a New Alert" />
+     <br>
+     <em>Creating a new alert.</em>
+   </p>
+
 
 > [!NOTE]
 > You should have a functional CSV importer driving KPI calculations, alongside a unified Pending Alerts manager that displays both automated tracking alerts and manual dispatches.
 
-### Bonus Task 3: Build Interactive State (Pending Alerts)
+### Bonus Task 4: Refining the Application
 
-1. Ask Gemini to make the grid with the truck data editable. The KPIs should be updated when data is changed in the grid and the user moves to a new field. Test your progam after each change. 
+1. Ask Gemini to make the grid with the truck data editable. The KPIs should be updated when data is changed in the grid and the user moves to a new field. Test your program after each change. 
 
-2. Ask Gemini to create functionality to manually add rows to the grid and create a nice input dialog form to make data entry easy. Use a dropdown for Status. Test your progam after each change. 
+2. Ask Gemini to create functionality to manually add rows to the grid and create a nice input dialog form to make data entry easy. Use a dropdown for Status. Test your program after each change. 
 
 ## Congratulations
 In this lab, you have:

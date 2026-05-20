@@ -12,6 +12,14 @@ In this lab, you will use Gemini Canvas to build two real-world applications tha
 - Use Canvas to generate an interactive slide presentation.
 - Export a Canvas presentation to Google Slides or download it as a PDF.
 
+## Scenario
+
+<p align="left">
+  <img src="images/cymbal-logistics-office.png" width="50%" alt="Cymbal Logo" />
+</p>
+
+Cymbal Logistics continues its AI-first transformation. In this lab, you will build two tools that put generative AI directly in the hands of operations staff: a Shift Handoff Tool that writes professional summaries from raw shift data, and an executive presentation that communicates the company's workforce strategy to the Board of Directors.
+
 ## Lab Instructions
 
 ### Task 1: Integrating Generative AI into Canvas Tools
@@ -19,7 +27,13 @@ In this lab, you will use Gemini Canvas to build two real-world applications tha
 #### Scenario
 Cymbal Logistics shift managers currently write handoff reports by hand — a slow and inconsistent process that creates communication gaps between shifts. The operations team wants a simple internal tool where an outgoing manager can paste shift data and notes, and instantly receive a clean, structured summary ready to hand off to the incoming manager.
 
-1. Open [Gemini](https://gemini.google.com/app), and select the **Canvas** from the __Tools__ menu.
+1. Open [Gemini](https://gemini.google.com/app), click the __+__ icon, and select **Canvas** from the __Tools__ list. 
+
+   <p align="left">
+     <img src="images/tools-canvas.png" width="50%" alt="Tools" />
+     <br>
+     <em>Tools | Canvas menu</em>
+   </p>
 
 2. Run the following prompt to create the initial UI of the application. 
 
@@ -55,13 +69,13 @@ Update the JavaScript logic for the 'Format AI Handoff' button. When clicked, it
 - The generated prompt should start with: 'Act as an expert Logistics Shift Supervisor. Create a professional shift handoff report using the following data...'
 - Display this generated prompt in the bottom read-only text area.
 
-Once, the AI Prompt has been generated, enable another button "Create Shift Summary". This button should should use Gemini to run the generated prompt and display the summary in a read-only text area. Add a Copy button, so the user can copy the result to their clipboard.
+Once the AI Prompt has been generated, enable another button "Create Shift Summary". This button should use Gemini to run the generated prompt and display the summary in a read-only text area. Add a Copy button, so the user can copy the result to their clipboard.
 ```
 
 4. Let's test the app so far. Enter the following values:
 
   - Outgoing Manager: Your name
-  - Incoming Manager: A firend's name
+  - Incoming Manager: A friend's name
   - Paste Shift Data (CSV):
 ```text
 Truck_ID,Route,Driver,Status,Notes
@@ -86,7 +100,7 @@ Jeff Davis called in sick, John Opiola will cover for him.
      <em>The generated AI prompt built from shift data and manager notes</em>
    </p>
 
-6. Click the button to generate the shift summary. This runs the prompt using the Gemini API. The output should be similar to the following. 
+6. Click the **Create Shift Summary** button to generate the shift summary. This runs the prompt using the Gemini API. The output should be similar to the following. 
 
    <p align="left">
      <img src="images/shift-summary.png" width="50%" alt="Shift Summary" style="border: 1px solid black;" />
@@ -102,7 +116,7 @@ Jeff Davis called in sick, John Opiola will cover for him.
 #### Scenario
 Cymbal Logistics is undergoing a significant AI-first transformation. The HR Director needs to present the workforce strategy — covering automation, upskilling, and new recruiting profiles — to the Board of Directors. Rather than spending hours building a slide deck from scratch, she will use Gemini Canvas to generate a polished, executive-level presentation in minutes.
 
-1. In Gemini, create a new chat, and select the **Canvas** from the __Tools__ menu.
+1. In Gemini, create a new chat, click the __+__ icon, and select **Canvas** from the __Tools__ list.
 
 2. Run the following prompt to create a slides presentation. 
 
@@ -145,7 +159,7 @@ Ensure the text is executive-level, concise, and professional.
 
 1. By default, Gemini will use the faster Flash model. If you have time, rerun the 2 lab examples using the Pro model. Use the model selector in the __Ask Gemini__ text box to select the model. 
 
-2. Think of a useful program you would like to vibe code. First, prompt Gemini to build the UI. You can do this either by describing what you want of draw a mockup and upload it to Gemini. Then, prompt Gemini to add the logic behind your application. 
+2. Think of a useful program you would like to vibe code. First, prompt Gemini to build the UI. You can do this either by describing what you want or draw a mockup and upload it to Gemini. Then, prompt Gemini to add the logic behind your application. 
 
 3. Describe a slide presentation for a meeting you might have in your own work. Use the prompt above as a template. 
 
