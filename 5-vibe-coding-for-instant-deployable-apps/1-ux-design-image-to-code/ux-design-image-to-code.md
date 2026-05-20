@@ -36,7 +36,7 @@ Users also want charts which display volume and Fleet Utilization. There should 
 
 Before writing any code, grab a piece of paper and a pen (or a digital whiteboard) and sketch out your vision for the dashboard based on the scenario. 
 
-1. Review the scenario descrioption above. 
+1. Review the scenario description above. 
 
 2. Draw a rough wireframe that includes these core structural regions:
    - A header and title area
@@ -50,12 +50,18 @@ Before writing any code, grab a piece of paper and a pen (or a digital whiteboar
 ### Task 2: Upload the Sketch and Generate the Initial UI
 Now, let's bring the sketch to life in Canvas. 
 
-1. Open [Gemini](https://gemini.google.com/app), and select **Canvas** from the __Tools__ icon. 
-
-2. Take a photo of your sketch and send it to yourself.  Then, paste it into your Gemini prompt window. Alternatively, you can use the example sketch below. Right-click the sketch, copy it, and paste it into your prompt:
+1. Open [Gemini](https://gemini.google.com/app), click the __+__ icon, and select **Canvas** from the __Tools__ list. 
 
    <p align="left">
-     <img src="images/ui-sketch.png" width="75%" alt="Cymbal Fleet and Shipment Dashboard sketch" style="border: 1px solid black;" />
+     <img src="images/tools-canvas.png" width="50%" alt="Tools" />
+     <br>
+     <em>Tools | Canvas menu</em>
+   </p>
+
+2. Take a photo of your sketch and send it to yourself. Then, paste it into your Gemini prompt window. Alternatively, you can use the example sketch below. Right-click the sketch, copy it, and paste it into your prompt:
+
+   <p align="left">
+     <img src="images/ui-sketch.png" width="75%" alt="Cymbal Fleet and Shipment Dashboard sketch" />
      <br>
      <em>Cymbal Fleet &amp; Shipment Dashboard — wireframe sketch</em>
    </p>
@@ -74,7 +80,7 @@ Program this dashboard.
      <em>Gemini Canvas generating the dashboard code</em>
    </p>
 
-5. While it is working you can click on the __Code__ tab of the __Canvas__ and watch the code being generated. 
+5. While it is working, you can click on the __Code__ tab of the __Canvas__ and watch the code being generated. 
 
    <p align="left">
      <img src="images/code-view.png" width="50%" alt="Code View" />
@@ -82,7 +88,7 @@ Program this dashboard.
      <em>Viewing the generated code in the Code tab</em>
    </p>
 
-6. When the code completes, click the __Preview__ tab. The should look pretty impressive. 
+6. When the code completes, click the __Preview__ tab. It should look visually impressive — though keep in mind it won't actually function yet. 
 
    <p align="left">
      <img src="images/code-preview.png" width="50%" alt="Preview" />
@@ -91,7 +97,7 @@ Program this dashboard.
    </p>
 
 
-7. OK, you're done! Well, not really. The program doesn't work, it's just simulating a Dashboard. Our prompt was so open-ended the model just made up whatever it needed to to fulfill the task. Let's refine the prompt by narrow it's goal and adding some more instructions. 
+7. OK, you're done! Well, not really. The program doesn't work — it's just simulating a dashboard. Our prompt was so open-ended the model just made up whatever it needed to fulfill the task. Let's refine the prompt by narrowing its goal and adding some more instructions. 
 
 8. Click the __New chat__ icon. As before, select __Canvas__ from __Tools__, and then paste the UI sketch. Then, run the prompt below. (_Study the prompt before pasting it._)
 
@@ -112,11 +118,11 @@ Output:
 - Return only the code needed for the layout.
 ```
 
-9. Compare the results. It likely looks similar to the first iteration, but there shouldn't be any fake behavior. The code should have also generated quicker since the model was instructed to do less.
+9. Compare the results. It likely looks similar to the first iteration, but there shouldn't be any fake behavior. The code should have also generated more quickly since the model was instructed to do less.
 
 10. Take a look at the code. It should be pretty clean CSS and HTML with a little JavaScript. 
 
-7. Let's ask Gemini to make a slight improvement. Ask it to implement a toggle button that allows the user to switch between a Light and Dark theme. Once the prompt runs, examine the results. 
+11. Let's ask Gemini to make a slight improvement. Ask it to implement a toggle button that allows the user to switch between a Light and Dark theme. Once the prompt runs, examine the results. 
 
 > [!NOTE] 
 > Your generated page should now clearly resemble a logistics dashboard layout, but the functionality is not enabled yet. Your program should be similar to the screenshot below. 
@@ -130,18 +136,16 @@ Output:
 ### Task 3: Refine and Polish the UI
 With the structure established, your final task is to polish the design to make it production-ready. 
 
-1. Ask Gemini to improve the current layout without altering the underlying structure.
+1. Ask Gemini to improve the current layout without altering the underlying structure. Focus your prompting purely on usability and aesthetics—do not add new features yet. 
 
-2. Focus your prompting purely on usability and aesthetics—do not add new features yet.
-
-3. Guide Gemini to make small, targeted enhancements rather than rewriting the app from scratch. Ask for specific improvements, such as:
+    Guide Gemini to make small, targeted enhancements rather than rewriting the app from scratch. Ask for specific improvements, such as:
    - Better spacing, padding, and layout alignment
    - Cleaner, more professional styling for the KPI cards
    - Stronger, more legible typography for section labels
    - Improved readability in the table formatting
    - Overall visual consistency across the entire dashboard
 
-Use a refinement prompt similar to this:
+2. Use a refinement prompt similar to this:
 
 ```text
 Refine the dashboard styling while keeping the exact same overall layout.
@@ -158,12 +162,20 @@ Do not add chart libraries, CSV parsing, or backend logic.
 Keep this as a front-end dashboard shell that is perfectly prepared for data integration.
 ```
 
-4. Complete one focused iteration pass based on this prompt.
+3. Verify that your final UI still faithfully matches the initial sketch while looking considerably cleaner.
 
-5. Verify that your final UI still faithfully matches the initial sketch while looking considerably cleaner.
+4. You can't break anything. Experiment and make any refinements that you want to. 
 
 > [!NOTE] 
 > You should now have a polished, responsive dashboard shell. Remember, it should not yet be a fully featured or data-driven application!
+
+### Bonus Task 4: Try your own Use Case
+
+1. Think of a simple app you might like for your work or personal use. First create a short, 1 or 2-sentence description of the app. Then, add a bulleted list of features. Create a new chat in Gemini and ask it for some ideas and help you refine them. 
+
+2. Create a screen mockup of your application. You can use pen and paper, use a drawing program that you like on your computer, or you can ask Gemini to draw a screen mockup based on your description and features. 
+
+3. As you just did, create a new chat with the __Canvas__ tool added. Ask Gemini to program the UI. Tell Gemini to just focus on UI elements, not to try to implement everything. 
 
 ## Congratulations
 In this lab, you have:
