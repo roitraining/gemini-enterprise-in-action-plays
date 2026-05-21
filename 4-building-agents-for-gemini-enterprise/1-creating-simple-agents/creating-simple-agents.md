@@ -30,14 +30,14 @@ The Claims Briefing Assistant helps adjusters instantly extract and structure ke
 
 1. Open your Gemini Enterprise web app in a browser.
 
-2. In the left navigation menu, click **+ Create agent**.
+2. In the left navigation menu, click **+ New agent**.
 
    <p align="left">
-     <img src="images/create-agent-nav.png" width="60%" alt="Navigation menu showing + Create agent" />
-     <br><em>The + Create agent button in the Gemini Enterprise navigation menu</em>
+     <img src="images/new-agent.png" width="60%" alt="Navigation menu showing + Create agent" />
+     <br><em>The + New agent button in the Gemini Enterprise navigation menu</em>
    </p>
 
-3. The **Agent Designer** page opens. In the chat box on the left, paste the following prompt and click **Submit**:
+3. The **Agent Designer** page opens. In the chat box, paste the following prompt and click the **Submit** icon:
 
    ```text
    Create an agent called "Claims Briefing Assistant" for Cymbal Insurance.
@@ -54,7 +54,7 @@ The Claims Briefing Assistant helps adjusters instantly extract and structure ke
    ```
 
    > [!NOTE]
-   > Gemini Enterprise analyzes your prompt and may ask clarifying questions or present a configuration plan before building the agent. Review what it proposes before proceeding.
+   > Gemini Enterprise analyzes your prompt and may ask clarifying questions before building the agent. If it does, review what it proposes before proceeding.
 
 4. The **Agent Designer canvas** appears with your agent and a live preview pane.
 
@@ -75,7 +75,7 @@ The Claims Briefing Assistant helps adjusters instantly extract and structure ke
 2. Test the agent with the following sample incident report — paste it into the chat:
 
    ```text
-   Customer called in Thursday afternoon. Says their car was hit while parked outside the mall on Riverside Drive. They dont know who hit it — someone left a note but never called back. Car is a 2019 Honda Accord. The rear bumper is smashed in and the trunk wont open. They think its about 3 to 4 thousand dollars in damage. No injuries. They have photos they can send.
+   Customer called in this morning. Says his car was hit while parked outside the mall on Riverside Drive. They dont know who hit it — someone left a note but never called back. Car is a 2019 Honda Accord. The rear bumper is smashed in and the trunk wont open. They think its about 3 to 4 thousand dollars in damage. No injuries. They have photos they can send.
    ```
 
 3. Review the generated Claims Brief. Ask yourself:
@@ -83,38 +83,57 @@ The Claims Briefing Assistant helps adjusters instantly extract and structure ke
    - Are missing fields flagged appropriately?
    - Is the Recommended Next Step specific and actionable?
 
-4. If the output needs improvement, use the left chat pane to refine the agent. For example:
+   <p align="left">
+     <img src="images/agent-response-1.png" width="70%" alt="Agent Test Response" />
+     <br><em>The Agent Preview showing the first test response.</em>
+   </p>
+
+
+4. Let's try to improve the agent's output. Use the left chat pane to refine the agent with the following prompt:
 
    ```text
-   Update the instructions so the Recommended Next Step always specifies a concrete action, such as "Schedule field inspection" or "Request supplemental documentation from claimant."
+   Update the instructions so the Recommended Next Steps always specifies one or more concrete actions, such as "Schedule field inspection" or "Request supplemental documentation from claimant" or whatever else is appropriate given the information gathered so far. 
    ```
 
-5. Test again with the updated agent to confirm the refinement worked.
+5. Test again with the updated agent to confirm the refinement worked. Here is another example test prompt. Click the 
+
+```text
+Customer Mike Prensky called this morning. Says his car was rear-ended on 495 South near mile marker 43. Car is a 2024 Chevy Silverado 1500. The rear bumper is dented and there is damage to the trail gate. A police report was filed by Fairfax Count PD. The other driver's name was Jeff Davis. From Tysons Corner, VA. There were no injuries. They have photos they can send.
+```
 
 6. When you are satisfied with the output, click **Create** to launch the agent.
 
    > [!IMPORTANT]
    > If you exit the Agent Designer without clicking **Create**, your agent is saved as a **Draft** and will not be available to use until it is launched.
 
+7. Click the __Chat with Agent__ button to open it in a new chat window. Test it again. You can use one of the earlier test prompts or enter your own.
+
+8. Once your agent is deployed, it will be available in the __Agents__ screen in Gemini Enterprise. In the left-hand navigation menu, click **Agents**. You will see your agent in the __Your agents__ section.
+
+   <p align="left">
+     <img src="images/deployed-agent.png" width="70%" alt="Deployed Agent" />
+     <br><em>The Claims Briefing Assistant agent deployed in Gemini Enterprise.</em>
+   </p>
+
 ### Task 3: Create the Claims Escalation Desk
 
 The Claims Escalation Desk is a two-part agent system. A Triage Agent assesses claim severity and determines routing; if escalation is needed, a Manager Escalation Agent drafts a structured internal memo for the Claims Manager.
 
-1. In the navigation menu, click **+ Create agent** to open a fresh Agent Designer session.
+1. In the navigation menu, click **+ New agent** to open a fresh Agent Designer session.
 
 2. In the chat box, paste the following prompt and click **Submit**:
 
    ```text
-   Create an agent system called "Claims Escalation Desk" for Cymbal Insurance. It should work as a two-step routing flow with two agents:
+   Create an agent system called "Claims Desk" for Cymbal Insurance. It should work as a two-step routing flow with two agents, the Claims Desk Agent is the root agent that takes requests and the Manager Escalation Agent is a sub-agent. 
 
-   Agent 1 — Triage Agent:
+   Agent 1 — Claims Desk Agent:
    Analyzes a submitted claim summary and determines the routing based on these rules:
    - AUTO-APPROVE if: estimated damage is under $5,000 AND no injuries are reported AND no third-party liability is indicated.
    - ESCALATE TO MANAGER if: estimated damage is $5,000 or more, OR injuries are reported (any severity), OR third-party liability is indicated.
    Output: routing decision (AUTO-APPROVE or ESCALATE TO MANAGER) and a one-sentence reason.
 
    Agent 2 — Manager Escalation Agent:
-   Only triggered when the Triage Agent escalates a claim.
+   Only triggered when the Claims Desk Agent escalates a claim.
    Drafts a structured internal escalation memo for the Claims Manager that includes:
    - Memo header: To: Claims Manager | From: Claims Operations System | Re: Escalated Claim
    - Claimant summary: name, date, and claim type
@@ -123,7 +142,7 @@ The Claims Escalation Desk is a two-part agent system. A Triage Agent assesses c
    - Recommended next action for the manager
    ```
 
-3. The Agent Designer generates a multi-step agent flow. Click the **Flow** tab to inspect the structure — you should see the Triage Agent connected to the Manager Escalation Agent.
+3. The Agent Designer generates a multi-step agent flow. Click the **Flow** tab to inspect the structure — you should see the root connected to the Manager Escalation Agent.
 
    <p align="left">
      <img src="images/escalation-desk-flow.png" width="70%" alt="Flow tab showing two-node agent structure" />

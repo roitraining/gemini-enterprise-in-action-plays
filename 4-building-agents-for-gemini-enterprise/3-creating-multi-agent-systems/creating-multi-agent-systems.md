@@ -26,7 +26,11 @@ In this lab, you will build a single Orchestrator Agent that takes new hire deta
 
 ### Task 1: Create the Orchestrator Agent
 
-1. Open your Gemini Enterprise web app and click **+ Create agent** in the navigation menu.
+1. Open your Gemini Enterprise web app and click **+ New agent** in the left navigation menu.
+
+<p align="left">
+  <img src="images/new-agent.png" width="50%" alt="New Agent" />
+</p>
 
 2. On the Agent Designer page, click **Proceed to builder**.
 
