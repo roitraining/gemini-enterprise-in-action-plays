@@ -15,7 +15,7 @@ In this lab, you will create two agents using the prompt-based creation method i
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-insurance-logo.png" width="50%" alt="Cymbal Insurance Logo" />
+  <img src="images/cymbal-insurance-logo.png" width="25%" alt="Cymbal Insurance Logo" />
 </p>
 
 Cymbal Insurance processes thousands of customer incident reports every day. Claims adjusters currently spend significant time manually reading through unstructured, conversational notes before they can act on a claim. Every minute spent decoding a report is a minute not spent helping a customer.
