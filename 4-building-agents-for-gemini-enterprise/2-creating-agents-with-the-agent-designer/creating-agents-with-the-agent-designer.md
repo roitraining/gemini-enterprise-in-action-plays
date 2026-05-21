@@ -60,7 +60,7 @@ For each document:
    Cymbal Insurance maintains a zero-tolerance policy for harassment, discrimination, and retaliation of any kind. All employees are required to complete annual compliance training. Violations should be reported to HR or through the confidential Ethics Hotline at 1-800-555-0199.
    ```
 
-2. Open your Gemini Enterprise web app and click **+ Create agent** in the navigation menu.
+2. Open your Gemini Enterprise web app and click **+ New agent** in the navigation menu.
 
 3. On the Agent Designer page, click **Proceed to builder** to open the flow builder directly.
 
@@ -104,7 +104,7 @@ For each document:
    - `How does the 401(k) match work?`
 
    > [!NOTE]
-   > You can add as many starter prompts as you like. Gemini Enterprise displays a random selection of up to three at a time to keep the interface clean.
+   > Starter prompts help by giving examples of how the agent can be used, and allow you to just click on commonly used prompts.
 
 ### Task 2: Test the Employee Navigator
 
@@ -158,7 +158,7 @@ For each document:
    Pre-approved conference registration fees are fully reimbursable. Written approval must be obtained before registration. Unapproved registrations will not be reimbursed.
    ```
 
-2. In your Gemini Enterprise web app, click **+ Create agent** and then click **Proceed to builder**.
+2. In your Gemini Enterprise web app, click **+ New agent** and then click **Proceed to builder**.
 
 3. Click the default agent node and configure it:
    - **Name:** `Expense Policy Auditor`
@@ -209,21 +209,31 @@ For each document:
 
 7. Click **Create** to launch the agent.
 
+8. Start a chat with the agent and ask the following questions:
+
+```
+What are the rules and limits for buying dinners for clients?
+```
+
+```
+I want to take a large client to a sporting event. What do I need to do to expense that?
+```
+
 ### Bonus Task 4: Refine and Extend
 
-1. Open the **Employee Navigator** for editing. In the **Agent Gallery**, go to **Your agents**, find the agent, click **Actions**, and select **Edit**.
+1. Open the **Expense Policy Auditor** for editing. In the **Agent Gallery**, go to **Your agents**, find the agent, click **Actions**, and select **Edit**.
 
-2. Add two more starter prompts based on the questions you tested in Task 2. Choose questions that employees are most likely to ask.
-
-3. Click **Update** to save the changes.
-
-4. Open the **Expense Policy Auditor** and use the left chat pane to request an output format improvement:
+2. Use the left chat pane to request an output format improvement:
 
    ```text
    Update the Expense Audit Report to include a "Steps to Resubmit" section at the end. This section should list the specific changes the employee must make to each flagged item before resubmitting the report.
    ```
 
-5. Test the updated format with the same expense submission from Task 3. Verify the new section appears and is actionable.
+3. Test the updated format with the same expense submission from Task 3. Verify the new section appears and is actionable.
+
+4. Add a couple starter prompts to the Expense Policy Auditor agent.
+
+5. Review the agent's instructions. Modify them any way you like to add capabilities or refine the outputs. Test after each change. 
 
 ## Congratulations
 

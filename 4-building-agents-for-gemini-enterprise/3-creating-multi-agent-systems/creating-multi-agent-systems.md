@@ -4,7 +4,7 @@
 30–40 minutes
 
 ## Overview
-In this lab, you will use the Agent Designer flow builder to build a multi-agent system. You will create a root Orchestrator Agent and four specialized sub-agents, each responsible for a distinct part of the new employee onboarding process. The Orchestrator delegates to all four simultaneously and assembles their outputs into a single, unified summary.
+In this lab, you will use the Agent Designer to build a multi-agent system. You will create a root Orchestrator Agent and four specialized sub-agents, each responsible for a distinct part of the new employee onboarding process. The Orchestrator delegates to all four simultaneously and assembles their outputs into a single, unified summary.
 
 ### You learn how to:
 - Design a multi-agent system with a root orchestrator and specialized sub-agents.
