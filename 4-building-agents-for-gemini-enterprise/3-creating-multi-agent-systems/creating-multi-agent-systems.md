@@ -1,10 +1,10 @@
 # Creating Multi-Agent Systems
 
 ## Time Required
-30–40 minutes
+30 minutes
 
 ## Overview
-In this lab, you will use the Agent Designer to build a multi-agent system. You will create a root Orchestrator Agent and four specialized sub-agents, each responsible for a distinct part of the new employee onboarding process. The Orchestrator delegates to all four simultaneously and assembles their outputs into a single, unified summary.
+In this lab, you will use the Agent Designer to build a multi-agent system. You will create a root Orchestrator Agent and three specialized sub-agents, each responsible for a distinct part of the new employee onboarding process. The Orchestrator delegates to all three simultaneously and assembles their outputs into a single, unified summary. In the bonus, you will extend the system by designing and adding a fourth sub-agent on your own.
 
 ### You learn how to:
 - Design a multi-agent system with a root orchestrator and specialized sub-agents.
@@ -36,7 +36,7 @@ In this lab, you will build a single Orchestrator Agent that takes new hire deta
 
 3. The **Flow** tab opens with a default agent node. Click the node to open its configuration panel. Configure the Orchestrator:
    - **Name:** `New Hire Onboarding Orchestrator`
-   - **Description:** `Coordinates new employee onboarding by delegating tasks to IT, HR, Facilities, and Training sub-agents simultaneously.`
+   - **Description:** `Coordinates new employee onboarding by delegating tasks to IT, HR, and Facilities sub-agents.`
    - **Instructions:** Paste the following:
 
    ```text
@@ -46,13 +46,12 @@ In this lab, you will build a single Orchestrator Agent that takes new hire deta
 
    1. Confirm you have all five required fields: full name, start date, role, department, and office location. If any are missing, ask for them before proceeding.
 
-   2. Once you have all required information, delegate onboarding tasks to ALL FOUR sub-agents simultaneously:
+   2. Once you have all required information, delegate onboarding tasks to all three sub-agents simultaneously:
       - IT Provisioner: hardware, software, and system access setup
       - HR Assistant: welcome email to the employee and internal HR checklist
       - Facilities Agent: building access badge, parking, and workspace assignment
-      - Training Coordinator: structured first-week onboarding schedule
 
-   3. Collect all four sub-agent outputs and present them as a single "New Hire Onboarding Summary" with a clearly labeled section for each department.
+   3. Collect all three sub-agent outputs and present them as a single "New Hire Onboarding Summary" with a clearly labeled section for each department.
 
    Do not skip any sub-agent, even if details about a particular department were not explicitly requested.
    ```
@@ -122,7 +121,7 @@ In this lab, you will build a single Orchestrator Agent that takes new hire deta
      <br><em>The flow after adding IT Provisioner and HR Assistant sub-agents</em>
    </p>
 
-### Task 3: Add the Facilities Agent and Training Coordinator, Then Test
+### Task 3: Add the Facilities Agent, Then Test
 
 1. Hover over the Orchestrator node and click **+ Add subagent** to add the third sub-agent:
    - **Name:** `Facilities Agent`
@@ -142,35 +141,14 @@ In this lab, you will build a single Orchestrator Agent that takes new hire deta
    - Flag as URGENT if the start date is within 5 business days
    ```
 
-2. Hover over the Orchestrator node and click **+ Add subagent** one final time to add the fourth sub-agent:
-   - **Name:** `Training Coordinator`
-   - **Description:** `Creates a structured first-week onboarding schedule for the new employee.`
-   - **Instructions:** Paste the following:
-
-   ```text
-   You are the Training Coordinator sub-agent for Cymbal Insurance's onboarding system.
-
-   You receive new hire details from the Orchestrator. Produce two items:
-
-   1. First-Week Onboarding Schedule for the new employee:
-      - Day 1: Company orientation, IT setup walkthrough, HR paperwork and benefits overview
-      - Day 2: Department introduction and team meet-and-greet
-      - Day 3: Role-specific systems and tools training
-      - Day 4: Compliance training — code of conduct, data privacy policy, and security awareness
-      - Day 5: Shadowing session with a senior team member, followed by end-of-week check-in with manager
-      Format the schedule with clear day-by-day headings.
-
-   2. A brief welcome note to the new employee explaining the purpose of the schedule and what to bring on Day 1.
-   ```
-
-3. The **Flow** tab should now show all four sub-agents connected to the Orchestrator.
+2. The **Flow** tab should now show all three sub-agents connected to the Orchestrator.
 
    <p align="left">
-     <img src="images/flow-complete.png" width="70%" alt="Complete flow diagram with Orchestrator and all four sub-agents" />
-     <br><em>The complete multi-agent system: Orchestrator with IT, HR, Facilities, and Training sub-agents</em>
+     <img src="images/flow-three-subagents.png" width="70%" alt="Flow tab with Orchestrator connected to all three sub-agents" />
+     <br><em>The flow after adding all three sub-agents: IT Provisioner, HR Assistant, and Facilities Agent</em>
    </p>
 
-4. Click the **Preview** tab. Test the full system with the following new hire details:
+3. Click the **Preview** tab. Test the system with the following new hire details:
 
    ```text
    New hire details:
@@ -181,50 +159,67 @@ In this lab, you will build a single Orchestrator Agent that takes new hire deta
    - Office Location: Austin, TX
    ```
 
-5. Verify that the Onboarding Summary contains all four sections and that each is appropriate for Maria's role:
-   - **IT:** Does it request the right hardware and software for a Claims Analyst? Is it flagged URGENT if June 2 is within 5 business days?
+4. Verify that the Onboarding Summary contains all three sections and that each is appropriate for Maria's role:
+   - **IT:** Does it request the right hardware and software for a Claims Analyst? Is it flagged URGENT based on the start date?
    - **HR:** Does the welcome email address Maria by name and confirm her start details? Does the checklist cover all five items?
    - **Facilities:** Does it include badge access, parking, and workspace for the Austin office?
-   - **Training:** Does the schedule follow the five-day structure? Is the welcome note addressed to Maria?
 
-6. If any sub-agent's output is weak or missing, click the **Flow** tab, select that sub-agent's node, and refine its instructions.
+5. If any sub-agent's output is weak or missing, click the **Flow** tab, select that sub-agent's node, and refine its instructions.
 
-7. When all four sections are working correctly, click **Create** to launch the system.
+6. When all three sections are working correctly, click **Create** to launch the system.
 
-### Bonus Task 4: Test Complex Scenarios
+7. Start a chat with the new agent and test it with the following prompt. Notice, there is a missing start date, let's see how the agent responds. 
 
-A well-built multi-agent system handles edge cases gracefully. Try the following to push the system further.
+```
+We just hired a new programmer in the IT department. His name is John Opiola. He will be working in the Reston, VA office. 
+```
 
-1. Test with a new hire who has special requirements and an urgent start date. Use a start date that is 3 business days from today:
 
-   ```text
-   New hire details:
-   - Full Name: David Kim
-   - Start Date: [3 business days from today]
-   - Role: Senior Data Engineer
-   - Department: Analytics & Data Science
-   - Office Location: New York, NY
-   - Special requirements: standing desk, high-performance laptop
-   ```
+### Bonus Task 4: Add the Training Coordinator
 
-2. Verify that the IT Provisioner flags the request as URGENT and requests a high-performance setup.
+The system is working — but onboarding at Cymbal Insurance involves four departments, not three. In this bonus, you will add the Training Coordinator sub-agent yourself, using the agents you have already built as your guide.
 
-3. Verify that the Facilities Agent includes the standing desk request.
+1. Open the agent for editing. In the **Agent Gallery**, go to **Your agents**, find **New Hire Onboarding Orchestrator**, click **Actions**, and select **Edit**.
 
-4. Now test what happens with incomplete input — submit just a name and start date, with no role, department, or location:
+2. In the **Flow** tab, hover over the Orchestrator node and click **+ Add subagent**.
 
-   ```text
-   I need to onboard Alex Rivera starting March 10.
-   ```
+3. Configure the sub-agent's name and description, then write the instructions yourself. Use the IT Provisioner, HR Assistant, and Facilities Agent as your guide for structure and tone. The Training Coordinator should produce:
+   - A structured first-week onboarding schedule with a clear agenda for each day
+   - A brief welcome note to the new employee explaining what to expect and what to bring on Day 1
 
-   The Orchestrator should ask for the missing required fields before proceeding rather than sending incomplete requests to the sub-agents.
+4. Once the sub-agent is configured, open the **Orchestrator** node and update its instructions to include the Training Coordinator as a fourth delegation target and add a Training section to the final summary.
 
-5. Provide the missing fields and confirm the system completes the full onboarding summary correctly.
+   > [!NOTE]
+   > This step is essential. The Orchestrator's instructions are the routing logic for the entire system. Without updating them, the Orchestrator will not know the Training Coordinator exists and will not call it.
+
+5. Click the **Preview** tab and test with Maria Santos again. Confirm that the Onboarding Summary now includes all four sections, with a well-structured Training schedule.
+
+6. When you are satisfied, click **Update** to save and relaunch the system.
+
+**Take it further:** Test the complete four-agent system with a more complex scenario:
+
+```text
+New hire details:
+- Full Name: David Kim
+- Start Date: [3 business days from today]
+- Role: Senior Data Engineer
+- Department: Analytics & Data Science
+- Office Location: New York, NY
+- Special requirements: standing desk, high-performance laptop
+```
+
+Verify that the IT Provisioner flags URGENT and requests a high-performance setup, and that the Facilities Agent notes the standing desk requirement. Then test what the Orchestrator does with incomplete input:
+
+```text
+I need to onboard Alex Rivera starting March 10.
+```
+
+The Orchestrator should ask for the missing required fields before proceeding.
 
 ## Congratulations
 
 In this lab, you have:
-- Designed a multi-agent system with a root orchestrator and four specialized sub-agents.
+- Designed a multi-agent system with a root orchestrator and specialized sub-agents.
 - Added and configured sub-agents using the flow builder.
 - Written routing logic that delegates tasks to the right agent simultaneously.
 - Tested a multi-agent flow end to end with realistic and edge-case input.
