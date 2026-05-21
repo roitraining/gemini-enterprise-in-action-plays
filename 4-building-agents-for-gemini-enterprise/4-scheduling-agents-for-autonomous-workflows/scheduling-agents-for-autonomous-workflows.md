@@ -27,7 +27,7 @@ In this lab, you will build an autonomous Competitor Intel Analyst that searches
 
 ### Task 1: Create the Competitor Intel Analyst
 
-1. Open your Gemini Enterprise web app and click **+ Create agent** in the navigation menu.
+1. Open your Gemini Enterprise web app and click **+ New agent** in the navigation menu.
 
 2. On the Agent Designer page, click **Proceed to builder** to open the flow builder.
 
@@ -57,7 +57,8 @@ In this lab, you will build an autonomous Competitor Intel Analyst that searches
 
    - **Model:** Leave the default model selected.
 
-4. Scroll to the **Data and tools** section of the configuration panel. Click **Add data sources & tools** and enable the **Google Search** tool.
+4. Notice, in the __Connectors__ section the **Google Search** tool should be included by default. It it is not for some reason, click the __+__ button to enable it.
+
 
    <p align="left">
      <img src="images/google-search-tool.png" width="60%" alt="Data and tools panel with Google Search enabled" />
@@ -86,7 +87,7 @@ In this lab, you will build an autonomous Competitor Intel Analyst that searches
    Run your daily competitor intelligence scan. Search for the latest news about Nationwide, State Farm, Allstate, Progressive, and GEICO from the past 24 hours. Generate and deliver the Executive News Brief now.
    ```
 
-3. Click **Save** to add the schedule.
+3. Click **Add schedule** to save the schedule.
 
    > [!NOTE]
    > The schedule is saved but not yet active. It activates when you click **Create** in the next step.
@@ -119,22 +120,21 @@ In this lab, you will build an autonomous Competitor Intel Analyst that searches
 
 2. Navigate to the **Agent Gallery** by clicking **Agents** in the left navigation menu.
 
-3. Confirm that the **Daily Competitor Intel Analyst** appears in the **Your agents** section with an active status.
+3. Confirm that the **Daily Competitor Intel Analyst** appears in the **Your agents** section with an active status. Start a chat with it, and ask it the following (_this is the same prompt as was in the schedule_).
 
-4. To view completed scheduled run history, go to the **Chats** section in the navigation menu. Each scheduled run appears as a conversation thread in your chat history.
+```text
+Run your daily competitor intelligence scan. Search for the latest news about Nationwide, State Farm, Allstate, Progressive, and GEICO from the past 24 hours. Generate and deliver the Executive News Brief now.
+```
+
+4. Runs whether they are scheduled or executed manually will appear in the chat history. Go to the **Chats** section in the navigation menu. Each scheduled run appears as a conversation thread in your chat history.
+
+   <p align="left">
+     <img src="images/chat-history.png" width="60%" alt="Chat history with scheduled runs" />
+     <br><em>Chat history with scheduled runs</em>
+   </p>
 
    > [!NOTE]
-   > If the agent was just created, there may not be a completed scheduled run to view yet. You can confirm the schedule is active by opening the agent in edit mode and checking the Schedule tab.
-
-5. **Credentials expire every 14 days.** Scheduled agents use your user credentials to run autonomously. When credentials expire, the schedule stops. Set a recurring reminder to refresh them:
-
-   - Open the agent in edit mode: **Agent Gallery > Your agents > Actions > Edit**
-   - Click the **Schedule** tab
-   - Click **Refresh schedules** (the ↻ icon)
-   - Click **Update** to save
-
-   > [!IMPORTANT]
-   > If you do not refresh credentials every 14 days, your scheduled agent will stop running automatically. This is a current platform limitation — plan accordingly for production deployments.
+   > In a production deployment of Gemini Enterprise, you can enable an email connector. This would allow you to schedule an agent like this and email the results to yourself.
 
 ### Bonus Task 4: Build the Morning Risk & Exposure Monitor
 
