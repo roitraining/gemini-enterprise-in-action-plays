@@ -54,7 +54,7 @@ Before you build anything, invest a few minutes in clearly defining the problem.
 
 ### Task 2: Design and Build Your Agent
 
-1. Open your Gemini Enterprise web app and click **+ Create agent**.
+1. Open your Gemini Enterprise web app and click **+ New agent**.
 
 2. **If you are using the prompt-based method:** Write a detailed creation prompt based on your Task 1 description. Structure it clearly:
 
