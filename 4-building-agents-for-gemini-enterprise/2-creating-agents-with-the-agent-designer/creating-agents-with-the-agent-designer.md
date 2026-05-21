@@ -15,7 +15,7 @@ In this lab, you will use the Agent Designer's flow builder to manually configur
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-insurance-logo.png" width="50%" alt="Cymbal Insurance Logo" />
+  <img src="images/cymbal-insurance-logo.png" width="25%" alt="Cymbal Insurance Logo" />
 </p>
 
 Cymbal Insurance's HR and Finance teams face the same underlying problem: employees keep asking questions that are already answered in official policy documents, and expense reports arrive that haven't been checked against the corporate policy. Both problems are expensive to solve with human effort alone.
