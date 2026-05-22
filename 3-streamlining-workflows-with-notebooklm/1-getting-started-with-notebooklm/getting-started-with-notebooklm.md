@@ -16,22 +16,16 @@ In this lab, you will create your first NotebookLM notebook and explore its core
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-pharma-logo.png" width="50%" alt="Cymbal Pharma Logo" />
+  <img src="images/cymbal-pharma-logo.png" width="25%" alt="Cymbal Pharma Logo" />
 </p>
 
 Dr. Aris Thorne is a Senior Research Scientist in Cymbal Pharma's Early-Stage Drug Discovery unit. His team has been fast-tracking a promising new Alzheimer's compound called **CPH-412**.
+You are a Senior Research Scientist in Cymbal Pharma's Early-Stage Drug Discovery unit. Your team has been fast-tracking a promising new Alzheimer's compound called **CPH-412**.
 
-A critical, 30-page *Initial Safety and Toxicity Report* has just arrived from the lab. Aris has exactly one hour before a stakeholder meeting where he must identify the high-risk data points and recommend a path forward. Reading the full report in 60 minutes would leave no time for preparation — but with the right tool, it doesn't have to.
+A critical, *Initial Safety and Toxicity Report* has just arrived from the lab. You only have an hour before a stakeholder meeting where you must identify the high-risk data points and recommend a path forward. Studying the full report would leave no time for preparation — but with the right tool, it doesn't have to.
 
-In this lab, you (acting as Dr. Thorne) will use NotebookLM as a triage tool: uploading the report, getting an instant overview, and extracting the exact findings that matter before the meeting starts.
+In this lab, you will use NotebookLM as a triage tool: uploading the report, getting an instant overview, and extracting the exact findings that matter before the meeting starts.
 
-## Before You Begin
-
-The toxicity report for this lab is included in this lab's folder:
-
-**`Preliminary Safety and Toxicity Evaluation of Compound CPH-412.pdf`**
-
-You will upload this file directly to NotebookLM in Task 1. Locate it in the lab folder before continuing.
 
 ## Lab Instructions
 
@@ -42,22 +36,30 @@ You will upload this file directly to NotebookLM in Task 1. Locate it in the lab
 2. On the NotebookLM home page, click **New notebook**.
 
    <p align="left">
-     <img src="images/new-notebook.png" width="60%" alt="NotebookLM home page showing New notebook button" />
+     <img src="images/new-notebook.png" width="50%" alt="NotebookLM home page showing New notebook button" />
      <br><em>The New notebook button on the NotebookLM home page</em>
    </p>
 
-3. A new, empty notebook opens. You will see the **Sources** panel on the left and the chat interface in the center.
-
-4. In the **Sources** panel, click **+ Add sources**.
+3. A new, empty notebook opens. The __Add Sources__ screen will open. 
 
    <p align="left">
      <img src="images/add-sources.png" width="50%" alt="Sources panel showing + Add sources button" />
      <br><em>The Sources panel in an empty notebook</em>
    </p>
 
-5. In the source picker, select **Upload** and upload `Preliminary Safety and Toxicity Evaluation of Compound CPH-412.pdf` from this lab's folder.
+4. Click the __Drive__ button. Then, paste the following link into the __Search__ field at the top, then press the __Enter__ key. It will find the file, select it, and then click __Insert__.
 
-6. Wait a few seconds while NotebookLM processes the document. The source appears in the Sources panel when it is ready.
+```text
+https://drive.google.com/file/d/1XUM3q8Jf1D6EGuOCkZPykwzayA0YrG3z/view?usp=drive_link
+```
+
+   <p align="left">
+     <img src="images/add-drive-sources.png" width="50%" alt="Add file from Drive screen" />
+     <br><em>Add file from Drive screen.</em>
+   </p>
+
+
+5. Wait a few seconds while NotebookLM processes the document. The source appears in the Sources panel when it is ready.
 
    > [!NOTE]
    > NotebookLM reads and indexes the full document during this step. The richer and more structured the source, the better the quality of answers and citations you will receive.
@@ -85,20 +87,24 @@ Once a source is added, NotebookLM automatically generates a **Notebook Guide** 
 
 ### Task 3: Ask Targeted Questions
 
-Dr. Thorne needs three specific answers before his stakeholder meeting. Ask each of the following questions in the chat and evaluate the response — paying close attention to the citations NotebookLM provides.
+You want three specific answers before the stakeholder meeting. Ask each of the following questions in the chat and evaluate the response — paying close attention to the citations NotebookLM provides.
 
 **Question 1: Identify the high-risk dosage group**
 
-Type the following in the chat:
+1. Type the following in the chat and press Enter:
 
 ```text
 What was the exact dosage of CPH-412 given to the group that showed elevated liver enzymes?
 ```
 
-- Review the answer, then click the **citation** link. It should take you directly to the relevant section of the report.
+- Review the answer, then hover over the **citation** link. If you click on a citation, it should take you directly to the relevant section of the report.
 - Verify that the citation identifies the specific milligram dosage and the group designation.
 
+2. Click the __Save to note__ button. Notice, your notes are saved on the lower-right pane of the screen. 
+
 **Question 2: Find the recommended mitigation options**
+
+3. Type the following in the chat and press Enter:
 
 ```text
 Does the report recommend any alternative dosing schedules to mitigate the liver enzyme risk?
@@ -108,6 +114,8 @@ Does the report recommend any alternative dosing schedules to mitigate the liver
 - Verify that the answer references at least two distinct alternative schedules.
 
 **Question 3: Understand the biological mechanism**
+
+4. Type the following in the chat and press Enter:
 
 ```text
 What is the biological mechanism causing the toxicity in the high-dose group?
@@ -119,23 +127,23 @@ What is the biological mechanism causing the toxicity in the high-dose group?
 > [!NOTE]
 > If an answer feels incomplete, try a more specific follow-up. For example: *"Can you be more specific about which enzyme is involved and why saturation causes the observed effects?"* Precision in your questions leads to precision in the answers.
 
-### Task 4: Add a Note
+### Task 4: Preparing for your meeting
 
-Dr. Thorne needs a concise written summary to share with meeting attendees. NotebookLM's **Notes** feature lets you record your own observations and conclusions alongside the AI-generated content.
+You need a concise written summary to share with meeting attendees. 
 
-1. In the right panel, click **Add note**.
+1. Run the following prompt. 
 
-2. Write a short briefing note for the stakeholder meeting. Include:
-   - The key risk finding: which group, which dosage, and what the liver enzyme result indicated
-   - The two mitigation options the report recommends
-   - Your recommended path forward — this is your own judgment; NotebookLM provides the facts, you provide the analysis
+```text
+Write a short briefing note for the stakeholder meeting. Include:
+- The key risk finding
+- Mitigation options the report recommends
+- Recommended path forward
 
-3. Click **Save**.
+Keep this output short and concise. Just notes for my upcoming meeting. 
+```
 
-   <p align="left">
-     <img src="images/saved-note.png" width="60%" alt="Notes panel with a saved briefing note" />
-     <br><em>A saved note in the Notes panel</em>
-   </p>
+2. Save this as a note. 
+
 
 4. With your note saved, ask a follow-up question that builds on it:
 
@@ -147,7 +155,11 @@ Based on the report, what additional safety data would the lab need to collect t
 
 Use these prompts to test NotebookLM's boundaries and sharpen your instincts for working with cited AI tools.
 
-1. Ask a question the report cannot answer — for example, *"What were CPH-412's Phase 2 trial results?"* — and observe how NotebookLM handles the absence of that information.
+1. Ask a question the report cannot answer — for example:
+
+```text
+What were CPH-412's Phase 2 trial results?
+```
 
 2. Ask for a comparison across groups:
 
