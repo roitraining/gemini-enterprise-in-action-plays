@@ -35,8 +35,8 @@ Two of the three sources in this lab are provided below as text you will paste d
 1. Open [NotebookLM](https://notebooklm.google.com/) and create a **New notebook**. Close the __Add sources__ screen, and then name the notebook `CPH-412 SAE Compliance Review`.
 
    <p align="left">
-     <img src="images/new-notebook.png" width="55%" alt="Sources panel showing all three sources" />
-     <br><em>The Sources panel with the FDA regulation, Cymbal protocol, and investigator log loaded</em>
+     <img src="images/new-notebook.png" width="55%" alt="The CPH-412 SAE Compliance Review notebook" />
+     <br><em>The CPH-412 SAE Compliance Review notebook</em>
    </p>
 
 2. **Add Source 1 — FDA Regulation (via URL)**

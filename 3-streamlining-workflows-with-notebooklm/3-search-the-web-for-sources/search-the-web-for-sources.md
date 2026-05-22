@@ -18,9 +18,9 @@ In this lab, you will use NotebookLM's built-in web search feature to find and a
   <img src="images/cymbal-pharma-logo.png" width="50%" alt="Cymbal Pharma Logo" />
 </p>
 
-Marcus Vance is the Director of Business Development and Investor Relations at Cymbal Pharma. The company is preparing a **Series B funding pitch** to raise $45 million for CPH-412's upcoming Phase 1b trial.
+You are the Director of Business Development and Investor Relations at Cymbal Pharma. The company is preparing a **Series B funding pitch** to raise $45 million for CPH-412's upcoming Phase 1b trial.
 
-To convince investors, Marcus needs to prove that Cymbal's market positioning is strong — and that the opportunity in Alzheimer's disease is real and large. He has Cymbal's internal pipeline and financial data, but he needs real-world competitor intelligence: recent FDA approvals, drug pricing, pipeline updates, and market size forecasts for the Alzheimer's space.
+To convince investors, you need to prove that Cymbal's market positioning is strong — and that the opportunity in Alzheimer's disease is real and large. You have Cymbal's internal pipeline and financial data, but also need real-world competitor intelligence: recent FDA approvals, drug pricing, pipeline updates, and market size forecasts for the Alzheimer's space.
 
 In this lab, you will load Cymbal's internal data into a notebook and then use NotebookLM's web search to pull in live competitor intelligence — building a research workspace that can answer the hard investor questions.
 
@@ -28,9 +28,14 @@ In this lab, you will load Cymbal's internal data into a notebook and then use N
 
 ### Task 1: Create the Notebook and Add Cymbal's Internal Data
 
-1. Open [NotebookLM](https://notebooklm.google.com/) and click **New notebook**. Name it `CPH-412 Series B Pitch Research`.
+1. Open [NotebookLM](https://notebooklm.google.com/) and click **Create new notebook**. Close the __Add sources__ screen, and then name the notebook `CPH-412 Series B Pitch Research`.
 
-2. In the **Sources** panel, click **+ Add sources**, select **Copied text**, give it the title `Cymbal Pharma — Internal Pipeline & Financial Brief`, paste the following, and click **Insert**:
+   <p align="left">
+     <img src="images/new-notebook.png" width="55%" alt="he CPH-412 Series B Pitch Research notebook" />
+     <br><em>The CPH-412 Series B Pitch Research notebook</em>
+   </p>
+
+2. In the **Sources** panel, click **+ Add sources**, select **Copied text**, and then paste the following, and click **Insert**:
 
    ```text
    CYMBAL PHARMA — INTERNAL PIPELINE & FINANCIAL BRIEF
@@ -63,7 +68,10 @@ In this lab, you will load Cymbal's internal data into a notebook and then use N
    - Cymbal has no approved products. Series B funds the first assets to Phase 2 proof-of-concept.
    ```
 
-3. With only this source loaded, NotebookLM knows everything about Cymbal — but nothing about the competitive landscape. That changes in the next task.
+3. After the source is added, click the action menu and select __Rename source__. give it the title `Cymbal Pharma — Internal Pipeline & Financial Brief`, 
+
+> [!NOTE]
+> With only this source loaded, NotebookLM knows everything about Cymbal — but nothing about the competitive landscape. That changes in the next task.
 
 ### Task 2: Search the Web for Competitor Sources
 
@@ -76,19 +84,19 @@ NotebookLM can search the internet and add live pages directly to your notebook 
      <br><em>The web search box in the Sources panel</em>
    </p>
 
-2. Click the research mode dropdown (the **C*** icon next to the search box) to see the two options:
+2. Click the research mode dropdown (the magnifying glassicon next to the search box) to see the two options:
 
    - **Fast Research** — quick results; best for broad topic discovery
    - **Deep Research** — slower and more thorough; best for detailed competitive analysis
 
-   Select **Deep Research** for this lab.
+   In the interest of time, select **Fast Research** for this lab.
 
    <p align="left">
      <img src="images/research-mode-dropdown.png" width="55%" alt="Research mode dropdown showing Fast Research and Deep Research" />
      <br><em>Select Deep Research for thorough competitive intelligence</em>
    </p>
 
-3. Run each of the following searches. After each one, review the suggested sources and click **+** on the most relevant results to add them to your notebook. Aim for 2–3 sources per search.
+3. Run each of the following searches. After each one, review the suggested sources and click **+** on the most relevant results to add them to your notebook. 
 
    **Search 1 — Biogen Alzheimer's treatments:**
 
@@ -122,7 +130,7 @@ NotebookLM can search the internet and add live pages directly to your notebook 
    > [!NOTE]
    > Choose sources from credible outlets — FDA press releases, pharma news publications (FiercePharma, STAT News, BioPharma Dive), financial filings, and market research firms tend to produce the best-cited answers. You can always add more sources later.
 
-4. Your notebook should now contain Cymbal's internal brief alongside 4–6 live web sources on competitor drugs and the Alzheimer's market.
+4. Your notebook should now contain Cymbal's internal brief alongside live web sources on competitor drugs and the Alzheimer's market.
 
 ### Task 3: Ask Competitive Intelligence Questions
 
@@ -153,9 +161,9 @@ With internal and external sources in the same notebook, you can ask questions t
    ```
 
    > [!NOTE]
-   > This last question is deliberately open-ended. A question that NotebookLM cannot fully answer from the available sources points to a gap Marcus needs to address in the pitch deck itself.
+   > This last question is deliberately open-ended. A question that NotebookLM cannot fully answer from the available sources points to a gap you would need to address in the pitch deck itself.
 
-5. Use source deselection (from Lab 2) to verify which sources are driving specific answers. Deselect the Cymbal internal brief and re-ask Question 2. Does the answer change in a meaningful way?
+5. Use source deselection to verify which sources are driving specific answers. Deselect the Cymbal internal brief and re-ask Question 2. Does the answer change in a meaningful way?
 
 ### Bonus Task 4: Expand the Competitive Picture
 
