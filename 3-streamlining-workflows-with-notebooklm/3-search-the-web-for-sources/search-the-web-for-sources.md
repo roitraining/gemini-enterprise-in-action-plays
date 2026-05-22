@@ -15,7 +15,7 @@ In this lab, you will use NotebookLM's built-in web search feature to find and a
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-pharma-logo.png" width="50%" alt="Cymbal Pharma Logo" />
+  <img src="images/cymbal-pharma-logo.png" width="25%" alt="Cymbal Pharma Logo" />
 </p>
 
 You are the Director of Business Development and Investor Relations at Cymbal Pharma. The company is preparing a **Series B funding pitch** to raise $45 million for CPH-412's upcoming Phase 1b trial.
@@ -100,35 +100,45 @@ NotebookLM can search the internet and add live pages directly to your notebook 
 
    **Search 1 — Biogen Alzheimer's treatments:**
 
+   Paste the following prompt in the web search box and run it. 
+
    ```text
    Biogen lecanemab Alzheimer's FDA approval pricing 2024
    ```
 
-   Look for results covering FDA approval status, list price, and real-world adoption.
+   <p align="left">
+     <img src="images/search-results.png" width="65%" alt="Web search results with sources ready to add" />
+     <br><em>Search results</em>
+   </p>
+
+   Click the __more sources__ link to see all the results. You can select all the results or only those you find most relevant. Look for results covering FDA approval status, list price, and real-world adoption and select those (_or just select them all_).
+
+      <p align="left">
+     <img src="images/select-search-results.png" width="65%" alt="Web search results with sources ready to add" />
+     <br><em>Review search results and add the most relevant sources to your notebook</em>
+   </p>
 
    **Search 2 — Eli Lilly Alzheimer's treatment:**
+
+   Run the following search and select the most relevant results (_or all of them_).   Look for results covering trial outcomes, approval timeline, and pricing.
 
    ```text
    Eli Lilly donanemab Alzheimer's FDA approval clinical trial results
    ```
 
-   Look for results covering trial outcomes, approval timeline, and pricing.
-
    **Search 3 — Alzheimer's market size:**
+
+   Run the following search and select the most relevant results (_or all of them_). Look for market research results with total addressable market (TAM) figures and growth projections.
+
 
    ```text
    Alzheimer's disease treatment market size forecast 2024 2030
    ```
 
-   Look for market research results with total addressable market (TAM) figures and growth projections.
-
-   <p align="left">
-     <img src="images/search-results.png" width="65%" alt="Web search results with sources ready to add" />
-     <br><em>Review search results and add the most relevant sources to your notebook</em>
-   </p>
-
+   
    > [!NOTE]
    > Choose sources from credible outlets — FDA press releases, pharma news publications (FiercePharma, STAT News, BioPharma Dive), financial filings, and market research firms tend to produce the best-cited answers. You can always add more sources later.
+
 
 4. Your notebook should now contain Cymbal's internal brief alongside live web sources on competitor drugs and the Alzheimer's market.
 
