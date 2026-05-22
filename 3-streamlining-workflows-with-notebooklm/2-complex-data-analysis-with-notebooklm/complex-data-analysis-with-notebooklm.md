@@ -32,7 +32,12 @@ Two of the three sources in this lab are provided below as text you will paste d
 
 ### Task 1: Create the Notebook and Add All Three Sources
 
-1. Open [NotebookLM](https://notebooklm.google.com/) and click **New notebook**. Name it `CPH-412 SAE Compliance Review`.
+1. Open [NotebookLM](https://notebooklm.google.com/) and create a **New notebook**. Close the __Add sources__ screen, and then name the notebook `CPH-412 SAE Compliance Review`.
+
+   <p align="left">
+     <img src="images/new-notebook.png" width="55%" alt="Sources panel showing all three sources" />
+     <br><em>The Sources panel with the FDA regulation, Cymbal protocol, and investigator log loaded</em>
+   </p>
 
 2. **Add Source 1 — FDA Regulation (via URL)**
 
@@ -47,7 +52,7 @@ Two of the three sources in this lab are provided below as text you will paste d
 
 3. **Add Source 2 — Cymbal CPH-412 Clinical Trial Protocol (via copied text)**
 
-   Click **+ Add sources**, select **Copied text**, give it the title `Cymbal CPH-412 Clinical Trial Protocol`, paste the following, and click **Insert**:
+   Click **+ Add sources**, select **Copied text**, paste the following, and click **Insert**:
 
    ```text
    CYMBAL PHARMA — CPH-412 CLINICAL TRIAL PROTOCOL
@@ -72,9 +77,11 @@ Two of the three sources in this lab are provided below as text you will paste d
    Failure to adhere to the dosing suspension criteria in Section 5.2 constitutes a protocol deviation and must be documented and reported to the Cymbal Medical Monitor within 24 hours of the deviation being identified.
    ```
 
-4. **Add Source 3 — Clinical Investigator's Raw Daily Log (via copied text)**
+4. After the source is added, click the action menu and select __Rename source__. Give it the title `Cymbal CPH-412 Clinical Trial Protocol`.
 
-   Click **+ Add sources** again, select **Copied text**, give it the title `Site Log — Dr. Patricia Wren`, paste the following, and click **Insert**:
+5. **Add Source 3 — Clinical Investigator's Raw Daily Log (via copied text)**
+
+   Click **+ Add sources** again, select **Copied text**, paste the following, and click **Insert**:
 
    ```text
    CPH-412 SITE LOG — Dr. Patricia Wren, Principal Investigator
@@ -90,8 +97,9 @@ Two of the three sources in this lab are provided below as text you will paste d
    Thursday, Day 8:
    Results returned. ALT is now 3.2x ULN — trending down, which is encouraging. Called Cymbal QA this afternoon to let them know about Monday's result. They flagged it as a potential SAE. Will document formally in the trial log tomorrow and prepare the deviation report over the weekend.
    ```
+6. As you did before, give this source the name `Site Log — Dr. Patricia Wren`. 
 
-5. Your notebook should now have all three sources in the Sources panel.
+7. Your notebook should now have all three sources in the Sources panel.
 
    <p align="left">
      <img src="images/three-sources.png" width="55%" alt="Sources panel showing all three sources" />
@@ -132,7 +140,7 @@ With all three sources active, NotebookLM can answer questions that require read
 
 One of NotebookLM's most powerful features is source deselection. Turning off individual sources lets you ask the same question with different information available — revealing how much each source contributes to the answer.
 
-1. In the **Sources** panel, uncheck **Source 1** (the FDA regulation) to deactivate it. Only the Cymbal protocol and the investigator log are now active.
+1. In the **Sources** panel, uncheck the first source you added (the FDA regulation) to deactivate it. Only the Cymbal protocol and the investigator log are now active.
 
    <p align="left">
      <img src="images/source-deselected.png" width="55%" alt="Sources panel with Source 1 deselected" />
@@ -160,7 +168,13 @@ One of NotebookLM's most powerful features is source deselection. Turning off in
 1. With all sources active, ask NotebookLM to draft a formal internal memo:
 
    ```text
-   Draft a Compliance Risk Memo addressed to the Cymbal VP of Clinical Operations. The memo should: (1) identify the specific protocol deviations and regulatory violations, citing the exact sections from the relevant documents, (2) state the potential risk to the CPH-412 program, and (3) list the immediate corrective actions required.
+   Draft a Compliance Risk Memo addressed to the Cymbal VP of Clinical Operations. The memo should: 
+   
+   (1) identify the specific protocol deviations and regulatory violations, citing the exact sections from the relevant documents.
+   
+   (2) SState the potential risk to the CPH-412 program. 
+   
+   (3) List the immediate corrective actions required.
    ```
 
 2. Review the output. Verify that every violation cited traces back to a specific section in Source 1 or Source 2 — not to a general statement.
