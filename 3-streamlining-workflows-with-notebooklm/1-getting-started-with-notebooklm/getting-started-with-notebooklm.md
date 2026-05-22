@@ -1,7 +1,7 @@
 # Getting Started with NotebookLM
 
 ## Time Required
-20–30 minutes
+15-20 minutes
 
 ## Overview
 In this lab, you will create your first NotebookLM notebook and explore its core features: uploading a source document, reviewing the automatically generated Notebook Guide, and asking targeted questions that are grounded in your source. Every answer NotebookLM provides includes a citation that links directly back to the relevant passage — so you can verify every claim in seconds.

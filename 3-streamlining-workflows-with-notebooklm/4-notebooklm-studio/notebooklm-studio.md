@@ -1,7 +1,7 @@
 # NotebookLM Studio
 
 ## Time Required
-30–40 minutes
+30 minutes
 
 ## Overview
 In this lab, you will explore NotebookLM's Studio panel — a set of tools for transforming research into polished, shareable outputs. Starting from the competitive intelligence notebook built in Lab 3, you will generate an Audio Overview, create a structured investor presentation, build a Mind Map, and produce Flashcards and a written Report — each one grounded in your notebook's sources.
@@ -18,13 +18,13 @@ In this lab, you will explore NotebookLM's Studio panel — a set of tools for t
   <img src="images/cymbal-pharma-logo.png" width="50%" alt="Cymbal Pharma Logo" />
 </p>
 
-The investor pitch is in two days. Marcus Vance has assembled a strong research notebook — Cymbal's internal financials alongside live competitor and market data. Now he needs to turn that research into outputs his team can use: a briefing for the CEO to listen to on the drive to the meeting, a structured presentation outline, a visual map of the competitive landscape, and a leave-behind report.
+The investor pitch is in two days. You have assembled a strong research notebook — Cymbal's internal financials alongside live competitor and market data. Now you need to turn that research into outputs the team can use: a briefing for the CEO to listen to on the drive to the meeting, a structured presentation outline, a visual map of the competitive landscape, and a leave-behind report.
 
 In this lab, you will open the notebook from Lab 3 and use the Studio panel to generate all of those outputs.
 
 ## Before You Begin
 
-This lab builds on the `CPH-412 Series B Pitch Research` notebook you created in Lab 3. Open that notebook before starting. If you do not have it, create a new notebook with the Cymbal internal financial brief from Lab 3 (copied text) and run at least one web search to add 2–3 competitor sources. The Studio panel works best with at least 3–4 sources loaded.
+This lab builds on the `CPH-412 Series B Pitch Research` notebook you created in Lab 3. Open that notebook before starting. If you do not have it, run the previous lab to create it. 
 
 ## Lab Instructions
 
@@ -39,20 +39,23 @@ The Audio Overview feature converts your notebook's sources into a conversationa
      <br><em>The Studio panel with all output options visible</em>
    </p>
 
-2. In the **Audio Overview** section, click **Customize**. A text field appears where you can guide the conversation's tone and focus.
-
-3. Enter the following customization instruction:
+2. In the **Audio Overview** section, click **Customize**. Select the __Brief__ format and enter the following prompt to customize the instructions:
 
    ```text
    Focus the conversation on the investment case for CPH-412. The audience is the Cymbal CEO preparing for a 30-minute Series B investor meeting. Emphasize the market opportunity, the key competitive differentiators, and the top two investor objections the team should prepare to answer.
    ```
 
-4. Click **Generate** to create the Audio Overview.
+3. Click **Generate** to create the Audio Overview.
 
-   > [!NOTE]
-   > Audio generation takes approximately 1–3 minutes. The result is a downloadable audio file featuring two AI hosts. It will reflect the content of all active sources.
+   > [!WARNING]
+   > Audio generation takes a few minutes. The result is a downloadable audio file featuring two AI hosts. It will reflect the content of all active sources. You can move onto the next section and come back here when it is completed. The output will be saved in the Outputs section on the lower right where notes are saved. 
 
-5. Play the Audio Overview. As you listen, note:
+   <p align="left">
+     <img src="images/audio-generating.png" width="55%" alt="Audio Overview generating" />
+     <br><em>The Audio Overview being generated</em>
+   </p>
+
+4. Play the Audio Overview. As you listen, note:
    - Does it accurately represent Cymbal's competitive position?
    - Does it raise the investor objections you would expect?
    - Is there anything important from the notebook that the hosts did not mention?
@@ -68,36 +71,33 @@ The Audio Overview feature converts your notebook's sources into a conversationa
 
 The Presentation output generates a structured slide-by-slide outline from your notebook sources, formatted as a presentation that can be opened in Google Slides.
 
-1. In the Studio panel, click **Generate** in the **Presentation** section.
+1. In the Studio panel, click **Arrow** icon in the **Slide Deck** section.
 
-2. When prompted for customization, enter:
+2. Select __Presenter Slides__, and then enter the prompt below and click __Generate__.
 
    ```text
    Structure this as a Series B investor pitch. Include: (1) Executive Summary, (2) The Alzheimer's Market Opportunity, (3) CPH-412 Mechanism and Differentiation, (4) Competitive Landscape, (5) Financial Summary and Use of Proceeds, (6) Ask and Next Steps. Tone should be confident and data-driven.
    ```
+   > [!WARNING]
+   > Like audio generation, this takes a while, but you don't have to wait. Continue with the next section, and return here when generation is complete. 
 
-3. Click **Generate**. NotebookLM will produce a slide-by-slide outline.
-
-4. Review the presentation outline. Check that:
+3. Once the slide show generation is complete, click on it to open it. Review the presentaiton. Check that:
    - Each major section maps to a slide
    - Claims are grounded in the notebook sources
    - The competitive positioning section reflects the web sources you added in Lab 3
 
    <p align="left">
-     <img src="images/presentation-outline.png" width="65%" alt="Generated presentation outline in Studio" />
-     <br><em>The presentation outline generated from notebook sources</em>
+     <img src="images/presentation.png" width="65%" alt="Generated presentation in Studio" />
+     <br><em>The presentation generated from notebook sources</em>
    </p>
 
-5. Click **Open in Slides** (if available) to view the formatted output in Google Slides.
-
-   > [!NOTE]
-   > The presentation output is an outline and starting structure, not a fully designed deck. It gives you a strong, research-grounded starting point that you then refine in Google Slides.
+4. Try clicking the __Start slideshow__ button in the toolbar.  Also experiment with downloading the presentation in PDF or PowerPoint format. 
 
 ### Task 3: Build a Mind Map
 
 The Mind Map visualizes the relationships between concepts, sources, and themes across your notebook — useful for spotting connections and gaps that are hard to see in a linear chat interface.
 
-1. In the Studio panel, click **Generate** in the **Mind Map** section.
+1. In the Studio panel, the **Mind Map** button.
 
 2. Once the Mind Map loads, explore it:
    - Click on a node to expand it and see related sub-topics.
@@ -117,13 +117,13 @@ The Mind Map visualizes the relationships between concepts, sources, and themes 
    The mind map shows a connection between [topic you noticed]. Can you explain how these two areas relate to each other based on the sources?
    ```
 
-### Task 4: Generate Flashcards and a Report
+### Task 4: Generate Flashcards and Reports
 
 The final two Studio outputs serve different needs: Flashcards for learning and review, and a Report for a polished written summary.
 
 **Flashcards:**
 
-1. In the Studio panel, click **Generate** in the **Flashcards** section.
+1. In the Studio panel, click the **Flashcards** button.
 
 2. Review the generated cards. They should test key facts such as:
    - CPH-412's mechanism of action
@@ -131,11 +131,21 @@ The final two Studio outputs serve different needs: Flashcards for learning and 
    - Competitor drug names and approval status
    - Cymbal's cash position and burn rate
 
-3. Click through at least 5 cards to verify the accuracy of the answers against your source material.
+3. Click through the cards to verify the accuracy of the answers against your source material.
 
-**Report:**
+   <p align="left">
+     <img src="images/flashcards.png" width="70%" alt="Flashcards" />
+     <br><em>Generated flashcards</em>
+   </p>
 
-1. In the Studio panel, click **Generate** in the **Report** section.
+**Reports:**
+
+1. In the Studio panel, click the __Arrow__ icon in the **Report** section. Experiment. Choose a report format that you find interesting and examine the results. Create a couple reports and compare their outputs. 
+
+   <p align="left">
+     <img src="images/reports.png" width="70%" alt="Generated Report" />
+     <br><em>Report Type Choices</em>
+   </p>
 
 2. When prompted for customization, enter:
 
@@ -143,12 +153,11 @@ The final two Studio outputs serve different needs: Flashcards for learning and 
    Write a 3-section briefing report for Cymbal's Board of Directors covering: (1) Market Context, (2) Competitive Positioning, and (3) Investment Readiness. Include specific figures from the sources where available.
    ```
 
-3. Review the generated report. Verify that every statistic in the report can be traced back to a specific source in your notebook.
+3. Review the generated report. Does it reflect the sources in your notebook?
 
-4. Save the report as a note using the **Save to note** icon (📌).
 
    <p align="left">
-     <img src="images/report-generated.png" width="65%" alt="Generated Report in the Studio panel" />
+     <img src="images/report.png" width="65%" alt="Generated Report in the Studio panel" />
      <br><em>The Report with a board-level briefing structure</em>
    </p>
 
