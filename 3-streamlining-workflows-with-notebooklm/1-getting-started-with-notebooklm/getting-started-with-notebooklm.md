@@ -19,7 +19,6 @@ In this lab, you will create your first NotebookLM notebook and explore its core
   <img src="images/cymbal-pharma-logo.png" width="25%" alt="Cymbal Pharma Logo" />
 </p>
 
-Dr. Aris Thorne is a Senior Research Scientist in Cymbal Pharma's Early-Stage Drug Discovery unit. His team has been fast-tracking a promising new Alzheimer's compound called **CPH-412**.
 You are a Senior Research Scientist in Cymbal Pharma's Early-Stage Drug Discovery unit. Your team has been fast-tracking a promising new Alzheimer's compound called **CPH-412**.
 
 A critical, *Initial Safety and Toxicity Report* has just arrived from the lab. You only have an hour before a stakeholder meeting where you must identify the high-risk data points and recommend a path forward. Studying the full report would leave no time for preparation — but with the right tool, it doesn't have to.
