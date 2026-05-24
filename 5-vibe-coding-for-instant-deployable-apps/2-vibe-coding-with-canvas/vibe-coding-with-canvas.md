@@ -1,7 +1,7 @@
 # Vibe-coding with Canvas: Ingesting the Data
 
 ## Time Required
-20-30 minutes
+30 minutes
 
 ## Overview
 In this lab, you will use Gemini Canvas to incrementally build JavaScript logic for your layout. 
