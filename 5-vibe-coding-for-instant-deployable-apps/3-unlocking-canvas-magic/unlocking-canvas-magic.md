@@ -1,7 +1,7 @@
 # Unlocking Canvas Magic: Live AI Integration & Executive Presentations
 
 ## Time Required
-20-30 minutes
+30 minutes
 
 ## Overview
 In this lab, you will use Gemini Canvas to build two real-world applications that go beyond static UI. First, you will vibe-code a Shift Handoff Tool that integrates live Gemini AI to automatically generate professional shift summaries from raw operational data. Then, you will use Canvas as a presentation engine to produce a polished executive slide deck in minutes.
