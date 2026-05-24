@@ -1,7 +1,7 @@
 # Vibe Coding in Google AI Studio
 
 ## Time Required
-20-30 minutes
+30 minutes
 
 ## Overview
 In this lab, you'll use Google AI Studio to vibe-code a tablet-friendly driver log application for Cymbal Logistics. Unlike the Canvas-based approach in previous labs, AI Studio generates a proper multi-file React application — using TypeScript, Tailwind CSS, and an organized folder structure. You will iteratively build the app by prompting AI Studio to add features one step at a time.
