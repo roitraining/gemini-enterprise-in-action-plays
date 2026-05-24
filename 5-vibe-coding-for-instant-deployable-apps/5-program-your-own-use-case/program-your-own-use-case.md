@@ -1,7 +1,7 @@
 # Program Your Own Use Case
 
 ## Time Required
-30-45 minutes
+45 minutes
 
 ## Overview
 In this lab, you will apply everything you have learned about vibe coding to build a real application of your own design. You choose the idea, define the features, design the UI, and build it — using either Gemini Canvas or Google AI Studio.
