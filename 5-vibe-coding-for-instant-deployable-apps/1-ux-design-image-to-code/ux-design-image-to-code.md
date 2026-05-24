@@ -1,7 +1,7 @@
 # UX Design: Image to Code
 
 ## Time Required
-20-30 minutes
+20 minutes
 
 ## Overview
 In this lab, you'll use a rough, hand-drawn sketch to generate the first iteration of the Cymbal Fleet & Shipment Dashboard using Gemini Canvas. 
