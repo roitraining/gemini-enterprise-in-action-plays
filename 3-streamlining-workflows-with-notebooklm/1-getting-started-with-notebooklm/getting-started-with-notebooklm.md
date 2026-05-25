@@ -16,10 +16,6 @@ In this lab, you will create your first NotebookLM notebook and explore its core
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-pharma-logo.png" width="25%" alt="Cymbal Pharma Logo" />
-</p>
-
-<p align="left">
   <img src="images/cymbal-lab.png" width="25%" alt="Cymbal Pharma Logo" />
 </p>
 
