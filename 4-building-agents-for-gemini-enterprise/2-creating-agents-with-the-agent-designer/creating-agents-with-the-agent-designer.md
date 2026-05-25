@@ -1,7 +1,7 @@
 # Creating Agents with the Agent Designer
 
 ## Time Required
-20–30 minutes
+30 minutes
 
 ## Overview
 In this lab, you will use the Agent Designer's flow builder to manually configure two knowledge-grounded agents. Unlike the prompt-based method, the flow builder gives you direct control over every aspect of the agent: its instructions, model, uploaded knowledge documents, and starter prompts.
