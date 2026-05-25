@@ -1,7 +1,7 @@
 # Search the Web for Sources
 
 ## Time Required
-20–30 minutes
+30 minutes
 
 ## Overview
 In this lab, you will use NotebookLM's built-in web search feature to find and add live sources from the internet directly into your notebook — no copy-pasting from a browser required. This turns NotebookLM into a competitive intelligence workspace where your private internal data and real-world external research sit side by side, and every answer cites exactly where it came from.
