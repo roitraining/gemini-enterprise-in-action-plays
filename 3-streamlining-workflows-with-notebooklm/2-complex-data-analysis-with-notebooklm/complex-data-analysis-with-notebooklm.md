@@ -1,7 +1,7 @@
 # Complex Data Analysis with NotebookLM
 
 ## Time Required
-20–30 minutes
+30 minutes
 
 ## Overview
 In this lab, you will load three diverse source types into a single NotebookLM notebook — a real regulatory document added via URL, an internal protocol added as copied text, and a raw field log added as copied text. You will then ask questions that require synthesizing all three simultaneously, and use source deselection to isolate and compare different information subsets. NotebookLM's cited answers make it uniquely suited for compliance work: every finding traces back to a specific document and section.
