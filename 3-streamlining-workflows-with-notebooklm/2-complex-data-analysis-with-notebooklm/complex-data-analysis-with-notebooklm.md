@@ -15,10 +15,10 @@ In this lab, you will load three diverse source types into a single NotebookLM n
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-pharma-logo.png" width="50%" alt="Cymbal Pharma Logo" />
+  <img src="images/cymbal-researcher.png" width="50%" alt="Cymbal Pharma Logo" />
 </p>
 
-The liver enzyme spikes identified in the high-dose group (from Lab 1's toxicity report) have triggered a formal compliance review. You are now the **Director of Clinical Quality Assurance** at Cymbal Pharma.
+The liver enzyme spikes identified in the high-dose group (from Lab 1's toxicity report) have triggered a formal compliance review. You are the **Director of Clinical Quality Assurance** at Cymbal Pharma.
 
 A Serious Adverse Event (SAE) was recorded at the CPH-412 clinical trial site. Your job is to determine whether the lead investigator complied with both FDA regulatory requirements and Cymbal's own internal trial protocol when handling and reporting the event. If the investigator failed to comply, the FDA could place the entire CPH-412 program on clinical hold.
 

@@ -23,6 +23,10 @@ You are a Senior Research Scientist in Cymbal Pharma's Early-Stage Drug Discover
 
 A critical, *Initial Safety and Toxicity Report* has just arrived from the lab. You only have an hour before a stakeholder meeting where you must identify the high-risk data points and recommend a path forward. Studying the full report would leave no time for preparation — but with the right tool, it doesn't have to.
 
+<p align="left">
+  <img src="images/cymbal-lab.png" width="25%" alt="Cymbal Pharma Logo" />
+</p>
+
 In this lab, you will use NotebookLM as a triage tool: uploading the report, getting an instant overview, and extracting the exact findings that matter before the meeting starts.
 
 

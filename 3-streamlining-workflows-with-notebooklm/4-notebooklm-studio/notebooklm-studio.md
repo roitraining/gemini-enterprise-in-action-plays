@@ -15,7 +15,7 @@ In this lab, you will explore NotebookLM's Studio panel — a set of tools for t
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-pharma-logo.png" width="50%" alt="Cymbal Pharma Logo" />
+  <img src="images/cymbal-director.png" width="50%" alt="Cymbal Pharma Logo" />
 </p>
 
 The investor pitch is in two days. You have assembled a strong research notebook — Cymbal's internal financials alongside live competitor and market data. Now you need to turn that research into outputs the team can use: a briefing for the CEO to listen to on the drive to the meeting, a structured presentation outline, a visual map of the competitive landscape, and a leave-behind report.

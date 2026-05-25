@@ -15,7 +15,7 @@ In this lab, you will use NotebookLM's built-in web search feature to find and a
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-pharma-logo.png" width="25%" alt="Cymbal Pharma Logo" />
+  <img src="images/cymbal-director.png" width="25%" alt="Cymbal Pharma Logo" />
 </p>
 
 You are the Director of Business Development and Investor Relations at Cymbal Pharma. The company is preparing a **Series B funding pitch** to raise $45 million for CPH-412's upcoming Phase 1b trial.
