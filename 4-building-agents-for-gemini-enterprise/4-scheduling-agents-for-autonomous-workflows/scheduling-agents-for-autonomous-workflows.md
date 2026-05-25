@@ -1,7 +1,7 @@
 # Scheduling Agents for Autonomous Workflows
 
 ## Time Required
-20–30 minutes
+30 minutes
 
 ## Overview
 In this lab, you will create an agent that runs automatically on a recurring schedule — no human trigger required. By connecting it to the Google Search tool, the agent becomes an autonomous intelligence service that gathers and synthesizes real-time information on a schedule you define, and delivers a formatted report ready for leadership review.
@@ -11,7 +11,6 @@ In this lab, you will create an agent that runs automatically on a recurring sch
 - Configure a recurring execution schedule with a specific prompt.
 - Test a scheduled agent before its first automatic run using the Preview function.
 - Monitor scheduled agent runs in the chat history.
-- Maintain your scheduled agent by refreshing credentials.
 
 ## Scenario
 
