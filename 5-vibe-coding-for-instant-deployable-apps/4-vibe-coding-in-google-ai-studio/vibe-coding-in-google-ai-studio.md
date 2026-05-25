@@ -16,7 +16,7 @@ In this lab, you'll use Google AI Studio to vibe-code a tablet-friendly driver l
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-logistics-logo-dark.png" width="50%" alt="Cymbal Logo" />
+  <img src="images/truck-cab.png" width="50%" alt="Cymbal Logo" />
 </p>
 
 Cymbal Logistics is modernizing how its drivers record shift activity in the field. Currently, drivers fill out paper log sheets at the start and end of each shift — a slow, error-prone process that makes fleet-wide activity difficult to track.

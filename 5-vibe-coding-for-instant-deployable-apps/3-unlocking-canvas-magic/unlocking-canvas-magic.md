@@ -15,7 +15,7 @@ In this lab, you will use Gemini Canvas to build two real-world applications tha
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-logistics-office.png" width="50%" alt="Cymbal Logo" />
+  <img src="images/shift-manager.png" width="50%" alt="Cymbal Logo" />
 </p>
 
 Cymbal Logistics continues its AI-first transformation. In this lab, you will build two tools that put generative AI directly in the hands of operations staff: a Shift Handoff Tool that writes professional summaries from raw shift data, and an executive presentation that communicates the company's workforce strategy to the Board of Directors.
