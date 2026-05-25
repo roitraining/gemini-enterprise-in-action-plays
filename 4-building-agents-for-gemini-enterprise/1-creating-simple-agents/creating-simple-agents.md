@@ -1,7 +1,7 @@
 # Creating Simple Agents
 
 ## Time Required
-20–30 minutes
+20 minutes
 
 ## Overview
 In this lab, you will create two agents using the prompt-based creation method in Gemini Enterprise Agent Designer. You will start with a focused, single-purpose agent and then build a more sophisticated routing agent — all by describing what you want in plain language.
