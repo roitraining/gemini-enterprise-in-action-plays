@@ -17,7 +17,7 @@ First, you will recreate a consistent baseline UI. Then, you will use "vibe codi
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-logistics-logo-light.png" width="50%" alt="Cymbal Logo" />
+  <img src="images/cymbal-facility.png" width="50%" alt="Cymbal Logo" />
 </p>
 
 With the structural shell of the Cymbal Fleet & Shipment Dashboard completed, logistics managers now need actual data to make informed decisions. A beautiful layout means nothing if it doesn't surface real operational insights.
