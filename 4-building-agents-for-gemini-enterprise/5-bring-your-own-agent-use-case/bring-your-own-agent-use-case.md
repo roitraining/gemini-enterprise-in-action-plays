@@ -1,7 +1,7 @@
 # Bring Your Own Agent Use Case
 
 ## Time Required
-30–45 minutes
+45 minutes
 
 ## Overview
 This is your lab. You have spent the previous labs building agents for Cymbal Insurance — structured scenarios with defined prompts and expected outputs. Now it is your turn to define the problem and build the solution.
