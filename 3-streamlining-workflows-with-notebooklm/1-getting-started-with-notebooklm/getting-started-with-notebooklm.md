@@ -9,9 +9,9 @@ In this lab, you will create your first NotebookLM notebook and explore its core
 ### You learn how to:
 - Create a new notebook in NotebookLM.
 - Upload a PDF as a source document.
-- Use the Notebook Guide to get an instant structured overview of a complex document.
+- Use NotebookLM to get an instant structured overview of a complex document.
 - Ask targeted questions and follow up on specific citations.
-- Add a note to capture your own analysis alongside the AI-generated content.
+- Add notes to capture your own analysis alongside the AI-generated content.
 
 ## Scenario
 
