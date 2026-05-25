@@ -15,7 +15,7 @@ In this lab, you will use the Agent Designer to build a multi-agent system. You 
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-insurance-logo.png" width="25%" alt="Cymbal Insurance Logo" />
+  <img src="images/cymbal-hr-director.png" width="25%" alt="Cymbal Insurance Logo" />
 </p>
 
 Every time a new employee joins Cymbal Insurance, the same process plays out across four separate departments: IT sets up equipment and system access, HR sends paperwork and a welcome email, Facilities assigns a badge and workspace, and Training schedules the first week of orientation. Today, each team learns about a new hire independently — often late. The result is a fragmented onboarding experience where equipment isn't ready, badges aren't printed, and new employees spend their first day waiting.

@@ -15,7 +15,7 @@ In this lab, you will create an agent that runs automatically on a recurring sch
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-insurance-logo.png" width="25%" alt="Cymbal Insurance Logo" />
+  <img src="images/cymbal-board-meeting.png" width="25%" alt="Cymbal Insurance Logo" />
 </p>
 
 Cymbal Insurance's leadership team needs to stay current on competitor activity — product launches, pricing changes, regulatory actions, and strategic moves. Today, this responsibility falls on individual analysts who manually search the web and write briefings. The process is inconsistent, time-consuming, and often skipped entirely on busy mornings.
