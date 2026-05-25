@@ -8,7 +8,7 @@ In this lab, you will use NotebookLM's built-in web search feature to find and a
 
 ### You learn how to:
 - Add internal data to a notebook as copied text.
-- Use NotebookLM's web search to find and add live sources.
+- Use the Notebook LM web search to find and add live sources.
 - Choose between Fast Research and Deep Research modes.
 - Ask analytical questions that combine private internal data with public external sources.
 
