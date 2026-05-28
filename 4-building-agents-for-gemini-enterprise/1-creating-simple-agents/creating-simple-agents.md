@@ -4,7 +4,7 @@
 20 minutes
 
 ## Overview
-In this lab, you will create two agents using the prompt-based creation method in Gemini Enterprise Agent Designer. You will start with a focused, single-purpose agent and then build a more sophisticated routing agent — all by describing what you want in plain language.
+In this lab, you create two agents using the prompt-based creation method in Gemini Enterprise Agent Designer. You will start with a focused, single-purpose agent and then build a more sophisticated routing agent—all by describing what you want in plain language.
 
 ### You learn how to:
 - Navigate to the Agent Designer and create an agent using a conversational prompt.
@@ -20,7 +20,7 @@ In this lab, you will create two agents using the prompt-based creation method i
 
 Cymbal Insurance processes thousands of customer incident reports every day. Claims adjusters currently spend significant time manually reading through unstructured, conversational notes before they can act on a claim. Every minute spent decoding a report is a minute not spent helping a customer.
 
-In this lab, you will build two agents that transform this process: one that structures raw incident reports into a standardized brief, and one that automatically triages claims and routes them to the appropriate response.
+In this lab, you build two agents that transform this process: one that structures raw incident reports into a standardized brief, and one that automatically triages claims and routes them to the appropriate response.
 
 ## Lab Instructions
 
@@ -68,11 +68,11 @@ The Claims Briefing Assistant helps adjusters instantly extract and structure ke
    > [!NOTE]
    > Review the generated instructions carefully. They should reflect what you described in the prompt. You can edit them directly in the configuration panel if anything needs adjustment.
 
-### Task 2: Test and Refine the Claims Briefing Assistant
+### Task 2: Test and refine the Claims Briefing Assistant
 
 1. Click the **Preview** tab. The conversational interface for your agent appears on the right.
 
-2. Test the agent with the following sample incident report — paste it into the chat:
+2. Test the agent with the following sample incident report—paste it into the chat:
 
    ```text
    Customer called in this morning. Says his car was hit while parked outside the mall on Riverside Drive. They dont know who hit it — someone left a note but never called back. Car is a 2019 Honda Accord. The rear bumper is smashed in and the trunk wont open. They think its about 3 to 4 thousand dollars in damage. No injuries. They have photos they can send.
@@ -95,10 +95,10 @@ The Claims Briefing Assistant helps adjusters instantly extract and structure ke
    Update the instructions so the Recommended Next Steps always specifies one or more concrete actions, such as "Schedule field inspection" or "Request supplemental documentation from claimant" or whatever else is appropriate given the information gathered so far. 
    ```
 
-5. Test again with the updated agent to confirm the refinement worked. Here is another example test prompt. Click the 
+5. Test again with the updated agent to confirm the refinement worked. Here is another example test prompt.  
 
 ```text
-Customer Mike Prensky called this morning. Says his car was rear-ended on 495 South near mile marker 43. Car is a 2024 Chevy Silverado 1500. The rear bumper is dented and there is damage to the trail gate. A police report was filed by Fairfax Count PD. The other driver's name was Jeff Davis. From Tysons Corner, VA. There were no injuries. They have photos they can send.
+Customer Mike Jones called this morning. Says his car was rear-ended on 495 South near mile marker 43. Car is a 2024 Chevy Silverado 1500. The rear bumper is dented and there is damage to the trail gate. A police report was filed by Fairfax Count PD. The other driver's name was Jeff Smith. From Tysons Corner, VA. There were no injuries. They have photos they can send.
 ```
 
 6. When you are satisfied with the output, click **Create** to launch the agent.
@@ -142,14 +142,14 @@ The Claims Escalation Desk is a two-part agent system. A Triage Agent assesses c
    - Recommended next action for the manager
    ```
 
-3. The Agent Designer generates a multi-step agent flow. Click the **Flow** tab to inspect the structure — you should see the root connected to the Manager Escalation Agent.
+3. The Agent Designer generates a multi-step agent flow. Click the **Flow** tab to inspect the structure. You should see the root connected to the Manager Escalation Agent.
 
    <p align="left">
      <img src="images/escalation-desk-flow.png" width="70%" alt="Flow tab showing two-node agent structure" />
      <br><em>The Flow tab showing the Triage Agent routing to the Manager Escalation Agent</em>
    </p>
 
-4. Click the **Preview** tab and test the escalation path with this high-severity claim:
+4. Click the **Preview** tab and test the escalation path with this high-severity claim.
 
    ```text
    Claim ID: CI-2024-0892
@@ -164,7 +164,7 @@ The Claims Escalation Desk is a two-part agent system. A Triage Agent assesses c
 
 5. Verify that the Triage Agent routes this claim for escalation and that the Manager Escalation Agent produces a well-structured memo.
 
-6. Now test the auto-approval path:
+6. Now test the auto-approval path.
 
    ```text
    Claim ID: CI-2024-0901
@@ -181,12 +181,12 @@ The Claims Escalation Desk is a two-part agent system. A Triage Agent assesses c
 
 8. When both paths work correctly, click **Create** to launch the agent.
 
-### Bonus Task 4: Test the Boundaries
+### Bonus Task 4: Test the boundaries
 
 The escalation rules become interesting at the edges. Use these scenarios to stress-test your routing logic.
 
 1. Test each of the following edge cases and note how the Triage Agent responds:
-   - A claim with exactly $5,000 in damage and no other escalation factors — which path does it take?
+   - A claim with exactly $5,000 in damage and no other escalation factors—which path does it take?
    - A claim where injuries are "suspected but not confirmed"
    - An incomplete report where the damage estimate is missing entirely
 
@@ -200,7 +200,7 @@ The escalation rules become interesting at the edges. Use these scenarios to str
 
 4. Click **Reset session** to save and relaunch the agent. Retest the edge cases to confirm the changes took effect.
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Created two agents using the prompt-based method in Gemini Enterprise Agent Designer.
