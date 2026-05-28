@@ -4,7 +4,7 @@
 30 minutes
 
 ## Overview
-In this lab, you will use the Agent Designer's flow builder to manually configure two knowledge-grounded agents. Unlike the prompt-based method, the flow builder gives you direct control over every aspect of the agent: its instructions, model, uploaded knowledge documents, and starter prompts.
+In this lab, you use the Agent Designer's flow builder to manually configure two knowledge-grounded agents. Unlike the prompt-based method, the flow builder gives you direct control over every aspect of the agent: its instructions, model, uploaded knowledge documents, and starter prompts.
 
 ### You learn how to:
 - Create an agent using the Agent Designer flow builder.
@@ -20,7 +20,7 @@ In this lab, you will use the Agent Designer's flow builder to manually configur
 
 Cymbal Insurance's HR and Finance teams face the same underlying problem: employees keep asking questions that are already answered in official policy documents, and expense reports arrive that haven't been checked against the corporate policy. Both problems are expensive to solve with human effort alone.
 
-In this lab, you will build two agents that put those policy documents to work — one that answers employee HR questions instantly, and one that audits expense reports before they reach the finance team.
+In this lab, you build two agents that put those policy documents to work—one that answers employee HR questions instantly, and one that audits expense reports before they reach the finance team.
 
 ## Before You Begin
 
@@ -34,7 +34,7 @@ For each document:
 
 ## Lab Instructions
 
-### Task 1: Prepare the Employee Handbook and Create the Employee Navigator
+### Task 1: Prepare the Employee Handbook and create the Employee Navigator
 
 1. Create a new Google Doc, paste the following content, and download it as **`cymbal-employee-handbook.pdf`**:
 
@@ -219,7 +219,7 @@ What are the rules and limits for buying dinners for clients?
 I want to take a large client to a sporting event. What do I need to do to expense that?
 ```
 
-### Bonus Task 4: Refine and Extend
+### Bonus Task 4: Refine and extend
 
 1. Open the **Expense Policy Auditor** for editing. In the **Agent Gallery**, go to **Your agents**, find the agent, click **Actions**, and select **Edit**.
 
@@ -235,7 +235,7 @@ I want to take a large client to a sporting event. What do I need to do to expen
 
 5. Review the agent's instructions. Modify them any way you like to add capabilities or refine the outputs. Test after each change. 
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Created agents using the Agent Designer flow builder with manual configuration.
