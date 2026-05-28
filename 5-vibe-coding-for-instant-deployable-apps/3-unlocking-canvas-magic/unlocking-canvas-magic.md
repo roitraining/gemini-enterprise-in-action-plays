@@ -1,10 +1,10 @@
-# Unlocking Canvas Magic: Live AI Integration & Executive Presentations
+# Unlocking Canvas Magic: Live AI Integration and Executive Presentations
 
 ## Time Required
 30 minutes
 
 ## Overview
-In this lab, you will use Gemini Canvas to build two real-world applications that go beyond static UI. First, you will vibe-code a Shift Handoff Tool that integrates live Gemini AI to automatically generate professional shift summaries from raw operational data. Then, you will use Canvas as a presentation engine to produce a polished executive slide deck in minutes.
+In this lab, you use Gemini Canvas to build two real-world applications that go beyond static UI. First, you will vibe code a Shift Handoff Tool that integrates live Gemini AI to automatically generate professional shift summaries from raw operational data. Then, you will use Canvas as a presentation engine to produce a polished executive slide deck in minutes.
 
 ### You learn how to:
 - Integrate live Gemini API calls directly into a Canvas web application.
@@ -18,14 +18,14 @@ In this lab, you will use Gemini Canvas to build two real-world applications tha
   <img src="images/shift-manager.png" width="50%" alt="Cymbal Logo" />
 </p>
 
-Cymbal Logistics continues its AI-first transformation. In this lab, you will build two tools that put generative AI directly in the hands of operations staff: a Shift Handoff Tool that writes professional summaries from raw shift data, and an executive presentation that communicates the company's workforce strategy to the Board of Directors.
+Cymbal Logistics continues its AI-first transformation. In this lab, you build two tools that put generative AI directly in the hands of operations staff: a Shift Handoff Tool that writes professional summaries from raw shift data, and an executive presentation that communicates the company's workforce strategy to the Board of Directors.
 
 ## Lab Instructions
 
-### Task 1: Integrating Generative AI into Canvas Tools
+### Task 1: Integrating generative AI into Canvas tools
 
 #### Scenario
-Cymbal Logistics shift managers currently write handoff reports by hand — a slow and inconsistent process that creates communication gaps between shifts. The operations team wants a simple internal tool where an outgoing manager can paste shift data and notes, and instantly receive a clean, structured summary ready to hand off to the incoming manager.
+Cymbal Logistics shift managers currently write handoff reports by hand—a slow and inconsistent process that creates communication gaps between shifts. The operations team wants a simple internal tool where an outgoing manager can paste shift data and notes, and instantly receive a clean, structured summary ready to hand off to the incoming manager.
 
 1. Open [Gemini](https://gemini.google.com/app), click the __+__ icon, and select **Canvas** from the __Tools__ list. 
 
@@ -89,10 +89,10 @@ TRK-104,PA to NY,Davis,Issue,Tire pressure warning, needs maintenance check
 ```text
 Warehouse bay 4 has a broken docking plate, maintenance is coming tomorrow at 9 AM. Make sure all morning reefers are routed to bays 1-3.
 
-Jeff Davis called in sick, John Opiola will cover for him. 
+Jeff Smith called in sick, John Miller will cover for him. 
 ```
 
-5. Click the Format AI Prompt button. This will create a structured prompt optimized for this use case. It should look similar to the screenshot below. 
+5. Click the Format AI Prompt button. This creates a structured prompt optimized for this use case. It should look similar to the screenshot below. 
 
    <p align="left">
      <img src="images/ai-prompt.png" width="50%" alt="AI Prompt" style="border: 1px solid black;" />
@@ -111,10 +111,10 @@ Jeff Davis called in sick, John Opiola will cover for him.
 7. Test your app. If anything doesn't work as expected, ask Gemini to fix it. Ask Gemini to fix any features you don't like. 
 
 
-### Task 2: Using Canvas to Generate Presentations
+### Task 2: Using Canvas to generate presentations
 
 #### Scenario
-Cymbal Logistics is undergoing a significant AI-first transformation. The HR Director needs to present the workforce strategy — covering automation, upskilling, and new recruiting profiles — to the Board of Directors. Rather than spending hours building a slide deck from scratch, she will use Gemini Canvas to generate a polished, executive-level presentation in minutes.
+Cymbal Logistics is undergoing a significant AI-first transformation. The HR Director needs to present the workforce strategy—covering automation, upskilling, and new recruiting profiles—to the Board of Directors. Rather than spending hours building a slide deck from scratch, she will use Gemini Canvas to generate a polished, executive-level presentation in minutes.
 
 1. In Gemini, create a new chat, click the __+__ icon, and select **Canvas** from the __Tools__ list.
 
@@ -155,16 +155,16 @@ Ensure the text is executive-level, concise, and professional.
 
 3. Experiment with the __Export to Slides__ and the __Download__ functionality. If you export your presentation to Google Slides the AI-generated content will be easily editable. If you are 100% satisfied with the generated output, you can download it as a PDF. 
 
-### Bonus Task 3: Experiment with Gemini Pro Models and your own Use Case
+### Bonus Task 3: Experiment with Gemini Pro Models and your own use case
 
-1. By default, Gemini will use the faster Flash model. If you have time, rerun the 2 lab examples using the Pro model. Use the model selector in the __Ask Gemini__ text box to select the model. 
+1. By default, Gemini will use the faster Flash model. If you have time, rerun the two lab examples using the Pro model. Use the model selector in the __Ask Gemini__ text box to select the model. 
 
 2. Think of a useful program you would like to vibe code. First, prompt Gemini to build the UI. You can do this either by describing what you want or draw a mockup and upload it to Gemini. Then, prompt Gemini to add the logic behind your application. 
 
 3. Describe a slide presentation for a meeting you might have in your own work. Use the prompt above as a template. 
 
 
-## Congratulations
+## Congratulations!
 In this lab, you have:
 - Integrated live Gemini API calls directly into a Canvas web application.
 - Built structured, data-driven AI prompts programmatically from user input.
