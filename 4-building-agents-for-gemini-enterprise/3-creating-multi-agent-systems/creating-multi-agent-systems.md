@@ -4,7 +4,7 @@
 30 minutes
 
 ## Overview
-In this lab, you will use the Agent Designer to build a multi-agent system. You will create a root Orchestrator Agent and three specialized sub-agents, each responsible for a distinct part of the new employee onboarding process. The Orchestrator delegates to all three simultaneously and assembles their outputs into a single, unified summary. In the bonus, you will extend the system by designing and adding a fourth sub-agent on your own.
+In this lab, you use the Agent Designer to build a multi-agent system. You will create a root Orchestrator Agent and three specialized sub-agents, each responsible for a distinct part of the new employee onboarding process. The Orchestrator delegates to all three simultaneously and assembles their outputs into a single, unified summary. In the bonus, you will extend the system by designing and adding a fourth sub-agent on your own.
 
 ### You learn how to:
 - Design a multi-agent system with a root orchestrator and specialized sub-agents.
@@ -20,7 +20,7 @@ In this lab, you will use the Agent Designer to build a multi-agent system. You 
 
 Every time a new employee joins Cymbal Insurance, the same process plays out across four separate departments: IT sets up equipment and system access, HR sends paperwork and a welcome email, Facilities assigns a badge and workspace, and Training schedules the first week of orientation. Today, each team learns about a new hire independently — often late. The result is a fragmented onboarding experience where equipment isn't ready, badges aren't printed, and new employees spend their first day waiting.
 
-In this lab, you will build a single Orchestrator Agent that takes new hire details and coordinates all four departments in one step.
+In this lab, you build a single Orchestrator Agent that takes new hire details and coordinates all four departments in one step.
 
 ## Lab Instructions
 
@@ -64,7 +64,7 @@ In this lab, you will build a single Orchestrator Agent that takes new hire deta
 
    - **Model:** Leave the default model selected.
 
-4. Do not click **Create** yet — you need to add the sub-agents before launching.
+4. Do not click **Create** yet. You need to add the sub-agents before launching.
 
    > [!IMPORTANT]
    > If you exit the Agent Designer at this point, your agent will be saved as a **Draft**. You can reopen it from **Agent Gallery > Your agents** and continue from where you left off.
@@ -138,7 +138,7 @@ In this lab, you will build a single Orchestrator Agent that takes new hire deta
      <br><em>The flow after adding IT Provisioner and HR Assistant sub-agents</em>
    </p>
 
-### Task 3: Add the Facilities Agent, Then Test
+### Task 3: Add the Facilities Agent, then test
 
 1. Hover over the Orchestrator node and click **+ Add subagent** to add the third sub-agent:
    - **Name:**
@@ -199,7 +199,7 @@ We just hired a new programmer in the IT department. His name is John Opiola. He
 
 ### Bonus Task 4: Add the Training Coordinator
 
-The system is working — but onboarding at Cymbal Insurance involves four departments, not three. In this bonus, you will add the Training Coordinator sub-agent yourself, using the agents you have already built as your guide.
+The system is working but onboarding at Cymbal Insurance involves four departments, not three. In this bonus, you add the Training Coordinator sub-agent yourself, using the agents you have already built as your guide.
 
 1. Open the agent for editing. In the **Agent Gallery**, go to **Your agents**, find **New Hire Onboarding Orchestrator**, click **Actions**, and select **Edit**.
 
@@ -238,7 +238,7 @@ I need to onboard Alex Rivera starting March 10.
 
 The Orchestrator should ask for the missing required fields before proceeding.
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Designed a multi-agent system with a root orchestrator and specialized sub-agents.
