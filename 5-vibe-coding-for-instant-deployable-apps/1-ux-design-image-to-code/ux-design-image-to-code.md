@@ -4,7 +4,7 @@
 20 minutes
 
 ## Overview
-In this lab, you'll use a rough, hand-drawn sketch to generate the first iteration of the Cymbal Fleet & Shipment dashboard using Gemini Canvas. 
+In this lab, you use a rough, hand-drawn sketch to generate the first iteration of the Cymbal Fleet & Shipment dashboard using Gemini Canvas. 
 
 ### You learn how to:
 - Translate a low-fidelity UI sketch into a structured web layout.
