@@ -4,9 +4,9 @@
 45 minutes
 
 ## Overview
-This is your lab. You have spent the previous labs building agents for Cymbal Insurance — structured scenarios with defined prompts and expected outputs. Now it is your turn to define the problem and build the solution.
+This is your lab. You have spent the previous labs building agents for Cymbal Insurance—structured scenarios with defined prompts and expected outputs. Now it is your turn to define the problem and build the solution.
 
-In this lab, you will design and build an agent that solves a real challenge from your own work or organization. You will apply everything you have learned: prompt-based creation, the flow builder, knowledge documents, starter prompts, scheduling, and multi-agent routing.
+In this lab, you design and build an agent that solves a real challenge from your own work or organization. You will apply everything you have learned: prompt-based creation, the flow builder, knowledge documents, starter prompts, scheduling, and multi-agent routing.
 
 ### You learn how to:
 - Translate a real workplace problem into a well-defined agent use case.
@@ -26,7 +26,7 @@ The best agent use cases solve a real pain point. Start there.
 
 ## Lab Instructions
 
-### Task 1: Define Your Use Case
+### Task 1: Define your use case
 
 Before you build anything, invest a few minutes in clearly defining the problem. Agents built from vague intentions are hard to test and even harder to refine.
 
@@ -52,7 +52,7 @@ Before you build anything, invest a few minutes in clearly defining the problem.
 
 3. Write a one-paragraph description of your agent. Include: what it is called, what problem it solves, who uses it, what it takes as input, and what it produces as output. This paragraph will become the basis for your agent creation prompt.
 
-### Task 2: Design and Build Your Agent
+### Task 2: Design and build your agent
 
 1. Open your Gemini Enterprise web app and click **+ New agent**.
 
@@ -85,11 +85,11 @@ Before you build anything, invest a few minutes in clearly defining the problem.
    - Download as a PDF
    - Upload in the **Knowledge** section of the agent configuration panel
 
-5. If your agent benefits from starter prompts — the most common questions or requests a user would have — add up to three in the **Personalization** section.
+5. If your agent benefits from starter prompts—the most common questions or requests a user would have—add up to three in the **Personalization** section.
 
 6. If your agent should run on a schedule, click the **Schedule** tab and configure the frequency, time, timezone, and execution prompt.
 
-### Task 3: Test and Refine
+### Task 3: Test and refine
 
 A first draft agent rarely performs perfectly. Testing and refinement are part of the process.
 
@@ -113,9 +113,9 @@ A first draft agent rarely performs perfectly. Testing and refinement are part o
    > [!NOTE]
    > You can always return to edit an agent. Go to **Agent Gallery > Your agents**, click **Actions**, and select **Edit**. There is no penalty for iterating after launch.
 
-### Bonus Task 4: Extend Your Agent
+### Bonus Task 4: Extend your agent
 
-Choose one or more of the following extensions to push your agent further:
+Choose one or more of the following extensions to push your agent further.
 
 **Add a schedule**
 If your agent performs a task that should happen automatically at a regular cadence, configure a schedule. Go to the **Schedule** tab, add a schedule with an appropriate frequency and execution prompt, and use **Run in preview** to verify it before activating.
@@ -129,7 +129,7 @@ If your agent currently relies entirely on its training data for factual informa
 **User test with a real scenario**
 Share your agent with someone who would genuinely use it in their day-to-day work. Give them three realistic inputs to test with. Collect their feedback on what was useful, what was confusing, and what was missing. Use that feedback to make one concrete improvement.
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Translated a real workplace problem into a clearly defined agent use case.
