@@ -1,10 +1,10 @@
-# Vibe-coding with Canvas: Ingesting the Data
+# Vibe Coding with Canvas: Ingesting the Data
 
 ## Time Required
 30 minutes
 
 ## Overview
-In this lab, you will use Gemini Canvas to incrementally build JavaScript logic for your layout. 
+In this lab, you use Gemini Canvas to incrementally build JavaScript logic for your layout. 
 
 First, you will recreate a consistent baseline UI. Then, you will use "vibe coding"—the process of iteratively prompting an AI to write and refine code step-by-step—to add a data ingestion mechanism (CSV upload/paste), populate the data grid, calculate top-line KPIs, and build a unified Pending Alerts component.
 
@@ -20,14 +20,14 @@ First, you will recreate a consistent baseline UI. Then, you will use "vibe codi
   <img src="images/cymbal-facility.png" width="50%" alt="Cymbal Logo" />
 </p>
 
-With the structural shell of the Cymbal Fleet & Shipment Dashboard completed, logistics managers now need actual data to make informed decisions. A beautiful layout means nothing if it doesn't surface real operational insights.
+With the structural shell of the Cymbal Fleet & Shipment dashboard completed, logistics managers now need actual data to make informed decisions. A beautiful layout means nothing if it doesn't surface real operational insights.
 
-In this phase, you will transition the static dashboard into a dynamic, data-driven application. You will ingest the current status of the Cymbal truck fleet, populate the grid, and write logic to calculate vital metrics like Total Fleet Value and Fleet Utilization. Finally, you will synthesize automated and manual alerts into a single view.
+In this phase, you transition the static dashboard into a dynamic, data-driven application. You ingest the current status of the Cymbal truck fleet, populate the grid, and write logic to calculate vital metrics like Total Fleet Value and Fleet Utilization. Finally, you synthesize automated and manual alerts into a single view.
 
 ## Lab Instructions
 
-### Task 1: Establish the Baseline UI
-To ensure a consistent starting point for the complex logic ahead, we will quickly recreate the UI shell using a standardized prompt and a provided sketch.
+### Task 1: Establish the baseline UI
+To ensure a consistent starting point for the complex logic ahead, you will quickly recreate the UI shell using a standardized prompt and a provided sketch.
 
 1. Open [Gemini](https://gemini.google.com/app), click the __+__ icon, and select **Canvas** from the __Tools__ list. 
 
@@ -38,7 +38,7 @@ To ensure a consistent starting point for the complex logic ahead, we will quick
    </p>
 
 
-2. Right-click the sketch below, copy it, and paste it into your Gemini prompt window:
+2. Right-click the sketch below, copy it, and paste it into your Gemini prompt window.
 
    <p align="left">
      <img src="images/ui-sketch.png" width="75%" alt="Cymbal Fleet and Shipment Dashboard sketch" style="border: 1px solid black;" />
@@ -59,7 +59,7 @@ Steps:
 3. Include a header, KPI cards at the top, a chart placeholder, a "Pending Alerts" card, and a data table section at the bottom.
 4. Keep the design simple, accessible, and readable.
 5. Do not add functional charts or data logic yet.
-6. Create Dark and Light themes with a button in the header to toggle between them.
+6. Create dark and light themes with a button in the header to toggle between them.
 7. Highlight cards when the user hovers over them.
 
 Output:
@@ -77,8 +77,8 @@ Output:
    </p>
 
 
-### Task 2: Ingest the Data and Calculate KPIs
-Now we will use iterative prompting to ingest data and add dynamic functionality. Do not paste all these requirements at once. Vibe coding requires solving problems one step at a time.
+### Task 2: Ingest the data and calculate KPIs
+Now you will use iterative prompting to ingest data and add dynamic functionality. Do not paste all these requirements at once. Vibe coding requires solving problems one step at a time.
 
 1. First, instruct Gemini to add a text area where a user can paste CSV data, and a button to parse it. Run this prompt:
    
@@ -207,7 +207,7 @@ TRK-099,Troy,Parma,On-Time,20000
 TRK-100,Parma,,In-Maintenance,0
 ```
 
-3. **Test it:** Click the "Load Data" button. Paste your mocked CSV string into the text area field in the Canvas preview and click "OK". The grid should instantly populate. 
+3. **Test it:** Click the **Load Data** button. Paste your mocked CSV string into the text area field in the Canvas preview and click **OK**. The grid should instantly populate. 
 
 > [!NOTE] 
 > Scroll to the bottom of your program and verify that the data was added to the grid. 
@@ -226,7 +226,7 @@ Start with the existing application (Don't rewrite the whole thing), and update 
 1. "Total Fleet Value" (sum the exact numeric amount in the Value column across all trucks).
 2. "Fleet Utilization" (a Doughnut graph depicting the percentage of trucks in each status category).
 3. Active Shipments - The number of trucks that are Loading, En-route, or Delayed. 
-4. Deliveries today - The number of trucks returning and a percentage based on how many trucks not In-Maintenance or Unassigned (i.e. those that are scheduled to make a delivery).
+4. Deliveries Today - The number of trucks returning and a percentage based on how many trucks not In-Maintenance or Unassigned (i.e. those that are scheduled to make a delivery).
 5. Pending Alerts - Show delayed trucks. 
 
 Update the UI when data is loaded, also add a Refresh button to the header that refreshes calculations. 
@@ -243,7 +243,7 @@ Update the UI when data is loaded, also add a Refresh button to the header that 
      <em>Dashboard with KPIs.</em>
    </p>
 
-### Task 3: Build Interactive State (Pending Alerts)
+### Task 3: Build interactive state (Pending Alerts)
 Finally, let's synthesize automated data filtering with interactive, user-driven state in the "Pending Alerts" card. 
 
 1. Issue a prompt to transform the static Pending Alerts card so it reacts to both the CSV data and manual user input:
@@ -280,13 +280,13 @@ Start with the existing application (Don't rewrite the whole thing), and make th
 > [!NOTE]
 > You should have a functional CSV importer driving KPI calculations, alongside a unified Pending Alerts manager that displays both automated tracking alerts and manual dispatches.
 
-### Bonus Task 4: Refining the Application
+### Bonus Task 4: Refining the application
 
 1. Ask Gemini to make the grid with the truck data editable. The KPIs should be updated when data is changed in the grid and the user moves to a new field. Test your program after each change. 
 
 2. Ask Gemini to create functionality to manually add rows to the grid and create a nice input dialog form to make data entry easy. Use a dropdown for Status. Test your program after each change. 
 
-## Congratulations
+## Congratulations!
 In this lab, you have:
 - Ingested and parsed data (CSV) into a Canvas application.
 - Prompted incrementally to solve logic problems one step at a time (grid, then basic KPIs, then conditional components).
