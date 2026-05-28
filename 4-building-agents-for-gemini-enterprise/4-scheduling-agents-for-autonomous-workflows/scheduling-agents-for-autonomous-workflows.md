@@ -4,7 +4,7 @@
 30 minutes
 
 ## Overview
-In this lab, you will create an agent that runs automatically on a recurring schedule — no human trigger required. By connecting it to the Google Search tool, the agent becomes an autonomous intelligence service that gathers and synthesizes real-time information on a schedule you define, and delivers a formatted report ready for leadership review.
+In this lab, you create an agent that runs automatically on a recurring schedule—no human trigger required. By connecting it to the Google Search tool, the agent becomes an autonomous intelligence service that gathers and synthesizes real-time information on a schedule you define, and delivers a formatted report ready for leadership review.
 
 ### You learn how to:
 - Create an agent that uses the Google Search tool to access current web content.
@@ -18,9 +18,9 @@ In this lab, you will create an agent that runs automatically on a recurring sch
   <img src="images/cymbal-board-meeting.png" width="25%" alt="Cymbal Insurance Logo" />
 </p>
 
-Cymbal Insurance's leadership team needs to stay current on competitor activity — product launches, pricing changes, regulatory actions, and strategic moves. Today, this responsibility falls on individual analysts who manually search the web and write briefings. The process is inconsistent, time-consuming, and often skipped entirely on busy mornings.
+Cymbal Insurance's leadership team needs to stay current on competitor activity—product launches, pricing changes, regulatory actions, and strategic moves. Today, this responsibility falls on individual analysts who manually search the web and write briefings. The process is inconsistent, time-consuming, and often skipped entirely on busy mornings.
 
-In this lab, you will build an autonomous Competitor Intel Analyst that searches the web every morning and delivers a formatted Executive News Brief — before anyone arrives at their desk.
+In this lab, you build an autonomous Competitor Intel Analyst that searches the web every morning and delivers a formatted Executive News Brief before anyone arrives at their desk.
 
 ## Lab Instructions
 
@@ -56,7 +56,7 @@ In this lab, you will build an autonomous Competitor Intel Analyst that searches
    - A "Key Takeaways" section at the end with exactly 3 bullet points summarizing the most important developments across all competitors
    - Use ⚠️ to flag any item that may require immediate attention from leadership
 
-   Keep the brief concise — no more than one page. Use a professional tone suitable for senior leadership.
+   Keep the brief concise—no more than one page. Use a professional tone suitable for senior leadership.
    ```
 
    - **Model:** Leave the default model selected.
@@ -72,7 +72,7 @@ In this lab, you will build an autonomous Competitor Intel Analyst that searches
    > [!NOTE]
    > The Google Search tool allows the agent to access real-time web content. Without it, the agent can only draw on its training data and cannot find overnight news.
 
-### Task 2: Configure the Schedule
+### Task 2: Configure the schedule
 
 1. In the Agent Designer canvas, click the **Schedule** tab.
 
@@ -104,7 +104,7 @@ In this lab, you will build an autonomous Competitor Intel Analyst that searches
    </p>
 
    > [!NOTE]
-   > It may take 30–60 seconds for the agent to complete its web searches and generate the brief. This is normal — the agent is running live search queries.
+   > It may take 30–60 seconds for the agent to complete its web searches and generate the brief. This is normal, the agent is running live search queries.
 
 5. Review the Executive News Brief in the Preview tab. Evaluate:
    - Are all five competitors represented or noted with "No significant activity"?
@@ -118,7 +118,7 @@ In this lab, you will build an autonomous Competitor Intel Analyst that searches
    Update the instructions so the Key Takeaways section explicitly ranks the three items from most to least significant, and explains briefly why each is important for Cymbal Insurance.
    ```
 
-### Task 3: Launch and Monitor the Agent
+### Task 3: Launch and monitor the agent
 
 1. Click **Create** to launch the agent and activate the daily schedule.
 
@@ -188,7 +188,7 @@ The Claims Department faces a different kind of information need: knowing about 
    
 5. Click **Run in preview** to test, then click **Create** to activate the agent.
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Created an agent that uses the Google Search tool to access real-time web content.
