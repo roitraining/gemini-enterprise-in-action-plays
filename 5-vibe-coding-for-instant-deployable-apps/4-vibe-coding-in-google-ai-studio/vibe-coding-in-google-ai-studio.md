@@ -4,7 +4,7 @@
 30 minutes
 
 ## Overview
-In this lab, you'll use Google AI Studio to vibe-code a tablet-friendly driver log application for Cymbal Logistics. Unlike the Canvas-based approach in previous labs, AI Studio generates a proper multi-file React application — using TypeScript, Tailwind CSS, and an organized folder structure. You will iteratively build the app by prompting AI Studio to add features one step at a time.
+In this lab, you use Google AI Studio to vibe code a tablet-friendly driver log application for Cymbal Logistics. Unlike the Canvas-based approach in previous labs, AI Studio generates a proper multi-file React application using TypeScript, Tailwind CSS, and an organized folder structure. You will iteratively build the app by prompting AI Studio to add features one step at a time.
 
 ### You learn how to:
 - Use Google AI Studio to build a multi-file React application.
@@ -19,14 +19,14 @@ In this lab, you'll use Google AI Studio to vibe-code a tablet-friendly driver l
   <img src="images/truck-cab.png" width="50%" alt="Cymbal Logo" />
 </p>
 
-Cymbal Logistics is modernizing how its drivers record shift activity in the field. Currently, drivers fill out paper log sheets at the start and end of each shift — a slow, error-prone process that makes fleet-wide activity difficult to track.
+Cymbal Logistics is modernizing how its drivers record shift activity in the field. Currently, drivers fill out paper log sheets at the start and end of each shift—a slow, error-prone process that makes fleet-wide activity difficult to track.
 
-This application will give drivers a simple, tablet-friendly digital log where they can record their shift status, odometer readings, trailer assignments, safety checklist confirmations, and shift notes — all stored locally on their device and easily exported for review.
+This application will give drivers a simple, tablet-friendly digital log where they can record their shift status, odometer readings, trailer assignments, safety checklist confirmations, and shift notes—all stored locally on their device and easily exported for review.
 
 ## Lab Instructions
 
-### Task 1: Create the Driver Log App
-Google AI Studio's app builder generates a complete, multi-file React application from a natural language prompt — a significant step up from a single HTML file. In this task, you will create the initial driver log UI and then add state persistence so the app retains data between sessions.
+### Task 1: Create the Driver Log app
+Google AI Studio's app builder generates a complete, multi-file React application from a natural language prompt—a significant step up from a single HTML file. In this task, you create the initial driver log UI and then add state persistence so the app retains data between sessions.
 
 1. Open [Google AI Studio](https://aistudio.google.com/apps) and log in. If a video appears, click __Skip__.
 
@@ -104,7 +104,7 @@ Stop here. Just build the visual layout.
    </p>
 
 
-8. Enter the following prompt in the Chat and run it. 
+8. Enter the following prompt in the chat and run it. 
 
 ```text
 Now, let's make the app store shift history. 
@@ -126,7 +126,7 @@ Now, let's make the app store shift history.
 
 11. If you find bugs or want changes to be made, ask AI Studio to make them. Make sure you test after each change. Make targeted changes one at a time. 
 
-### Task 2: Add features to the Driver Log App
+### Task 2: Add features to the Driver Log app
 With the core driver log working, you will now extend the app with two new capabilities: a shift history export that lets drivers copy their records as CSV, and a dedicated expense logging tab.
 
 1. Ask AI Studio to add an "Export History". It should retrieve all the data from local storage, format it as CSV, and pop up a window where the user can copy it to their clipboard. 
@@ -135,7 +135,7 @@ With the core driver log working, you will now extend the app with two new capab
 
 3. Ask AI Studio to create a new tab in the application that allows the driver to log expenses. You can do this any way you like. It should be easy to add receipts and expense information. They should also be able to export the expenses and easily be able to add them to an email or spreadsheet to be submitted. 
 
-## Congratulations
+## Congratulations!
 In this lab, you have:
 - Used Google AI Studio to build a multi-file React application through vibe coding.
 - Compared AI Studio's structured code output with Canvas's single-file approach.
