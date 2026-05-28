@@ -198,7 +198,7 @@ The escalation rules become interesting at the edges. Use these scenarios to str
    Update the Triage Agent so that "suspected injuries" and damage of exactly $5,000 are both treated as escalation triggers. Also add a rule: if the estimated damage is missing entirely, escalate to manager.
    ```
 
-4. Click **Update** to save and relaunch the agent. Retest the edge cases to confirm the changes took effect.
+4. Click **Reset session** to save and relaunch the agent. Retest the edge cases to confirm the changes took effect.
 
 ## Congratulations
 

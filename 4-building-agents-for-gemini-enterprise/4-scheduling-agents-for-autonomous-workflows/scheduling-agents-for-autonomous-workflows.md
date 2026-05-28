@@ -30,11 +30,16 @@ In this lab, you will build an autonomous Competitor Intel Analyst that searches
 
 2. On the Agent Designer page, click **Proceed to builder** to open the flow builder.
 
-3. Click the default agent node to open its configuration panel. Configure the agent:
-   - **Name:** `Daily Competitor Intel Analyst`
-   - **Description:** `Autonomous agent that scans for overnight competitor news and generates a formatted Executive News Brief each morning.`
-   - **Instructions:** Paste the following:
-
+3. Click the default agent node to open its configuration panel. Configure the agent by pasting the following:
+   - **Name:**
+   ```
+   Daily Competitor Intel Analyst
+   ```
+   - **Description:**
+   ```
+   Autonomous agent that scans for overnight competitor news and generates a formatted Executive News Brief each morning.
+   ```
+   - **Instructions:**
    ```text
    You are the Daily Competitor Intel Analyst for Cymbal Insurance.
 
@@ -142,10 +147,15 @@ The Claims Department faces a different kind of information need: knowing about 
 1. Click **+ Create agent** and proceed to the builder.
 
 2. Configure the agent:
-   - **Name:** `Morning Risk & Exposure Monitor`
-   - **Description:** `Scans for overnight severe weather and disaster events to help the Claims team prepare for high-volume days.`
-   - **Instructions:** Paste the following:
-
+   - **Name:**
+   ```
+   Morning Risk & Exposure Monitor
+   ```
+   - **Description:**
+   ```
+   Scans for overnight severe weather and disaster events to help the Claims team prepare for high-volume days.
+   ```
+   - **Instructions:**
    ```text
    You are the Morning Risk & Exposure Monitor for Cymbal Insurance's Claims Department.
 
@@ -171,8 +181,11 @@ The Claims Department faces a different kind of information need: knowing about 
 3. Enable the **Google Search** tool in the **Data and tools** section.
 
 4. Click the **Schedule** tab and configure a daily schedule at **6:15 AM** (15 minutes after the Competitor Intel Brief, so both reports are ready before the workday begins):
-   - **Prompt:** `Run your morning risk scan. Search for overnight severe weather, natural disasters, and major accidents across the US from the last 24 hours. Generate and deliver the Daily Risk Alert now.`
-
+   - **Prompt:**
+   ```
+   Run your morning risk scan. Search for overnight severe weather, natural disasters, and major accidents across the US from the last 24 hours. Generate and deliver the Daily Risk Alert now.
+   ```
+   
 5. Click **Run in preview** to test, then click **Create** to activate the agent.
 
 ## Congratulations

@@ -34,11 +34,17 @@ In this lab, you will build a single Orchestrator Agent that takes new hire deta
 
 2. On the Agent Designer page, click **Proceed to builder**.
 
-3. The **Flow** tab opens with a default agent node. Click the node to open its configuration panel. Configure the Orchestrator:
-   - **Name:** `New Hire Onboarding Orchestrator`
-   - **Description:** `Coordinates new employee onboarding by delegating tasks to IT, HR, and Facilities sub-agents.`
-   - **Instructions:** Paste the following:
+3. The **Flow** tab opens with a default agent node. Click the node to open its configuration panel. Configure the Orchestrator by pasting the following:
 
+   - **Name:** 
+   ```
+   New Hire Onboarding Orchestrator
+   ```
+   - **Description:**
+   ```
+   Coordinates new employee onboarding by delegating tasks to IT, HR, and Facilities sub-agents.
+   ```
+   - **Instructions:** 
    ```text
    You are the New Hire Onboarding Orchestrator for Cymbal Insurance.
 
@@ -73,10 +79,16 @@ In this lab, you will build a single Orchestrator Agent that takes new hire deta
    </p>
 
 2. A new sub-agent node appears on the canvas. Click the node and configure it:
-   - **Name:** `IT Provisioner`
-   - **Description:** `Drafts an IT setup request for new employee hardware and system access.`
-   - **Instructions:** Paste the following:
+   - **Name:**
+   ```
+   IT Provisioner
+   ```
+   - **Description:**
+   ```
+   Drafts an IT setup request for new employee hardware and system access.
+   ```
 
+   - **Instructions:**
    ```text
    You are the IT Provisioner sub-agent for Cymbal Insurance's onboarding system.
 
@@ -93,10 +105,15 @@ In this lab, you will build a single Orchestrator Agent that takes new hire deta
    ```
 
 3. In the **Flow** tab, hover over the Orchestrator node again and click **+ Add subagent** to add a second sub-agent. Configure it:
-   - **Name:** `HR Assistant`
-   - **Description:** `Drafts a welcome email to the new employee and an internal HR pre-start checklist.`
-   - **Instructions:** Paste the following:
-
+   - **Name:**
+   ```
+   HR Assistant
+   ```
+   - **Description:**
+   ```
+   Drafts a welcome email to the new employee and an internal HR pre-start checklist.
+   ```
+   - **Instructions:**
    ```text
    You are the HR Assistant sub-agent for Cymbal Insurance's onboarding system.
 
@@ -124,10 +141,15 @@ In this lab, you will build a single Orchestrator Agent that takes new hire deta
 ### Task 3: Add the Facilities Agent, Then Test
 
 1. Hover over the Orchestrator node and click **+ Add subagent** to add the third sub-agent:
-   - **Name:** `Facilities Agent`
-   - **Description:** `Requests building access, parking, and workspace assignment for the new employee.`
-   - **Instructions:** Paste the following:
-
+   - **Name:**
+   ```
+   Facilities Agent
+   ```
+   - **Description:**
+   ```
+   Requests building access, parking, and workspace assignment for the new employee.
+   ```
+   - **Instructions:**
    ```text
    You are the Facilities Agent sub-agent for Cymbal Insurance's onboarding system.
 
@@ -194,7 +216,7 @@ The system is working — but onboarding at Cymbal Insurance involves four depar
 
 5. Click the **Preview** tab and test with Maria Santos again. Confirm that the Onboarding Summary now includes all four sections, with a well-structured Training schedule.
 
-6. When you are satisfied, click **Update** to save and relaunch the system.
+6. When you are satisfied, click **Reset Session** to save and relaunch the system.
 
 **Take it further:** Test the complete four-agent system with a more complex scenario:
 
