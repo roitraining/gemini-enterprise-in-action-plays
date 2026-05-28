@@ -89,7 +89,7 @@ TRK-104,PA to NY,Davis,Issue,Tire pressure warning, needs maintenance check
 ```text
 Warehouse bay 4 has a broken docking plate, maintenance is coming tomorrow at 9 AM. Make sure all morning reefers are routed to bays 1-3.
 
-Jeff Davis called in sick, John Opiola will cover for him. 
+Jeff Smith called in sick, John Miller will cover for him. 
 ```
 
 5. Click the Format AI Prompt button. This creates a structured prompt optimized for this use case. It should look similar to the screenshot below. 
