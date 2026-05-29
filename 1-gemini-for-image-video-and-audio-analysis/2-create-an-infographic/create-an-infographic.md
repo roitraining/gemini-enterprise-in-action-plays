@@ -23,11 +23,20 @@ Cymbal-Mart's Marketing team needs a campaign infographic for the **Back-to-Scho
 
 ### Task 1: Generate the Baseline Infographic
 
-1. Open **Gemini Enterprise** in your browser.
+1. Open **Gemini Enterprise** in your browser and create a new chat. 
 
 2. In the chat bar, select the **Tools** icon and choose **Generate images**.
 
-3. Copy and paste the following prompt into the chat, then press **Enter**:
+3. Copy and paste the image below of the Cymbal-Mart logo into the chat:
+
+<p align="left">
+  <img src="images/cymbal-mart-logo.png" width="50%" alt="Cymbal-Mart Logo" />
+  <br>
+  <em>Cymbal-Mart Logo</em>
+</p>
+
+
+4. Copy and paste the following prompt into the chat, then press **Enter**:
 
    ```text
    You are a data visualization artist who creates infographics with dramatic, physical metaphors. Create a striking, horizontal infographic-style image promoting the "Cymbal-Mart: Back-to-School Super Sale."
@@ -37,9 +46,17 @@ Cymbal-Mart's Marketing team needs a campaign infographic for the **Back-to-Scho
    On the right side, labeled "THE CYMBAL-MART SOLUTION," the same mountain has been replaced by a sprawling, organized city made entirely of fresh, colorful school supplies — notebook skyscrapers, pencil-case trains, and textbook bridges, all gleaming with primary colors. An energetic young student wearing a "Cymbal-Mart Approved" backpack runs gleefully toward the city, pulling a wagon stacked with glowing deals labeled "50% OFF" and "$1 BACK-TO-SCHOOL DEALS."
 
    A large, friendly Cymbal-Mart logo is integrated seamlessly as the central archway entrance to the city. Along the bottom, clean data callouts read: "$350+ Average Cymbal-Mart Family Savings," "1,000+ Items Under $5," and "Same-Day Store Pickup." The final banner text across the bottom reads: "Cymbal-Mart: Elevate Their Future. Lighten Your Load."
+
+   See the attached image for the official Cymbal-Mart logo. 
    ```
 
 4. Review the output. Note what worked well and what you would change.
+
+   <p align="left">
+     <img src="images/infographic-example.png" width="50%" alt="Infographic Example" />
+     <br>
+     <em>Infographic Example</em>
+   </p>
 
 ### Task 2: Iterate to Improve the Result
 
@@ -54,13 +71,29 @@ Prompt engineering for image generation is iterative. Try at least two of the fo
    > [!NOTE]
    > Each iteration should change only one or two things at a time. Changing everything at once makes it hard to understand what improved the result.
 
-### Bonus Task 3: Add the Logo as a Reference File
+### Bonus Task 3: Use your own example
 
-1. Start a new chat. This time, click **+ Add files** and upload `CymbalLogo.png` before submitting the prompt.
+1. Start a new chat. 
 
-2. Modify the prompt to include: `"Use the attached CymbalLogo.png as the exact logo to appear on the archway entrance."`
+2. Create a prompt for an infographic, but using an example appropriate to your business. It could refer to something you sell, a new product or service you are promoting, a company celebration, or anything else. 
 
-3. Compare the logo accuracy between this version and the previous one. Does providing the actual logo file make a meaningful difference?
+   > [!NOTE]
+   > You can ask Gemini for help creating the prompt. Tell Gemini something like the following:
+
+   ```text
+   You are an expert prompt engineer. 
+   Create a prompt that uses Gemini Image Generation to create an Infographic. 
+   I want the infographic to promote the Company's Generative AI Hackathing event on June 14th. I want this promoted as a fun, summer event for everyone. There will be prizes and food.
+   Do not create the infographic, just return the prompt. 
+   ```
+
+3. Take a look at the generated prompt. If you are happy with it copy it to the clipboard. Then, create a new chat, select the Image Generation tool, and run it. 
+
+   <p align="left">
+     <img src="images/infographic-example2.png" width="50%" alt="Infographic Example" />
+     <br>
+     <em>Infographic Example</em>
+   </p>
 
 ## Congratulations
 
