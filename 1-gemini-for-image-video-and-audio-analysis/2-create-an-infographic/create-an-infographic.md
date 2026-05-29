@@ -1,7 +1,7 @@
 # Create an Infographic
 
 ## Time Required
-20–30 minutes
+20 minutes
 
 ## Overview
 In this lab, you will create a promotional infographic for Cymbal-Mart's Back-to-School sale using Gemini's image generation model. You will start with a strong baseline prompt, then practice prompt engineering techniques — adding context, refining details, and iterating — to improve the output.
