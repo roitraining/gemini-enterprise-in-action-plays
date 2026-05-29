@@ -193,6 +193,10 @@ With internal and external sources in the same notebook, you can ask questions t
 
 3. Ask NotebookLM to generate a one-paragraph **Competitive Landscape Summary** suitable for the executive summary page of the investor pitch deck. Save it as a note.
 
+### Bonus Task 5: Try It with Your Own Topic
+
+Create a new notebook, add a short internal document or memo as copied text, then use web search to find 2–3 live sources on a topic relevant to your role — a competitor, a market trend, or a new regulation. Ask one question that requires both your internal source and the web sources to answer.
+
 ## Congratulations
 
 In this lab, you have:

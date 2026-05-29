@@ -174,6 +174,10 @@ What were CPH-412's Phase 2 trial results?
 
 4. Compare the table against the original report to verify that no information was added or altered.
 
+### Bonus Task 6: Try It with Your Own Document
+
+Create a new notebook and upload a long document from your own work — a report, a policy, a research paper, or a lengthy email thread. Ask NotebookLM three questions that would normally take you significant time to answer manually. Note how long it takes compared to reading the document yourself.
+
 ## Congratulations
 
 In this lab, you have:

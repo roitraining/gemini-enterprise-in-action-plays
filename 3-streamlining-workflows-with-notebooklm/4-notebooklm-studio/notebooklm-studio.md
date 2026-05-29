@@ -177,6 +177,10 @@ A single set of sources can produce very different Audio Overviews depending on 
 
 4. Compare this version to the first Audio Overview. Note at least three differences in tone, content, or emphasis between the two.
 
+### Bonus Task 6: Try It with Your Own Data
+
+Create a new notebook and add one or more of your own documents — meeting notes, a project proposal, a research report, or a set of articles. Use the Studio panel to generate an output that would be immediately useful in your work: a Presentation outline, a Report, or an Audio Overview. Share the result with a colleague.
+
 ## Congratulations
 
 In this lab, you have:

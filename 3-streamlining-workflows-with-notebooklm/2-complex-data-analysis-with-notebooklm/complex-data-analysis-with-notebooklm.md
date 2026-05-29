@@ -203,6 +203,10 @@ One of NotebookLM's most powerful features is source deselection. Turning off in
 
 3. Now ask the timing compliance question again. Does NotebookLM surface the conflict between Protocol v3.1 and the draft amendment? How does it handle the discrepancy?
 
+### Bonus Task 6: Try It with Your Own Multi-Source Problem
+
+Create a new notebook around a real situation where you have multiple documents that need to be compared or cross-referenced — for example, a vendor contract alongside an internal policy, or meeting notes alongside a project brief. Add at least two sources, ask a cross-source question, and try deselecting one source to see how much it changes the answer.
+
 ## Congratulations
 
 In this lab, you have:
