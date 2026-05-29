@@ -19,6 +19,14 @@ In this lab, you will upload a store walk-through video alongside a PDF standard
 
 Cymbal-Mart's Loss Prevention and Store Operations team conducts quarterly compliance audits across its retail locations. A regional manager has submitted a walk-through video from Store #114 for review. You need to cross-reference the footage against the company's official **Visual Merchandising and Store Standards** document and produce a formal audit report before the next leadership review.
 
+## Before you begin
+
+This lab analyzes a video of a store walk through, comparing it against a PDF document of safety standards for Cymbal's retail stores. Take a few minutes to view both. 
+
+[Cymbal Mart Store Safety Standards](https://drive.google.com/file/d/1_yZkzZPBTEk1rUE32SmW4aAJPIXUdR4J/view?usp=drive_link)
+
+
+[Store Walk Through](https://drive.google.com/file/d/1J3Xyq90oJzBGFPMRdgX_18mRKXknmdSD/view?usp=sharing)
 
 ## Lab Instructions
 
