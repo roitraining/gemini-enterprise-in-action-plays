@@ -1,7 +1,7 @@
 # Video and Audio Generation
 
 ## Time Required
-30–40 minutes
+30 minutes
 
 ## Overview
 In this lab, you will use Gemini to generate a short holiday social media video clip for Cymbal-Mart, complete with a synchronized voiceover script. You will then use Google AI Studio to generate an audio track from the script. The result is a complete, production-ready promotional asset built entirely with AI tools.
