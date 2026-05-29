@@ -1,7 +1,7 @@
 # Video Analysis
 
 ## Time Required
-20–30 minutes
+20 minutes
 
 ## Overview
 In this lab, you will upload a store walk-through video alongside a PDF standards document and ask Gemini to cross-reference them — identifying compliance violations, citing specific policy sections, and providing exact timestamps. This is a practical example of multimodal analysis: Gemini reads the document and watches the video simultaneously to produce a grounded, timestamped audit.
@@ -19,26 +19,29 @@ In this lab, you will upload a store walk-through video alongside a PDF standard
 
 Cymbal-Mart's Loss Prevention and Store Operations team conducts quarterly compliance audits across its retail locations. A regional manager has submitted a walk-through video from Store #114 for review. You need to cross-reference the footage against the company's official **Visual Merchandising and Store Standards** document and produce a formal audit report before the next leadership review.
 
-## Before You Begin
-
-You will need two files for this lab:
-- `store.mp4` — a walk-through video of a Cymbal-Mart store aisle or storefront
-- `Cymbal-Mart_VisualMerchandising_and_Store_Standards.pdf` — the standards document
-
-Both files are available in the `data/` folder of this course.
 
 ## Lab Instructions
 
 ### Task 1: Upload the Files and Run the Audit
 
-1. Open **Gemini Enterprise** in your browser.
+1. Open **Gemini Enterprise** in your browser, and start a new chat. 
 
-2. Click **+ Add files** → **Upload files**. In the dialog, select both `store.mp4` and `Cymbal-Mart_VisualMerchandising_and_Store_Standards.pdf`, then click **Open**.
+2. Click **+ Add files** → **Add from Drive**. In the __Search__ box at the top paste the URL below, then press **Enter** and select then __Insert__ the resulting file into your chat. This is the Cymbal Store Standards PDF file. 
+
+```text
+https://drive.google.com/file/d/1_yZkzZPBTEk1rUE32SmW4aAJPIXUdR4J/view?usp=drive_link
+```
+
+3. Repeat step 2, but this time with the URL below. This is a video file of a store walk through. 
+
+```text
+https://drive.google.com/file/d/1J3Xyq90oJzBGFPMRdgX_18mRKXknmdSD/view?usp=sharing
+```
 
 3. Copy and paste the following prompt into the chat, then press **Enter**:
 
    ```text
-   Role: You are the Primary Safety and Compliance Manager for Cymbal-Mart, conducting a formal virtual audit of Store #114.
+   Role: You are the Primary Safety and Compliance Manager for Cymbal-Mart, conducting a formal virtual audit of Store number 114.
 
    Task: Analyze the provided store walk-through video. Identify every instance of non-compliance with the "Cymbal-Mart Visual Merchandising and Store Standards" document.
 
@@ -73,10 +76,14 @@ Both files are available in the `data/` folder of this course.
 1. Ask Gemini to draft a formal corrective action email:
 
    ```text
-   Draft a formal corrective action email from the Regional Manager to Store #114's General Manager. The email should reference the top 3 critical findings from the audit, set a 48-hour remediation deadline for each, and request photographic confirmation of completion.
+   Draft a formal corrective action email from the Regional Manager to Store number 114's General Manager. The email should reference the top 3 critical findings from the audit, set a 48-hour remediation deadline for each, and request photographic confirmation of completion.
    ```
 
 2. Review the draft. Would you send it as-is, or does it need edits? What information from the audit report is missing or could be added to make the email more useful?
+
+### Bonus Task 4: Process your own video
+
+1. You might have to do this one later. Grab your phone file film a video of your home, your office, or anywhere else for that matter. Upload it to Gemini and try asking some questions. __Note:__ You will need to convert the video to MP4 format, and the video size will be limited. This can be as low as 50MB depending on your license. 
 
 ## Congratulations
 
