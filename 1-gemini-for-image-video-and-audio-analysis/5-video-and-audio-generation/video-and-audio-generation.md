@@ -26,7 +26,7 @@ Cymbal-Mart's Social Media team needs a **10-second holiday ad** for Instagram a
 > [!IMPORTANT]
 > Video generation uses **Gemini** (gemini.google.com), not Gemini Enterprise. Make sure you are in the correct product before starting.
 
-1. Open **Gemini** in your browser (gemini.google.com).
+1. Open [Gemini](https://gemini.google.com/app) in your browser, and create a new chat.
 
 2. In the chat bar, select the **Tools** icon and choose **Create video**.
 
@@ -35,7 +35,7 @@ Cymbal-Mart's Social Media team needs a **10-second holiday ad** for Instagram a
      <br><em>Select Create video from the Tools menu</em>
    </p>
 
-3. Click **+ Add files** → **Upload files**. If prompted, click **Agree**. In the dialog, select `CymbalLogo.png` and click **Open**.
+3. Copy the __Cymbal Mart__ logo above to the clipboard and then paste it in the chat box. 
 
 4. Copy and paste the following prompt into the chat, then press **Enter**:
 
@@ -51,7 +51,11 @@ Cymbal-Mart's Social Media team needs a **10-second holiday ad** for Instagram a
    The video should feel like a 10-second cut from a premium TV commercial.
    ```
 
-5. Review the generated video. Save the clip.
+5. Review the generated video. Download the clip to your computer. Here is an example of one that was previously created:
+
+   [Sample Video Clip](https://drive.google.com/file/d/11fbc6SXOJToqWTNCDQPHAytkJzhVd7WM/view?usp=sharing)
+
+6. If you don't like your results, try changing the prompt. 
 
 ### Task 2: Write the Voiceover Script
 
@@ -73,22 +77,41 @@ The video needs a voiceover that fits the 10-second runtime precisely.
 
 ### Task 3: Generate the Audio Track
 
-1. Open **Google AI Studio** (aistudio.google.com) in a new tab.
+1. Open [Google AI Studio](https://aistudio.google.com/) in a new tab.
 
-2. Start a new prompt. Set the output type to **Audio** (if available in your account) or use the Text-to-Speech capability.
+2. Select __Playground__, then __Models__, and then __Speech and Music__. 
 
-3. Paste the voiceover script and prompt AI Studio to generate the audio:
+   <p align="left">
+     <img src="images/ai-studio-1.png" width="55%" alt="AI Studio Playground" />
+     <br><em>AI Studio Playground</em>
+   </p>
 
-   ```text
-   Generate a warm, upbeat voiceover recording of the following holiday ad script. The voice should be friendly and energetic — think network TV commercial narrator. Pace it to fit within 10 seconds.
+3. Select the latest TTS (Text-to-Speech) model. 
 
-   [Paste your finalized script here]
-   ```
+   <p align="left">
+     <img src="images/tts-model.png" width="55%" alt="TTS model selection" />
+     <br><em>TTS model selection</em>
+   </p>
 
-4. Download the audio file.
+4. Choose __Ad Voiceover__. 
 
-   > [!NOTE]
-   > Text-to-speech audio generation features may vary depending on your Google AI Studio access tier. If this feature is not available in your account, record yourself reading the script aloud and use that as your audio track instead.
+   <p align="left">
+     <img src="images/ad-voiceover.png" width="55%" alt="Ad Voiceover" />
+     <br><em>Ad Voiceover</em>
+   </p>
+
+
+5. Paste the voiceover script that you generated in the last task, and then click the __Run__ button. 
+
+   <p align="left">
+     <img src="images/generate-voice.png" width="55%" alt="Generate Voiceover" />
+     <br><em>Generate Voiceover</em>
+   </p>
+
+6. Once the voiceover is generated, click the __Play__ button to hear it. You can experiment the script and with different voices, tones, and profiles. When you are satisfied download the audio file. Below is an example audio file. 
+
+   [Sample Audio File](https://drive.google.com/file/d/1zXwfVMEppsvtdTfup9ZKNLJAaY_3CtV-/view?usp=sharing)
+
 
 ### Bonus Task 4: Assemble the Full Ad Concept
 
@@ -99,6 +122,10 @@ The video needs a voiceover that fits the 10-second runtime precisely.
    - Notes on how the audio and video are synchronized
 
 2. Share the video, script, and brief with the group. Discuss: what would a human creative team need to do to take these AI-generated assets to a final, publishable state?
+
+### Bonus Task 4: Try with your own use case
+
+1. Ceate a video clip, script, and voiceover for something relevant for your own work or personal use. 
 
 ## Congratulations
 
