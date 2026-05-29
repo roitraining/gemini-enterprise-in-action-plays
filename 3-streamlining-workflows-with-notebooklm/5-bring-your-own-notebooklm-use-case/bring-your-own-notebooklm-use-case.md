@@ -1,7 +1,7 @@
 # Bring Your Own NotebookLM Use Case
 
 ## Time Required
-30 minutes
+45 minutes
 
 ## Overview
 In this lab, you will apply everything you have learned across the course to a NotebookLM challenge of your own design. You choose the topic, the sources, the questions, and the output format. This is your opportunity to take NotebookLM out of a structured training scenario and directly into a problem you care about.
