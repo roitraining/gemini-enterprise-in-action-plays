@@ -135,6 +135,18 @@ With the core driver log working, you will now extend the app with two new capab
 
 3. Ask AI Studio to create a new tab in the application that allows the driver to log expenses. You can do this any way you like. It should be easy to add receipts and expense information. They should also be able to export the expenses and easily be able to add them to an email or spreadsheet to be submitted. 
 
+### Bonus Task 3: Try your own use case
+
+1. Think of a simple app you might like for your work or personal use. First create a short, 1 or 2-sentence description of the app. Then, add a bulleted list of features. Try creating it in Google AI Studio.
+
+### Bonus Task 4: Try sharing and deploying your app
+
+1. Click the __Share__ button at the top-right to share your app with a friend. Send them the link and tell them to try it out. 
+
+
+2. You can try deploying your app. Click the __Publish__ button and follow the instructions. This requires a Google Cloud account and project. The app is published to Google Cloud Run, a production-quality environment for running web applications. 
+
+
 ## Congratulations!
 In this lab, you have:
 - Used Google AI Studio to build a multi-file React application through vibe coding.
