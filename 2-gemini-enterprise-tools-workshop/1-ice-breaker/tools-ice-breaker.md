@@ -1,7 +1,7 @@
 # Ice Breaker: Put Yourself in Cymbal Capital Partners
 
 ## Time Required
-10–15 minutes
+15 minutes
 
 ## Overview
 In this lab, you will use Gemini's image generation model to place yourself — using your own headshot — into a Cymbal Capital Partners investment setting. This is a quick, fun introduction to Gemini's multimodal image generation capabilities and a great way to kick off the course.
@@ -25,29 +25,51 @@ Cymbal Capital Partners is running an internal leadership spotlight campaign. Th
 
 1. Open Gemini Enterprise in your browser.
 
-2. In the chat bar, select the **Tools** icon and choose **Generate images**.
+2. In the chat bar, select the **Tools** icon and choose **Create images**.
 
-3. Click **+ Add files** and select **Upload files**. In the dialog, select your `headshot.jpg` and click **Open**.
+<p align="left">
+  <img src="images/create-images.png" width="75%" alt="Create Images" />
+  <br />
+  <em>Create Images</em>
+</p>
 
-4. Copy and paste the following prompt into the chat, then press **Enter**:
+3. Click **+ Add files** and select **Upload files**. In the dialog, upload a photo of yourself, and click **Open**. __Note:__ if it is easier, just copy a picture of yourself to the clipboard and paste it in the chat box.
 
-```text
-    You are a professional photographer taking a polished and authentic portrait for an executive spotlight series. Using the face from the uploaded headshot, maintaining the facial identity as a perfect, unaltered match, place it onto the body of a finance professional.
+4. Copy the Cymbal Capital Partners logo from above and past it in the chat box.
 
-  The professional is wearing a tailored charcoal suit, crisp white shirt, and a deep blue tie with a subtle Cymbal Capital Partners logo pin on the lapel. Their expression is confident, thoughtful, and approachable, holding a tablet in one hand and reviewing a printed pitch deck with the other.
+5. Paste the following prompt into the chat.
 
-  The setting is the interior of a modern Cymbal Capital Partners office. The background shows floor-to-ceiling glass walls, a sleek boardroom table, city skyline views, framed investment theses, and a subtle wall display labeled with phrases like "Portfolio Strategy" and "Growth Capital." In the distance, colleagues collaborate around a conference screen showing market charts and deal flow summaries. The lighting is clean and premium, mixing soft natural window light with warm overhead accents. The photo is taken at eye level, capturing the energy and sophistication of the firm. The feel is ambitious, analytical, and high-trust — sharp and detailed, like a premium editorial portrait.
-```
+   ```text
+      You are a professional corporate photographer.
 
-5. Review the result. If the likeness or setting is not quite right, see the Bonus Task below for refinement techniques.
+      Your task is to create a polished, authentic environmental portrait for an executive spotlight series.
 
-### Bonus Task 2: Refine and Experiment
+      Using the face from the first uploaded headshot, maintain the facial identity as a perfect, unaltered match. Incorporate the logo graphic from the second uploaded image into the scene.
 
-1. Try swapping the setting. Ask Gemini to regenerate the same portrait but place you **in a private investment meeting room** instead of the office — surrounded by notebooks, cap tables, financial models, and subtle branded signage.
+      The output photo should depict a finance professional at Cymbal Capital Partners leading a meeting with a high-value client in a modern, light-filled office. The subject should be seated at a polished conference table, smiling warmly and wearing a professional, tailored dark blue suit with a crisp white shirt. The background features a sophisticated glass-walled office with a view of a city skyline. The uploaded logo should be integrated subtly, appearing engraved discreetly on a glass partition in the background and visible in a sharp, clear version on the cover of a leather-bound notebook on the table.
+   ```
 
-2. Experiment with one change at a time: adjust the lighting description, change the uniform, or modify the expression instruction. Notice how each specific change affects the output.
+   <p align="left">
+     <img src="images/image-prompt.png" width="75%" alt="Create Image Prompt" />
+     <br />
+     <em>Create Image Prompt</em>
+   </p>
 
-3. Share your best result with the group.
+6. Ensure you added the logo, the photo, and the prompt, and have selected the image tool. Then, run it. 
+
+   <p align="left">
+     <img src="images/image-results.png" width="75%" alt="Create Image Results" />
+     <br />
+     <em>Create Image Results</em>
+   </p>
+
+7. Review the result. If the likeness or setting is not quite right, ask Gemini to make changes. Try changing the scene or add detail as you like.
+
+8. Share your results with the group. 
+
+### Bonus Task 2: Try you own use case
+
+1. Do something similar, but appropriate to your own workplace. Create an image you could use for a social media post that puts you into a scene that would be appropiate to your company. 
 
 ## Congratulations
 
