@@ -1,127 +1,112 @@
-# Meta Prompting for Deep Research (Investment Diligence)
+# Meta-Prompting for Deep Research
 
 ## Time Required
-115 minutes
+20 minutes
 
 ## Overview
-This lab teaches students how meta prompting improves Gemini Enterprise Deep Research quality.
+Meta-prompting means asking Gemini to improve a prompt before you use it. Instead of spending time crafting the perfect research brief yourself, you describe what you want, ask Gemini to rewrite it into a stronger prompt, and then run that improved version.
 
-Instead of only asking a company question, students first ask Gemini to design a better Deep Research prompt. They then compare results from a weak prompt versus a meta-prompted prompt.
+This lab shows the difference a better prompt makes. You will run a simple, vague request through Deep Research, use meta-prompting to produce a stronger version, and run it again to compare the results.
 
 ### You learn how to:
-- Explain what meta prompting is in practical terms.
-- Identify when to use meta prompting before Deep Research.
-- Build a stronger Deep Research request from a weak starting prompt.
-- Compare evidence quality, structure, and decision usefulness across outputs.
-
-## What Is Meta Prompting?
-Meta prompting means prompting the model to create or improve another prompt before running the main task.
-
-For Deep Research, this helps because the quality of the research plan and final answer depends heavily on prompt clarity, scope, output format, and evidence standards.
+- Recognise the limitations of a vague Deep Research prompt.
+- Use meta-prompting to turn a weak prompt into a well-structured one.
+- Compare research quality before and after meta-prompting.
 
 ## Scenario
-Cymbal Capital Partners is a fictional venture capital and private equity firm looking for its next investment opportunity.
 
-Your class will evaluate one company and decide whether the available evidence supports a go/no-go recommendation.
+<p align="left">
+  <img src="images/cymbal-capital-partners-logo.png" width="70%" alt="Cymbal Capital Partners logo" />
+</p>
+
+Cymbal Capital Partners is a venture capital and private equity firm evaluating a new investment opportunity. Your job is to show how meta-prompting produces a better research brief — and a better result — than a quick, unstructured question.
 
 ## Lab Instructions
 
 ### Task 1: Run a Weak Baseline Prompt
 
-1. Open Gemini Enterprise in a new chat.
+Start with the kind of prompt most people write on their first try.
 
-2. Select **Deep Research** from **Tools**.
+1. Choose a company to research. Pick one from the list below, or use any company you find interesting.
 
-3. Use this intentionally weak prompt:
+   | Company | What they do |
+   |---------|--------------|
+   | **Stripe** | Payments infrastructure for the internet |
+   | **Databricks** | Data and AI platform for enterprises |
+   | **Anthropic** | AI safety company and developer of the Claude model |
+   | **Canva** | Online design and visual communication platform |
+   | **Scale AI** | Data labeling and AI infrastructure for ML teams |
+   | **Hugging Face** | Open-source AI model hub and developer tools |
+   | **Perplexity AI** | AI-powered answer engine and search alternative |
+   | **Harvey AI** | Generative AI platform built for legal work |
 
-```text
-Research potentially companies on behalf of Cymbal Capital Partners - a venture capital and private equity firm looking for its next investment opportunity - and tell me if it is a good investment.
-```
+2. Open Gemini Enterprise and start a new chat. Select **Deep Research** from the **Tools** list.
 
-4. Wait for Deep Research to generate a research plan. Scroll to the bottom of the plan, and click **Start research**.
-
-5. Note what is missing:
-- unclear scope
-- weak structure
-- vague recommendation criteria
-- inconsistent sourcing expectations
-
-### Task 2: Use Meta Prompting to Build a Better Prompt
-
-1. In a new chat, ask Gemini to generate a stronger Deep Research prompt before running research again. Copy and paste the following prompt:
+3. Paste the following prompt, replacing `[Company Name]` with your chosen company:
 
 ```text
-You are a prompt engineer helping Cymbal Capital Partners run Deep Research for investment due diligence.
-
-Rewrite my weak prompt into one high-quality prompt for Gemini Enterprise Deep Research.
-
-Weak prompt:
-"Research potentially companies on behalf of Cymbal Capital Partners - a venture capital and private equity firm looking for its next investment opportunity - and tell me if it is a good investment."
-
-Requirements for the improved prompt:
-1. Define investor context (venture capital/private equity)
-2. Require coverage of company background, founders, market viability, and risks
-3. Require reliable sources and citation-aware claims
-4. Force clear output sections with concise bullet points
-5. Include a go/no-go preliminary recommendation plus top open diligence questions
-6. Instruct the model to label uncertain claims as Unverified
-
-Return only the improved Deep Research prompt.
+Research [Company Name] and tell me if it would be a good investment for Cymbal Capital Partners.
 ```
 
-2. Take a moment to read through the old and new prompts. What has changed?
+4. Review the research plan when it appears. Notice how broad or narrow the plan is given the vague prompt.
 
-### Task 3: Compare Outputs (Weak vs Meta-Prompted)
+5. Click **Start research**. When the output is ready, keep this tab open — you will compare it with Task 3.
 
-1. In the same chat, paste this comparison prompt:
+### Task 2: Use Meta-Prompting to Build a Better Prompt
+
+Now ask Gemini to improve the weak prompt before running Deep Research again.
+
+1. Open a **new chat** in Gemini Enterprise in a new borwser tab. Do **not** select Deep Research — use the regular chat mode for this step.
+
+2. Paste the following prompt, replacing `[Company Name]` with the same company you chose:
 
 ```text
-Compare the two Deep Research outputs:
-1) weak baseline prompt I provided
-2) meta-prompted improved prompt you generated
+You are an expert at writing Deep Research prompts. Rewrite my rough question into the best possible Deep Research prompt. Return only the improved prompt, ready to paste directly into Deep Research.
 
-Score each from 1-5 on:
-- Clarity of scope
-- Quality of evidence
-- Actionability for investors
-- Transparency of uncertainty
-
-Then provide:
-1. Three concrete improvements from the meta-prompted version
-2. One remaining weakness
-3. A final one-sentence recommendation for Cymbal Capital Partners
+Here is my rough question:
+"Research [Company Name] and tell me if it would be a good investment for a venture capital firm."
 ```
 
-2. What did Gemini Enterprise rate your original prompt? What about after it was engineered?
+3. Read the improved prompt Gemini returns. Notice what it added — structure, scope, output format, evidence standards — things you did not specify. That is meta-prompting: Gemini applied its own knowledge of what makes a good prompt so you did not have to.
 
-### Task 4: Run Deep Research with the Improved Prompt
+### Task 3: Run Deep Research with the Improved Prompt
 
 1. Copy the improved prompt from Task 2.
 
-2. Open a new chat and start a new Deep Research run using the improved prompt.
+2. Open a **new chat**, select **Deep Research**, and paste the improved prompt.
 
-3. Review the plan and click **Start research**.
+3. Review the research plan — compare it with the one from Task 1. A stronger prompt should produce a more detailed and better-organised plan.
 
-4. Observe the changes between this research result compared to the first run.
+4. Click **Start research**.
 
-## When and Why to Use Meta Prompting
+5. When the output is complete, compare it side by side with your Task 1 result:
+   - Does this version cite specific sources?
+   - Are uncertain claims labeled as Unverified?
+   - Is the recommendation more specific and actionable?
+   - Which output would you actually use in a partner meeting?
 
-Use meta prompting when:
-- the task is high-stakes (investment, compliance, legal, strategy)
-- you need consistent structure across teams
-- you need stronger evidence standards and explicit uncertainty
-- the first prompt is broad, vague, or inconsistent
 
-Benefits over a poorly written prompt:
-- better research plans
-- fewer missing sections and unsupported claims
-- clearer decision-ready outputs
-- easier quality review and team alignment
+### Bonus Task 4: Apply Meta-Prompting to Your Own Work
 
-## Wrap-Up
+Think of a research question relevant to your own organization. It does not need to be investment-related. Some ideas:
 
-In this lab, students:
-- saw how a weak prompt limits Deep Research quality
-- used meta prompting to generate a stronger prompt
-- compared outputs side-by-side
-- produced a clearer investment recommendation for Cymbal Capital Partners
+| Scenario | Example question |
+|----------|-----------------|
+| **Market research** | What are the emerging trends in [your market] over the next 2–3 years? |
+| **Competitor analysis** | How do the top competitors to [your product] differentiate on features and pricing? |
+| **Technology evaluation** | What are the leading tools for [a capability your team needs] and what are the trade-offs? |
+| **Regulatory landscape** | What compliance requirements apply to [your industry] in [a region]? |
+| **Partnership scouting** | Who are the most credible vendors in [a domain relevant to you]? |
+
+1. Write a one-sentence rough version of your question.
+
+2. Use the meta-prompting technique from Task 2 to improve it into a full Deep Research prompt.
+
+3. Run the improved prompt and share one key finding with the group.
+
+## Congratulations
+
+In this lab, you have:
+- Run a vague prompt through Deep Research and identified its limitations.
+- Used meta-prompting to turn that weak prompt into a well-structured research brief.
+- Compared research quality before and after meta-prompting and seen why prompt structure matters.
