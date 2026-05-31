@@ -1,7 +1,7 @@
-# Gemini Canvas
+# Using the Gemini Canvas Tool
 
 ## Time Required
-20 minutes
+30 minutes
 
 ## Overview
 In this lab, you'll use a rough, hand-drawn sketch to generate the first version of the Cymbal Capital Partners Investment Dashboard using Gemini Canvas.
@@ -44,18 +44,30 @@ Before writing any code, grab a piece of paper and a pen, or use a digital white
    - Two distinct chart placeholders
    - A data table section at the bottom
 
-> [Note]
+> [!Note]
 > Focus on structure, not styling. The sketch is only there to help Canvas understand the page layout.
 
 ### Task 2: Upload the Sketch and Generate the Initial UI
 Now bring the sketch to life in Canvas.
 
+> [!Note]
+> At the time of this writing the Canvas tool was not supported in Gemini Enterprise. So, we are using the standard Gemini app for this play. 
+
+
 1. Open [Gemini](https://gemini.google.com/app), click the __+__ icon, and select **Canvas** from the Tools list.
+
+   <p align="left">
+     <img src="images/canvas-tool.png" width="75%" alt="Select the Canvas tool" />
+     <br>
+     <em>Tools | Canvas menu</em>
+   </p>
 
 2. Take a photo of your sketch and send it to yourself. Then copy and paste it into your Gemini prompt window. Alternatively, you can use the example sketch below. Right-click the sketch, copy it, and paste it into your prompt:
 
    <p align="left">
      <img src="images/ui-sketch.png" width="75%" alt="Cymbal Capital Partners dashboard sketch" />
+     <br>
+     <em>Cymbal Capital Partners Investment Dashboard — wireframe sketch</em>
    </p>
 
 3. Start small. Try a brief prompt first so you can see how Gemini interprets the image natively:
