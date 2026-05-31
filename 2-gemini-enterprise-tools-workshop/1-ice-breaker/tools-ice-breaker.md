@@ -14,7 +14,7 @@ In this lab, you will use Gemini's image generation model to place yourself — 
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-capital-partners-logo.png" width="75%" alt="Cymbal-Mart Logo" />
+  <img src="images/cymbal-capital-partners-logo.png" width="75%" alt="Cymbal Capital Partners Logo" />
 </p>
 
 Cymbal Capital Partners is running an internal leadership spotlight campaign. The Brand and Communications team wants a series of polished, credible portraits placing team members inside the firm's offices and deal-making environments. You have been asked to generate your own spotlight photo.
@@ -27,11 +27,11 @@ Cymbal Capital Partners is running an internal leadership spotlight campaign. Th
 
 2. In the chat bar, select the **Tools** icon and choose **Create images**.
 
-<p align="left">
-  <img src="images/create-images.png" width="75%" alt="Create Images" />
-  <br />
-  <em>Create Images</em>
-</p>
+   <p align="left">
+     <img src="images/create-images.png" width="75%" alt="Create Images" />
+     <br />
+     <em>Create Images</em>
+   </p>
 
 3. Click **+ Add files** and select **Upload files**. In the dialog, upload a photo of yourself, and click **Open**. __Note:__ if it is easier, just copy a picture of yourself to the clipboard and paste it in the chat box.
 

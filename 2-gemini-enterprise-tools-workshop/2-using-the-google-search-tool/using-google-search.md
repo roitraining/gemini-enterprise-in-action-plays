@@ -1,7 +1,7 @@
 # Investigating an Investment Theme with the Google Search Tool
 
 ## Time Required
-20-25 minutes
+20 minutes
 
 ## Overview
 In this lab, you will investigate a potential investment opportunity for Cymbal Capital Partners using Gemini Enterprise.
@@ -17,6 +17,10 @@ You will run the same analysis in two different ways and compare the quality of 
 
 ## Scenario
 
+<p align="left">
+  <img src="images/cymbal-capital-partners-logo.png" width="75%" alt="Cymbal Capital Partners Logo" />
+</p>
+
 Cymbal Capital Partners is an investment firm focused on identifying high-potential opportunities in venture capital and private equity.
 
 Your team has asked for a rapid market scan on an emerging theme:
@@ -31,10 +35,17 @@ You need to produce an initial research brief that helps the investment team dec
 
 Start with a quick baseline so you can compare results later.
 
-1. Open Gemini Enterprise
-2. Start a new chat.
-3. In the Connectors menu, deselect **Google Search**.
-4. Paste this prompt:
+1. Open Gemini Enterprise and start a new chat.
+
+2. In the Connectors menu, deselect **Google Search**.
+
+   <p align="left">
+     <img src="images/deselect-search.png" width="75%" alt="Deselect Search" />
+     <br />
+     <em>Deselect Search</em>
+   </p>
+
+3. Paste this prompt:
 
 ```text
 You are supporting an investment team at Cymbal Capital Partners.
@@ -46,16 +57,16 @@ Deliver:
 2. Key demand drivers
 3. Top risks
 4. 5 example companies in the space
-
-Do not browse the web.
 ```
 
-5. If you'd like, copy and paste this output to a Google Docs document named **Baseline Pass**. Note any statements that do not include concrete evidence, links, or dates.
+4. Copy and paste this output to a document. Note any statements that do not include concrete evidence, links, or dates.
 
 ### Task 2: Grounded Pass with Search Google
 
-1. Start a new chart in Gemini Enterprise.
-2. In the tools menu, select **Search Google**.
+1. Start a new chat in Gemini Enterprise.
+
+2. In the **Connectors** menu, select **Search Google**.
+
 3. Paste the prompt below to establish scope:
 
 ```text
@@ -77,10 +88,13 @@ Requirements:
 
 4. Review the response and verify that it includes links and clearly grounded claims.
 
-5. Compare this response against your **Baseline Pass** and note:
-- Which claims now have dates and sources
-- Which claims changed after searching
-- Which claims remain uncertain
+   <p align="left">
+     <img src="images/search-results.png" width="75%" alt="Search Results" />
+     <br />
+     <em>Search Results</em>
+   </p>
+
+5. Compare this response against your first results without Google Search. Now, there are citations with links that can be used to verify the claims made by the AI model. 
 
 ### Task 3: Recency Stress Test and Company Comparison
 
@@ -89,7 +103,7 @@ Now test whether the output can handle very recent developments and then narrow 
 1. In the same chat, run this recency prompt:
 
 ```text
-Using Google Search, list material developments from the last 90 days related to AI-powered cybersecurity for mid-market enterprises.
+Using Google Search, list material developments from the last 10 days related to AI-powered cybersecurity for mid-market enterprises.
 
 For each development include:
 - What happened
@@ -101,10 +115,11 @@ If an item cannot be dated and sourced, exclude it.
 ```
 
 2. Verify that each item has a date and link.
+
 3. Continue with company identification using this prompt:
 
 ```text
-Using Google Search, identify 8-10 private companies in AI-powered cybersecurity focused on mid-market customers.
+Using Google Search, identify 8–10 private companies in AI-powered cybersecurity focused on mid-market customers.
 
 For each company, provide:
 - Company name
@@ -190,30 +205,34 @@ Requirements:
 Rewrite this brief for an investment committee memo. Make it sharper and more concise while preserving all source-backed claims.
 ```
 
-## Bonus Task 6: Try Your Own Investment Theme
+## Bonus Task 6: Bring Your Own Use Case
 
-1. Choose a different sector you care about (for example: climate fintech, vertical AI, digital health ops, or industrial automation).
-2. Write a one-sentence investment thesis hypothesis.
-3. Reuse the Task 1-5 workflow to produce a new brief with Google Search grounding.
+Think of a topic your company or team actually needs real-time, web-grounded answers on. This could be competitive intelligence, regulatory changes, industry trends, supplier news, customer segment research, or anything else where outdated information causes problems.
 
-Suggested starter prompt:
+1. Define your topic in one or two sentences. What do you need to know, and why does recency matter?
+
+2. Enable **Google Search** and write a prompt that asks Gemini to research the topic, synthesize what it finds, and flag anything uncertain or conflicting.
+
+3. Review the response. Check that claims are grounded in cited sources, and note where Gemini could not find reliable information.
+
+Suggested starter prompt structure:
 
 ```text
-Help me test this investment hypothesis using Google Search:
-[Insert your 1-sentence thesis]
+Using Google Search, research the following topic for [your company or team]:
+[Describe your topic in 1–2 sentences]
 
-Follow a structured process:
-1. Market scan
-2. Company identification
-3. Upside/downside analysis
-4. Final recommendation memo
+Please:
+1. Summarize the current state of [topic] based on recent sources
+2. Identify the most important developments from the past 6–12 months
+3. Highlight any open questions or areas where the evidence is limited or conflicting
+4. Suggest 2–3 follow-up questions worth investigating further
 
-Cite reliable sources and flag unknowns explicitly.
+Cite your sources and note the date of any time-sensitive information.
 ```
 
 ## Congratulations
 In this lab, you have:
-- Run the same investment analysis with and without Search Google.
+- Run the same investment analysis with and without Google Search.
 - Compared outputs for evidence quality, recency, and verifiability.
 - Built a source-grounded market scan and company comparison.
 - Produced a concise, decision-ready investment brief for Cymbal Capital Partners.
