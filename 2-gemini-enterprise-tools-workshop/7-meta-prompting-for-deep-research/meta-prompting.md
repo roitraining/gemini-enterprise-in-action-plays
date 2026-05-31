@@ -1,7 +1,7 @@
 # Meta Prompting for Deep Research (Investment Diligence)
 
 ## Time Required
-12-15 minutes
+115 minutes
 
 ## Overview
 This lab teaches students how meta prompting improves Gemini Enterprise Deep Research quality.

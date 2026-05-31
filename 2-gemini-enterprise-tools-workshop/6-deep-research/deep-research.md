@@ -1,7 +1,7 @@
 # Deep Research for Investment Due Diligence
 
 ## Time Required
-20 minutes
+30 minutes
 
 ## Overview
 In this lab, you will use Gemini Enterprise Deep Research to investigate a company before making an investment decision.
@@ -11,15 +11,17 @@ You will learn how to start with a broad question, narrow the research to founde
 ### You learn how to:
 - Frame a strong Deep Research request for investment due diligence.
 - Ask follow-up questions that improve source quality and answer depth.
-- Separate company background, founder credibility, and market viability into distinct research passes.
-- Spot missing evidence, unsupported claims, and weak market signals.
 - Turn research output into a concise investment note for Cymbal Capital Partners.
 
 ## Scenario
 
-Cymbal Capital Partners is a fictional venture capital and private equity firm looking for the next big investment opportunity.
+<p align="left">
+  <img src="images/cymbal-capital-partners-logo.png" width="70%" alt="Cymbal Capital Partners logo" />
+</p>
 
-The team wants to evaluate a company's background, founders, and market viability before investing. Your job is to use Gemini Enterprise Deep Research to gather evidence, compare signals, and produce a clear recommendation for the investment committee.
+Cymbal Capital Partners is a venture capital and private equity firm evaluating a new investment opportunity.
+
+The team has identified a high-growth technology company and needs to move quickly. Your job is to use Gemini Enterprise Deep Research to gather evidence on the company's background, founder credibility, and market viability, then turn the findings into a concise recommendation for the investment committee.
 
 ## Lab Instructions
 
@@ -31,12 +33,31 @@ Begin with a wide question so Deep Research can surface the company overview and
 
 2. From the **Tools** list, select **Deep Research**.
 
-3. Paste this prompt:
+   <p align="left">
+     <img src="images/deep-research.png" width="75%" alt="Deep Research" />
+     <br>
+     <em>Deep Research</em>
+   </p>
+
+3. Choose a company to research. Pick one from the list below, or use any company you find interesting.
+
+   | Company | What they do |
+   |---------|--------------|
+   | **Stripe** | Payments infrastructure for the internet |
+   | **Databricks** | Data and AI platform for enterprises |
+   | **Anthropic** | AI safety company and developer of the Claude model |
+   | **Canva** | Online design and visual communication platform |
+   | **Scale AI** | Data labeling and AI infrastructure for ML teams |
+   | **Hugging Face** | Open-source AI model hub and developer tools |
+   | **Perplexity AI** | AI-powered answer engine and search alternative |
+   | **Harvey AI** | Generative AI platform built for legal work |
+
+4. Paste the following prompt, replacing `[Company Name]` with the company you chose:
 
 ```text
-You are helping Cymbal Capital Partners, a venture capital and private equity firm looking for their next big investment opportunity, to evaluate companies for a potential investment.
+You are helping Cymbal Capital Partners, a venture capital and private equity firm, to evaluate a potential investment.
 
-Research the company's background and summarize the most important facts for an investor.
+Research [Company Name] and summarize the most important facts for an investor.
 
 Return:
 1. What the company does
@@ -49,9 +70,9 @@ Return:
 Use reliable sources and cite where each claim comes from.
 ```
 
-4. Wait for Deep Research to generate a research plan. Examine the plan when it is complete. You can ask Deep Research to modify the plan if it does not match your preferences.
+5. Wait for Deep Research to generate a research plan. Review the plan — a good plan should cover at least the company background, the founders, and the market. If it looks too narrow or too broad, ask Deep Research to adjust it before proceeding.
 
-5. Scroll to the bottom of the plan, and click **Start research**. Gemini will begin researching the future for you.
+6. Scroll to the bottom of the plan and click **Start research**.
 
 ### Task 2: Focus on the Founders
 
@@ -60,7 +81,7 @@ Now narrow the research to the people behind the company.
 1. Ask a follow-up prompt focused only on the founders:
 
 ```text
-Now focus only on the founders and leadership teams of these companies.
+Now focus only on the founders and leadership team of this company.
 
 Research their background, relevant experience, and any signals that affect investor confidence.
 
@@ -74,7 +95,11 @@ Return:
 Use only evidence you can support from reliable sources.
 ```
 
-2. Check whether Deep Research distinguishes between strong evidence and speculation. Good output should name specific roles, dates, companies, or prior outcomes.
+2. Check whether Deep Research distinguishes between strong evidence and speculation. Good output should name specific roles, dates, companies, or prior outcomes. If the output is too vague, ask a follow-up:
+
+```text
+For each founder, cite specific roles, companies, and dates rather than general descriptions. Label anything you cannot verify from a reliable source as Unverified.
+```
 
 ### Task 3: Test Market Viability
 
@@ -96,30 +121,13 @@ Return:
 6. Whether the market appears attractive enough for venture or growth investment
 ```
 
-2. Look for evidence that the response is based on concrete sources rather than high-level industry language.
-
-### Task 4: Compare Signals and Spot Gaps
-
-Use Deep Research to pressure-test the story instead of accepting the first answer.
-
-1. Ask for a balanced diligence view:
+2. Look for evidence that the response is based on concrete sources rather than general market commentary. If the answer relies on broad industry language without citations, ask a follow-up:
 
 ```text
-Compare the company's story, the founders' background, and the market evidence.
-
-Separate the strongest support from the biggest gaps.
-
-Return:
-1. What the evidence supports strongly
-2. What remains unverified
-3. Where sources conflict or are incomplete
-4. The 3 most important diligence questions for Cymbal Capital Partners
-5. A concise go / no-go view
+Replace any general market size claims with specific figures or named sources. If a number cannot be verified, label it Unverified.
 ```
 
-2. If the answer sounds overconfident, ask it to label uncertain claims explicitly as unverified.
-
-### Task 5: Produce an Investment Summary
+### Task 4: Produce an Investment Summary
 
 Now turn the research into an internal memo.
 
@@ -143,30 +151,39 @@ Rules:
 - Keep it concise and decision-oriented.
 ```
 
-2. Review whether the memo is useful for an investment committee. The best version should make the decision easier, not just repeat the research.
-
-### Task 6: Refine for Better Investment Judgment
-
-Use one final prompt to improve the quality of the decision.
-
-1. Ask Deep Research to pressure-test the recommendation one more time:
+2. Review whether the memo is useful for an investment committee. The best version should make the decision easier, not just repeat the research. If it reads more like a summary than a recommendation, ask:
 
 ```text
-Before finalizing the investment view, challenge your own recommendation.
-
-List:
-1. The strongest reason to invest
-2. The strongest reason not to invest
-3. One fact that would most change the decision
-4. The most important next step for diligence
+Rewrite the recommendation section to be more direct. State clearly whether Cymbal Capital Partners should proceed to diligence, hold, or pass, and give a one-line rationale.
 ```
 
-2. Discuss how the answer changes when the model is forced to weigh the evidence against itself.
+### Bonus Task 5: Apply Deep Research to Your Own Work
 
-## Wrap-Up
+Choose a research question that is relevant to your organization — something you would normally spend hours investigating manually. Use Deep Research to do the first pass.
+
+Here are some ideas to get you started:
+
+| Scenario | Example question |
+|----------|-----------------|
+| **Market research** | What are the emerging trends and unmet needs in [your market or industry] over the next 2–3 years? |
+| **Competitor analysis** | Who are the top competitors to [your product or service], and how do they differentiate on pricing, features, and positioning? |
+| **Technology evaluation** | What are the leading platforms or tools for [a capability your team needs], and what are the trade-offs between them? |
+| **Regulatory landscape** | What regulations or compliance requirements should a company in [your industry] be aware of when operating in [a region or market]? |
+| **Partnership scouting** | Who are the most credible vendors or partners in the [a domain relevant to you] space, and what do customers say about working with them? |
+
+1. Open a new Gemini Enterprise chat and select **Deep Research**.
+
+2. Write a prompt that gives Deep Research your role, your organization's context, and the specific question you want answered. Ask it to return findings with citations.
+
+3. When the research plan appears, check that it covers the right scope — not too broad, not too narrow. Adjust it if needed before clicking **Start research**.
+
+4. Review the output. Ask at least one follow-up prompt to push for more specific evidence or to clarify a claim that looks too general.
+
+5. Share your question and one key finding with the group. Did Deep Research surface anything you did not already know?
+
+## Congratulations
 
 In this lab, you have:
-- Used Gemini Enterprise Deep Research to investigate a company's background.
-- Evaluated the founders' credibility and founder-market fit.
-- Tested whether the market is attractive enough to support investment.
-- Turned research into a concise partner-facing recommendation.
+- Used Gemini Enterprise Deep Research to investigate a company's background, founders, and market viability.
+- Refined research output by asking follow-up prompts that force citation and remove vague language.
+- Turned multi-pass research into a concise, decision-ready investment note.
