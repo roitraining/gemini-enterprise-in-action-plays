@@ -115,7 +115,7 @@ The video needs a voiceover that fits the 10-second runtime precisely.
 
 ### Bonus Task 4: Assemble the Full Ad Concept
 
-1. You now have three AI-generated components: the video clip, the voiceover script, and the audio track. Bring them together into a brief **creative brief document** that describes:
+1. You have three AI-generated components, in a new chat, ask Gemini to bring them together into a brief creative brief document that describes:
    - The target platform (Instagram Reels, TikTok, YouTube Shorts)
    - The video description and what it shows
    - The voiceover script with timestamp markers
@@ -123,9 +123,9 @@ The video needs a voiceover that fits the 10-second runtime precisely.
 
 2. Share the video, script, and brief with the group. Discuss: what would a human creative team need to do to take these AI-generated assets to a final, publishable state?
 
-### Bonus Task 4: Try with your own use case
+### Bonus Task 5: Try with your own use case
 
-1. Ceate a video clip, script, and voiceover for something relevant for your own work or personal use. 
+1. Create a video clip, script, and voiceover for something relevant for your own work or personal use. 
 
 ## Congratulations
 

@@ -1,4 +1,4 @@
-# Video Analysis
+# Video Analysis for Compliance
 
 ## Time Required
 20 minutes
@@ -91,7 +91,9 @@ https://drive.google.com/file/d/1J3Xyq90oJzBGFPMRdgX_18mRKXknmdSD/view?usp=shari
 
 ### Bonus Task 4: Process your own video
 
-1. You might have to do this one later. Grab your phone file film a video of your home, your office, or anywhere else for that matter. Upload it to Gemini and try asking some questions. __Note:__ You will need to convert the video to MP4 format, and the video size will be limited. This can be as low as 50MB depending on your license. 
+1. You might have to do this one later. Grab your phone file film a video of your home, your office, or anywhere else for that matter. Upload it to Gemini and try asking some questions.
+
+   __Note:__ You will need to convert the video to MP4 format, and the video size will be limited. This can be as low as 50MB depending on your license. 
 
 ## Congratulations
 

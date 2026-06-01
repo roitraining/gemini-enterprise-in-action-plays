@@ -83,7 +83,7 @@ Prompt engineering for image generation is iterative. Try at least two of the fo
    ```text
    You are an expert prompt engineer. 
    Create a prompt that uses Gemini Image Generation to create an Infographic. 
-   I want the infographic to promote the Company's Generative AI Hackathing event on June 14th. I want this promoted as a fun, summer event for everyone. There will be prizes and food.
+   I want the infographic to promote the Company's Generative AI Hackathon event on June 14th. I want this promoted as a fun, summer event for everyone. There will be prizes and food.
    Do not create the infographic, just return the prompt. 
    ```
 

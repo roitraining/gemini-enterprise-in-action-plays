@@ -1,4 +1,4 @@
-# Ice Breaker: Put Yourself in Cymbal-Mart
+# Ice Breaker: Simple Image Generation
 
 ## Time Required
 10 minutes

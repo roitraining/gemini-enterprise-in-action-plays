@@ -58,7 +58,7 @@ A meta-prompt asks Gemini to generate a prompt for another task — in this case
 
 4. Copy and paste the logo above into the chat box. 
 
-5. You need a model for your ad image. Open Gemini Enterpise in a new browser tab. Create a new chat and add the Image generation tool. Ask Gemini to create a headshot of a model. Describe the person any way like. Specify an age range, male or female, features, skin-tone, hair color, etc. Below, is an example. 
+5. If you need a headshot for your ad image, open Gemini Enterprise in a new browser tab. Create a new chat and add the Image generation tool. Ask Gemini to create a headshot of a model. Describe the person any way like. Specify an age range, male or female, features, skin-tone, hair color, etc. Below, is an example. 
 
    ```text
    Create a headshot for a model for an ad campaign. Make the model a woman in her 30s with black hair and brown skin.
@@ -102,7 +102,7 @@ A meta-prompt asks Gemini to generate a prompt for another task — in this case
 
 ### Bonus Task 4: Try your own example
 
-1. Start a new chat. Come up with an example relevant to your work or your company. Experiment with meta-prompting to have Gemini create the prompts to generate an ad campaign, a company promotion, a graphic for a social media post, or anythink else. 
+1. Start a new chat. Come up with an example relevant to your work or your company. Experiment with meta-prompting to have Gemini create the prompts to generate an ad campaign, a company promotion, a graphic for a social media post, or anything else. 
 
 ## Congratulations
 
