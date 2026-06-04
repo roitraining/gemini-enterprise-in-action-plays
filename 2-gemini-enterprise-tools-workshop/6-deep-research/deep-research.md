@@ -1,4 +1,4 @@
-# Deep Research for Investment Due Diligence
+# Deep Research
 
 ## Time Required
 30 minutes
@@ -9,9 +9,9 @@ In this lab, you will use Gemini Enterprise Deep Research to investigate a compa
 You will learn how to start with a broad question, narrow the research to founders and company background, test market viability, and turn the results into a partner-ready recommendation.
 
 ### You learn how to:
-- Frame a strong Deep Research request for investment due diligence.
+- Frame a strong Deep Research request.
 - Ask follow-up questions that improve source quality and answer depth.
-- Turn research output into a concise investment note for Cymbal Capital Partners.
+- Turn research output into a concise executive summary.
 
 ## Scenario
 
