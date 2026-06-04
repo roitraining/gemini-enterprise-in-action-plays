@@ -9,11 +9,10 @@ In this lab, you will use Gemini Enterprise's Manage files feature to turn scatt
 You will attach files from different sources, compare how file type affects the answer, and learn how to update the attached file set when you want the model to focus on different evidence.
 
 ### You learn how to:
-- Add files from your computer and other connected sources to Gemini Enterprise.
-- Work with multiple file types, including PDFs, spreadsheets, documents, text files, and images.
+- Analyze various files, including PDFs, spreadsheets, documents, text files, and images.
 - Ask questions that force Gemini to ground its answer in attached files.
 - Compare how answers change when you add, remove, or replace context files.
-- Build a cleaner, decision-ready response for a Cymbal Capital Partners investment workflow.
+- Build a cleaner, decision-ready response for a complex workflow.
 
 ## Scenario
 
