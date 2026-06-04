@@ -13,7 +13,7 @@ You will run the same analysis in two different ways and compare the quality of 
 - Use Search Google in Gemini Enterprise to investigate a market topic quickly.
 - Write prompts that demand verifiable, source-grounded research.
 - Compare companies and extract signals relevant to venture capital or private equity decisions.
-- Turn search findings into a concise investment recommendation.
+- Turn search findings into a concise recommendation.
 
 ## Scenario
 
