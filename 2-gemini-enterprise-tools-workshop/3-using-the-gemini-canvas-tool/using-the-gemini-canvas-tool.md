@@ -1,4 +1,4 @@
-# Using the Gemini Canvas Tool
+# Vibe-Coding with Gemini Canvas
 
 ## Time Required
 30 minutes
