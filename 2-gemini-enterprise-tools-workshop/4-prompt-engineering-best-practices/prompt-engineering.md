@@ -1,4 +1,4 @@
-# Prompt Engineering for Investment Analysis
+# Prompt Engineering Best Practices
 
 ## Time Required
 30 minutes
