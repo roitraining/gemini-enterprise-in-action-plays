@@ -7,11 +7,10 @@
 In this lab, you'll use Gemini to help Cymbal Capital Partners analyze investment opportunities and improve the quality of its outputs through better prompting. You will start with a plain request, improve it with basic formatting, move into a repeatable framework, and then apply advanced techniques and meta-prompting.
 
 ### You learn how to:
-- Compare a raw prompt with a slightly improved prompt to see why prompt engineering matters.
-- Use the 5-step prompting framework to define a task, add context, supply references, evaluate the output, and iterate.
-- Separate instructions from source material with delimiters so the model does not confuse the two.
+- Use the 5-step framework to refine prompts.
+- Separate prompt sections with delimiters to help the model understand.
 - Use few-shot examples to teach a consistent style or structure.
-- Ask for step-by-step reasoning on complex decisions without losing control of the final format.
+- Specify step-by-step instructions for complex tasks.
 - Set system-style instructions that keep Gemini focused on a persona and constraints.
 - Use meta-prompting to improve your own prompts before you rely on them.
 
