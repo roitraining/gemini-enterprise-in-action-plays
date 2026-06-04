@@ -1,4 +1,4 @@
-# Investigating an Investment Theme with the Google Search Tool
+# Using the Google Search Tool
 
 ## Time Required
 20 minutes
