@@ -19,7 +19,10 @@ You will learn how to start with a broad question, narrow the research to founde
   <img src="images/cymbal-analysts.png" width="70%" alt="Cymbal Capital Partners logo" />
 </p>
 
-The Cymbal Capital Partners team has identified a high-growth technology company and needs to move quickly. Your job is to use Gemini Enterprise Deep Research to gather evidence on the company's background, founder credibility, and market viability, then turn the findings into a concise recommendation for the investment committee.
+The Cymbal Capital Partners team has identified a number of high-growth technology companies and needs to move quickly. 
+
+Your job is to use Gemini Enterprise Deep Research to gather evidence on the company backgrounds, founder credibility, and market viability, and then, turn the findings into concise recommendations for the investment committee.
+
 
 ## Lab Instructions
 
