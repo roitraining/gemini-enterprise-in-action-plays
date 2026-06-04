@@ -14,10 +14,10 @@ In this lab, you'll use a rough, hand-drawn sketch to generate the first version
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-capital-partners-logo.png" width="70%" alt="Cymbal Capital Partners logo" />
+  <img src="images/cymbal-analysts.png" width="70%" alt="Cymbal Capital Partners Analysts" />
 </p>
 
-Cymbal Capital Partners is a fictional venture capital and private equity firm evaluating its next investment opportunity. The team wants a dashboard that helps partners quickly scan the deal pipeline, review portfolio signals, and identify the most promising companies at a glance.
+Cymbal Capital Partners is evaluating its next investment opportunity. The team wants a dashboard that helps partners quickly scan the deal pipeline, review portfolio signals, and identify the most promising companies at a glance.
 
 This application will help investment teams see which opportunities need attention, which deals are moving forward, and how the current pipeline is distributed across sectors and stages.
 

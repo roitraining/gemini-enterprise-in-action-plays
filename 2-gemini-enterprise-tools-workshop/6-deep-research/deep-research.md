@@ -16,12 +16,10 @@ You will learn how to start with a broad question, narrow the research to founde
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-capital-partners-logo.png" width="70%" alt="Cymbal Capital Partners logo" />
+  <img src="images/cymbal-analysts.png" width="70%" alt="Cymbal Capital Partners logo" />
 </p>
 
-Cymbal Capital Partners is a venture capital and private equity firm evaluating a new investment opportunity.
-
-The team has identified a high-growth technology company and needs to move quickly. Your job is to use Gemini Enterprise Deep Research to gather evidence on the company's background, founder credibility, and market viability, then turn the findings into a concise recommendation for the investment committee.
+The Cymbal Capital Partners team has identified a high-growth technology company and needs to move quickly. Your job is to use Gemini Enterprise Deep Research to gather evidence on the company's background, founder credibility, and market viability, then turn the findings into a concise recommendation for the investment committee.
 
 ## Lab Instructions
 

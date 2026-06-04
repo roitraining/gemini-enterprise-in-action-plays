@@ -17,10 +17,10 @@ In this lab, you'll use Gemini to help Cymbal Capital Partners analyze investmen
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-capital-partners-logo.png" width="70%" alt="Cymbal Capital Partners logo" />
+  <img src="images/presentation.png" width="70%" alt="Cymbal Capital Partners Presentation" />
 </p>
 
-Cymbal Capital Partners is a fictional venture capital and private equity firm looking for its next high-potential investment. The team reviews startup pitches, portfolio signals, market trends, and diligence notes every day, but they want a faster way to turn scattered information into a decision-ready recommendation.
+Cymbal Capital Partners is looking for its next high-potential investment. The team reviews startup pitches, portfolio signals, market trends, and diligence notes every day, but they want a faster way to turn scattered information into a decision-ready recommendation.
 
 Your job is to learn how to prompt Gemini so it can help the team summarize information accurately, compare opportunities consistently, and produce outputs that are easy for investment partners to review.
 

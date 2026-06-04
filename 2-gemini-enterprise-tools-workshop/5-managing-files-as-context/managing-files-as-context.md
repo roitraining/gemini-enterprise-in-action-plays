@@ -17,10 +17,10 @@ You will attach files from different sources, compare how file type affects the 
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-capital-partners-logo.png" width="70%" alt="Cymbal Capital Partners logo" />
+  <img src="images/working.png" width="70%" alt="Cymbal Capital Partners logo" />
 </p>
 
-Cymbal Capital Partners is a fictional venture capital and private equity firm evaluating a new investment opportunity.
+Cymbal Capital Partners is evaluating a new investment opportunity.
 
 The team has collected a deal memo, traction metrics, customer notes, and product visuals in different file types and from different sources. Your job is to use Gemini Enterprise to manage those files as context so the model can summarize the opportunity, compare signals, and produce a partner-ready recommendation.
 

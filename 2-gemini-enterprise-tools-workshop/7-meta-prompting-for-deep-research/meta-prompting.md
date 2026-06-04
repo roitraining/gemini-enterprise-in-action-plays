@@ -16,10 +16,12 @@ This lab shows the difference a better prompt makes. You will run a simple, vagu
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-capital-partners-logo.png" width="70%" alt="Cymbal Capital Partners logo" />
+  <img src="images/human-ai.png" width="70%" alt="Cymbal Capital Partners" />
 </p>
 
-Cymbal Capital Partners is a venture capital and private equity firm evaluating a new investment opportunity. Your job is to show how meta-prompting produces a better research brief — and a better result — than a quick, unstructured question.
+Cymbal Capital Partners is evaluating a new investment opportunity. You are creating a research brief for a meeting this afternoon with your boss and couple partners. You have tried using Deep Research. The results are pretty good, but not great. 
+
+Your want to use meta-prompting to see if Gemini can help you build a prompt that produces a better result than a quick, unstructured question.
 
 ## Lab Instructions
 

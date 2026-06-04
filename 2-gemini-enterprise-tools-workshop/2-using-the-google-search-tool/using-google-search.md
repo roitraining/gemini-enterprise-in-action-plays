@@ -18,7 +18,7 @@ You will run the same analysis in two different ways and compare the quality of 
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-capital-partners-logo.png" width="75%" alt="Cymbal Capital Partners Logo" />
+  <img src="images/cymbal-office.png" width="75%" alt="Cymbal Capital Partners Office" />
 </p>
 
 Cymbal Capital Partners is an investment firm focused on identifying high-potential opportunities in venture capital and private equity.
