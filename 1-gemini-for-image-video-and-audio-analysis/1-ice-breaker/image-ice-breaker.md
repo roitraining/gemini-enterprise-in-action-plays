@@ -30,7 +30,7 @@ Cymbal Mart is running an internal employee spotlight campaign. The Social Media
    <p align="left">
       <img src="images/generate-images.png" width="50%" alt="Generate Images" />
       <br>
-      <em>Generate Images tool</em>
+      <em>Generate images tool</em>
    </p>
 
 3. Click **+ Add files** and select **Upload files**. In the dialog, upload a photo of yourself, and click **Open**. __Note:__ if it is easier, just copy a picture of yourself to the clipboard and paste it in the chat box. 
@@ -70,7 +70,7 @@ Adjust the image using the attached logo on the vest.
 
 
    <p align="left">
-      <img src="images/image-gen-result2.png" width="50%" alt="Generate Image Result" />
+      <img src="images/image-gen-result3.png" width="50%" alt="Generate Image Result" />
       <br>
       <em>Example of a generated image.</em>
    </p>
