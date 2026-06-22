@@ -4,7 +4,7 @@
 20 minutes
 
 ## Overview
-In this lab, you will upload a store walk-through video alongside a PDF standards document and ask Gemini to cross-reference them — identifying compliance violations, citing specific policy sections, and providing exact timestamps. This is a practical example of multimodal analysis: Gemini reads the document and watches the video simultaneously to produce a grounded, timestamped audit.
+In this lab, you will upload a store walk-through video alongside a PDF standards document and ask Gemini to cross-reference them—identifying compliance violations, citing specific policy sections, and providing exact timestamps. This is a practical example of multimodal analysis: Gemini reads the document and watches the video simultaneously to produce a grounded, timestamped audit.
 
 ### You learn how to:
 - Upload and analyze a video file with Gemini.
@@ -17,11 +17,11 @@ In this lab, you will upload a store walk-through video alongside a PDF standard
   <img src="images/cymbal-mart-logo.png" width="50%" alt="Cymbal-Mart Logo" />
 </p>
 
-Cymbal-Mart's Loss Prevention and Store Operations team conducts quarterly compliance audits across its retail locations. A regional manager has submitted a walk-through video from Store #114 for review. You need to cross-reference the footage against the company's official **Visual Merchandising and Store Standards** document and produce a formal audit report before the next leadership review.
+Cymbal Mart's Loss Prevention and Store Operations team conducts quarterly compliance audits across its retail locations. A regional manager has submitted a walk-through video from Store #114 for review. You need to cross-reference the footage against the company's official **Visual Merchandising and Store Standards** document and produce a formal audit report before the next leadership review.
 
 ## Before you begin
 
-This lab analyzes a video of a store walk through, comparing it against a PDF document of safety standards for Cymbal's retail stores. Take a few minutes to view both. 
+This lab analyzes a video of a store walk through, comparing it against a PDF document of safety standards for 's retail stores. Take a few minutes to view both. 
 
 [Cymbal Mart Store Safety Standards](https://drive.google.com/file/d/1_yZkzZPBTEk1rUE32SmW4aAJPIXUdR4J/view?usp=drive_link)
 
@@ -30,11 +30,11 @@ This lab analyzes a video of a store walk through, comparing it against a PDF do
 
 ## Lab Instructions
 
-### Task 1: Upload the Files and Run the Audit
+### Task 1: Upload the files and run the audit
 
 1. Open **Gemini Enterprise** in your browser, and start a new chat. 
 
-2. Click **+ Add files** → **Add from Drive**. In the __Search__ box at the top paste the URL below, then press **Enter** and select then __Insert__ the resulting file into your chat. This is the Cymbal Store Standards PDF file. 
+2. Click **+ Add files** → **Add from Drive**. In the __Search__ box at the top paste the URL below, then press ENTER and select then __Insert__ the resulting file into your chat. This is the Cymbal Store Standards PDF file. 
 
 ```text
 https://drive.google.com/file/d/1_yZkzZPBTEk1rUE32SmW4aAJPIXUdR4J/view?usp=drive_link
@@ -46,12 +46,12 @@ https://drive.google.com/file/d/1_yZkzZPBTEk1rUE32SmW4aAJPIXUdR4J/view?usp=drive
 https://drive.google.com/file/d/1J3Xyq90oJzBGFPMRdgX_18mRKXknmdSD/view?usp=sharing
 ```
 
-3. Copy and paste the following prompt into the chat, then press **Enter**:
+3. Copy and paste the following prompt into the chat, then press ENTER:
 
    ```text
-   Role: You are the Primary Safety and Compliance Manager for Cymbal-Mart, conducting a formal virtual audit of Store number 114.
+   Role: You are the Primary Safety and Compliance Manager for Cymbal Mart, conducting a formal virtual audit of Store number 114.
 
-   Task: Analyze the provided store walk-through video. Identify every instance of non-compliance with the "Cymbal-Mart Visual Merchandising and Store Standards" document.
+   Task: Analyze the provided store walk-through video. Identify every instance of non-compliance with the "Cymbal Mart Visual Merchandising and Store Standards" document.
 
    Instructions:
    - Cross-reference: For every violation identified, cite the specific section of the Standards document (e.g., "Violation of Section 3.2: Vertical Stacking").
@@ -63,9 +63,9 @@ https://drive.google.com/file/d/1J3Xyq90oJzBGFPMRdgX_18mRKXknmdSD/view?usp=shari
    3. Operational Recommendations — brief, actionable suggestions for the Store Manager to prevent recurrence of each violation type.
    ```
 
-4. Review the output. Verify that each cited standards section actually corresponds to the violation described — this is a good way to test the grounding quality of the analysis.
+4. Review the output. Verify that each cited standards section actually corresponds to the violation described—this is a good way to test the grounding quality of the analysis.
 
-### Task 2: Drill Down on a Specific Violation
+### Task 2: Drill down on a specific violation
 
 1. Pick one violation from the Audit Log that interests you. Ask a follow-up question to get more detail:
 
@@ -79,7 +79,7 @@ https://drive.google.com/file/d/1J3Xyq90oJzBGFPMRdgX_18mRKXknmdSD/view?usp=shari
    Re-rank all the violations by estimated customer safety risk rather than chronological order. Which three are most likely to cause a customer injury if not addressed today?
    ```
 
-### Bonus Task 3: Write the Manager's Corrective Action Email
+### Bonus Task 3: Write the manager's corrective action email
 
 1. Ask Gemini to draft a formal corrective action email:
 
