@@ -4,7 +4,7 @@
 45 minutes
 
 ## Overview
-This is your lab. You have spent the previous labs generating images, building infographics, using meta-prompting, analyzing video, and producing promotional content — all for Cymbal-Mart. Now apply those same skills to a challenge from your own work.
+This is your lab. You have spent the previous labs generating images, building infographics, using meta-prompting, analyzing video, and producing promotional content—all for Cymbal Mart. Now apply those same skills to a challenge from your own work.
 
 Pick one modality, define a real goal, and build something you can actually use.
 
@@ -15,7 +15,7 @@ Pick one modality, define a real goal, and build something you can actually use.
 
 ## Lab Instructions
 
-### Task 1: Choose Your Modality and Define Your Goal
+### Task 1: Choose your modality and define your goal
 
 Start by deciding which capability from this course fits your use case best:
 
@@ -29,14 +29,14 @@ Start by deciding which capability from this course fits your use case best:
 
 Then answer these questions before you start prompting:
 
-- **What is the output you need?** Describe it specifically — not "a marketing image" but "a product photo of our new onboarding kit for the HR welcome page."
+- **What is the output you need?** Describe it specifically—not "a marketing image" but "a product photo of our new onboarding kit for the HR welcome page."
 - **Who is the audience?** The answer should directly shape tone, style, and format.
-- **What reference materials do you have?** A logo file, a brand guide, a headshot, a policy document, a video recording — list what is available.
+- **What reference materials do you have?** A logo file, a brand guide, a headshot, a policy document, a video recording—list what is available.
 - **What does a great result look like?** Set a specific bar so you know when you are done.
 
-### Task 2: Build Your Asset
+### Task 2: Build your asset
 
-Open the appropriate tool — Gemini Enterprise for image generation and video analysis, or Gemini at gemini.google.com for video creation — and build your asset.
+Open the appropriate tool—Gemini Enterprise for image generation and video analysis, or Gemini at gemini.google.com for video creation—and build your asset.
 
 Apply the prompt engineering habits from this course:
 - Give Gemini a clear role before stating the task.
@@ -46,7 +46,7 @@ Apply the prompt engineering habits from this course:
 
 If you are doing video analysis, pair your footage with a written standard or brief that gives Gemini something concrete to check against. The more structured the grounding document, the more actionable the output.
 
-### Task 3: Refine and Share
+### Task 3: Refine and share
 
 Review your output critically:
 - Does it match the goal you defined in Task 1?
@@ -55,7 +55,7 @@ Review your output critically:
 
 Make at least one refinement, then share your final output and the prompt that produced it with the group. Be ready to explain what worked, what surprised you, and what you would do differently next time.
 
-### Bonus Task 4: Extend It
+### Bonus Task 4: Extend it
 
 Take your asset one step further:
 - If you generated an image, use the meta-prompting technique to ask Gemini to improve your original prompt, then regenerate and compare.
