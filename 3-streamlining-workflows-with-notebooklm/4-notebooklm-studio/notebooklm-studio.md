@@ -4,7 +4,7 @@
 30 minutes
 
 ## Overview
-In this lab, you will explore NotebookLM's Studio panel — a set of tools for transforming research into polished, shareable outputs. Starting from the competitive intelligence notebook built in Lab 3, you will generate an Audio Overview, create a structured investor presentation, build a Mind Map, and produce Flashcards and a written Report — each one grounded in your notebook's sources.
+In this lab, you will explore NotebookLM's Studio panel—a set of tools for transforming research into polished, shareable outputs. Starting from the competitive intelligence notebook built in Lab 3, you will generate an Audio Overview, create a structured investor presentation, build a Mind Map, and produce Flashcards and a written Report—each one grounded in your notebook's sources.
 
 ### You learn how to:
 - Generate an Audio Overview and customize it for a specific audience.
@@ -18,7 +18,7 @@ In this lab, you will explore NotebookLM's Studio panel — a set of tools for t
   <img src="images/cymbal-director.png" width="50%" alt="Cymbal Pharma Logo" />
 </p>
 
-The investor pitch is in two days. You have assembled a strong research notebook — Cymbal's internal financials alongside live competitor and market data. Now you need to turn that research into outputs the team can use: a briefing for the CEO to listen to on the drive to the meeting, a structured presentation outline, a visual map of the competitive landscape, and a leave-behind report.
+The investor pitch is in two days. You have assembled a strong research notebook—Cymbal's internal financials alongside live competitor and market data. Now you need to turn that research into outputs the team can use: a briefing for the CEO to listen to on the drive to the meeting, a structured presentation outline, a visual map of the competitive landscape, and a leave-behind report.
 
 In this lab, you will open the notebook from Lab 3 and use the Studio panel to generate all of those outputs.
 
@@ -30,7 +30,7 @@ This lab builds on the `CPH-412 Series B Pitch Research` notebook you created in
 
 ### Task 1: Generate an Audio Overview
 
-The Audio Overview feature converts your notebook's sources into a conversational podcast-style summary — two AI hosts discussing the key themes, insights, and questions raised by your sources.
+The Audio Overview feature converts your notebook's sources into a conversational podcast-style summary—two AI hosts discussing the key themes, insights, and questions raised by your sources.
 
 1. Open your `CPH-412 Series B Pitch Research` notebook and click the **Studio** tab in the right panel.
 
@@ -47,8 +47,8 @@ The Audio Overview feature converts your notebook's sources into a conversationa
 
 3. Click **Generate** to create the Audio Overview.
 
-   > [!WARNING]
-   > Audio generation takes a few minutes. The result is a downloadable audio file featuring two AI hosts. It will reflect the content of all active sources. You can move onto the next section and come back here when it is completed. The output will be saved in the Outputs section on the lower right where notes are saved. 
+> [!WARNING]
+> Audio generation takes a few minutes. The result is a downloadable audio file featuring two AI hosts. It will reflect the content of all active sources. You can move onto the next section and come back here when it is completed. The output will be saved in the Outputs section on the lower right where notes are saved. 
 
    <p align="left">
      <img src="images/audio-generating.png" width="55%" alt="Audio Overview generating" />
@@ -78,8 +78,8 @@ The Presentation output generates a structured slide-by-slide outline from your 
    ```text
    Structure this as a Series B investor pitch. Include: (1) Executive Summary, (2) The Alzheimer's Market Opportunity, (3) CPH-412 Mechanism and Differentiation, (4) Competitive Landscape, (5) Financial Summary and Use of Proceeds, (6) Ask and Next Steps. Tone should be confident and data-driven.
    ```
-   > [!WARNING]
-   > Like audio generation, this takes a while, but you don't have to wait. Continue with the next section, and return here when generation is complete. 
+> [!WARNING]
+> Like audio generation, this takes a while, but you don't have to wait. Continue with the next section, and return here when generation is complete. 
 
 3. Once the slide show generation is complete, click on it to open it. Review the presentaiton. Check that:
    - Each major section maps to a slide
@@ -95,14 +95,14 @@ The Presentation output generates a structured slide-by-slide outline from your 
 
 ### Task 3: Build a Mind Map
 
-The Mind Map visualizes the relationships between concepts, sources, and themes across your notebook — useful for spotting connections and gaps that are hard to see in a linear chat interface.
+The Mind Map visualizes the relationships between concepts, sources, and themes across your notebook—useful for spotting connections and gaps that are hard to see in a linear chat interface.
 
 1. In the Studio panel, the **Mind Map** button.
 
 2. Once the Mind Map loads, explore it:
    - Click on a node to expand it and see related sub-topics.
    - Look for how the competitive landscape nodes (Biogen, Lilly) relate to the market opportunity and CPH-412's positioning.
-   - Identify any clusters that surprise you — areas where the sources revealed unexpected connections.
+   - Identify any clusters that surprise you—areas where the sources revealed unexpected connections.
 
    <p align="left">
      <img src="images/mind-map.png" width="70%" alt="Mind Map visualization of notebook sources" />
@@ -170,7 +170,7 @@ A single set of sources can produce very different Audio Overviews depending on 
 2. This time, enter a completely different audience context:
 
    ```text
-   This time, speak to a skeptical venture capital partner who has already seen dozens of biotech pitches. Emphasize the risks — regulatory, competitive, and financial — and what Cymbal would need to prove in Phase 1b to justify a follow-on Series C.
+   This time, speak to a skeptical venture capital partner who has already seen dozens of biotech pitches. Emphasize the risks—regulatory, competitive, and financial—and what Cymbal would need to prove in Phase 1b to justify a follow-on Series C.
    ```
 
 3. Click **Generate** and listen to the result.
@@ -179,7 +179,7 @@ A single set of sources can produce very different Audio Overviews depending on 
 
 ### Bonus Task 6: Try It with Your Own Data
 
-Create a new notebook and add one or more of your own documents — meeting notes, a project proposal, a research report, or a set of articles. Use the Studio panel to generate an output that would be immediately useful in your work: a Presentation outline, a Report, or an Audio Overview. Share the result with a colleague.
+Create a new notebook and add one or more of your own documents—meeting notes, a project proposal, a research report, or a set of articles. Use the Studio panel to generate an output that would be immediately useful in your work: a Presentation outline, a Report, or an Audio Overview. Share the result with a colleague.
 
 ## Congratulations
 
