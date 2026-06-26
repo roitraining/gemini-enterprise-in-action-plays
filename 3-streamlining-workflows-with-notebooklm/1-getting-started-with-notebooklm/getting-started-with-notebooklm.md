@@ -60,8 +60,8 @@ https://drive.google.com/file/d/1XUM3q8Jf1D6EGuOCkZPykwzayA0YrG3z/view?usp=drive
 
 5. Wait a few seconds while NotebookLM processes the document. The source appears in the Sources panel when it is ready.
 
-   > [!NOTE]
-   > NotebookLM reads and indexes the full document during this step. The richer and more structured the source, the better the quality of answers and citations you will receive.
+> [!NOTE]
+> NotebookLM reads and indexes the full document during this step. The richer and more structured the source, the better the quality of answers and citations you will receive.
 
 ### Task 2: Explore the Notebook Guide
 
@@ -81,8 +81,8 @@ Once a source is added, NotebookLM automatically generates a **Notebook Guide**�
 
 3. Scroll to the **Suggested questions** at the bottom of the guide. These are questions NotebookLM has surfaced as important based on the document's content. Take note of them before moving to the next task.
 
-   > [!NOTE]
-   > The Notebook Guide is generated automatically but is not saved. If you want to keep it, click the **Save to note** icon (📌) before closing or scrolling past it.
+> [!NOTE]
+> The Notebook Guide is generated automatically but is not saved. If you want to keep it, click the **Save to note** icon (📌) before closing or scrolling past it.
 
 ### Task 3: Ask Targeted Questions
 
