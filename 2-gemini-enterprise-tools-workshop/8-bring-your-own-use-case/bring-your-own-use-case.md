@@ -15,7 +15,7 @@ Pick the tool or technique that fits your use case best, define a specific goal,
 
 ## Lab Instructions
 
-### Task 1: Choose Your Tool and Define Your Goal
+### Task 1: Choose your tool and define your goal
 
 Start by deciding which capability from this course fits your use case best:
 
@@ -35,7 +35,7 @@ Then answer these questions before you start prompting:
 - **What materials do you have?** List any files, URLs, or reference content you can attach.
 - **What does a great result look like?** Set a clear bar so you know when you are done.
 
-### Task 2: Build Your Output
+### Task 2: Build your output
 
 Open Gemini Enterprise and work through your use case using the tool and techniques you chose in Task 1.
 
@@ -46,7 +46,7 @@ Apply the habits from this course:
 - Attach files when you have source material—do not describe documents in words when you can upload them.
 - If you are doing research, ask at least one follow-up prompt to push for more specific evidence or citations.
 
-### Task 3: Refine and Share
+### Task 3: Refine and share
 
 Review your output critically:
 - Does it address the specific goal you defined in Task 1?
@@ -55,7 +55,7 @@ Review your output critically:
 
 Make at least one refinement based on your review, then share your final output and the prompt that produced it with the group. Be ready to explain which tool or technique you chose, what worked, and what you would do differently next time.
 
-### Bonus Task 4: Combine Two Tools
+### Bonus Task 4: Combine two tools
 
 Most real work challenges benefit from more than one capability. Extend your Task 2 output by adding a second tool or technique:
 
