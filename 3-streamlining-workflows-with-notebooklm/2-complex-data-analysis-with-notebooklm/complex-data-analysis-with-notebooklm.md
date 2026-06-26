@@ -30,7 +30,7 @@ Two of the three sources in this lab are provided below as text you will paste d
 
 ## Lab Instructions
 
-### Task 1: Create the Notebook and Add All Three Sources
+### Task 1: Create the Notebook and add all three sources
 
 1. Open [NotebookLM](https://notebooklm.google.com/) and create a **New notebook**. Close the __Add sources__ screen, and then name the notebook `CPH-412 SAE Compliance Review`.
 
@@ -106,7 +106,7 @@ Two of the three sources in this lab are provided below as text you will paste d
      <br><em>The Sources panel with the FDA regulation, Cymbal protocol, and investigator log loaded</em>
    </p>
 
-### Task 2: Cross-Reference the Sources
+### Task 2: Cross-reference the sources
 
 With all three sources active, NotebookLM can answer questions that require reading across all of them simultaneously.
 
@@ -136,7 +136,7 @@ With all three sources active, NotebookLM can answer questions that require read
 > [!NOTE]
 > You are looking for at least two distinct violations: (1) the failure to fully suspend dosing as required by Section 5.2 of the Cymbal protocol (4.9x ULN exceeds the 3x threshold, but the investigator only "delayed" rather than suspended), and (2) the delayed QA notification—Thursday afternoon instead of within 24 hours of Monday's result.
 
-### Task 3: Isolate Sources to Test Reasoning
+### Task 3: Isolate sources to test reasoning
 
 One of NotebookLM's most powerful features is source deselection. Turning off individual sources lets you ask the same question with different information available—revealing how much each source contributes to the answer.
 
@@ -183,7 +183,7 @@ One of NotebookLM's most powerful features is source deselection. Turning off in
 
 4. Look back at the investigator's log. Is there any detail in the log that the memo did not address? If so, ask a follow-up to surface it.
 
-### Bonus Task 5: Stress-Test the Sources
+### Bonus Task 5: Stress-test the sources
 
 1. Ask NotebookLM a question it cannot fully answer from the available sources:
 
@@ -203,7 +203,7 @@ One of NotebookLM's most powerful features is source deselection. Turning off in
 
 3. Now ask the timing compliance question again. Does NotebookLM surface the conflict between Protocol v3.1 and the draft amendment? How does it handle the discrepancy?
 
-### Bonus Task 6: Try It with Your Own Multi-Source Problem
+### Bonus Task 6: Try it with your own multi-source problem
 
 Create a new notebook around a real situation where you have multiple documents that need to be compared or cross-referenced—for example, a vendor contract alongside an internal policy, or meeting notes alongside a project brief. Add at least two sources, ask a cross-source question, and try deselecting one source to see how much it changes the answer.
 
