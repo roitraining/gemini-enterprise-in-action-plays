@@ -26,7 +26,7 @@ In this lab, you will load Cymbal's internal data into a notebook and then use N
 
 ## Lab Instructions
 
-### Task 1: Create the Notebook and Add Cymbal's Internal Data
+### Task 1: Create the Notebook and add Cymbal's internal data
 
 1. Open [NotebookLM](https://notebooklm.google.com/) and click **Create new notebook**. Close the __Add sources__ screen, and then name the notebook `CPH-412 Series B Pitch Research`.
 
@@ -73,7 +73,7 @@ In this lab, you will load Cymbal's internal data into a notebook and then use N
 > [!NOTE]
 > With only this source loaded, NotebookLM knows everything about Cymbal—but nothing about the competitive landscape. That changes in the next task.
 
-### Task 2: Search the Web for Competitor Sources
+### Task 2: Search the web for competitor sources
 
 NotebookLM can search the internet and add live pages directly to your notebook as sources.
 
@@ -140,7 +140,7 @@ NotebookLM can search the internet and add live pages directly to your notebook 
 
 4. Your notebook should now contain Cymbal's internal brief alongside live web sources on competitor drugs and the Alzheimer's market.
 
-### Task 3: Ask Competitive Intelligence Questions
+### Task 3: Ask competitive intelligence questions
 
 With internal and external sources in the same notebook, you can ask questions that no single source could answer on its own.
 
@@ -173,7 +173,7 @@ With internal and external sources in the same notebook, you can ask questions t
 
 5. Use source deselection to verify which sources are driving specific answers. Deselect the Cymbal internal brief and re-ask Question 2. Does the answer change in a meaningful way?
 
-### Bonus Task 4: Expand the Competitive Picture
+### Bonus Task 4: Expand the competitive picture
 
 1. Search for one more competitor or market factor that matters for the investor pitch:
 
@@ -191,7 +191,7 @@ With internal and external sources in the same notebook, you can ask questions t
 
 3. Ask NotebookLM to generate a one-paragraph **Competitive Landscape Summary** suitable for the executive summary page of the investor pitch deck. Save it as a note.
 
-### Bonus Task 5: Try It with Your Own Topic
+### Bonus Task 5: Try it with your own topic
 
 Create a new notebook, add a short internal document or memo as copied text, then use web search to find 2–3 live sources on a topic relevant to your role—a competitor, a market trend, or a new regulation. Ask one question that requires both your internal source and the web sources to answer.
 
