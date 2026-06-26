@@ -4,7 +4,7 @@
 20 minutes
 
 ## Overview
-In this lab, you will create your first NotebookLM notebook and explore its core features: uploading a source document, reviewing the automatically generated Notebook Guide, and asking targeted questions that are grounded in your source. Every answer NotebookLM provides includes a citation that links directly back to the relevant passage — so you can verify every claim in seconds.
+In this lab, you will create your first NotebookLM notebook and explore its core features: uploading a source document, reviewing the automatically generated Notebook Guide, and asking targeted questions that are grounded in your source. Every answer NotebookLM provides includes a citation that links directly back to the relevant passage—so you can verify every claim in seconds.
 
 ### You learn how to:
 - Create a new notebook in NotebookLM.
@@ -21,7 +21,7 @@ In this lab, you will create your first NotebookLM notebook and explore its core
 
 You are a Senior Research Scientist in Cymbal Pharma's Early-Stage Drug Discovery unit. Your team has been fast-tracking a promising new Alzheimer's compound called **CPH-412**.
 
-A critical, *Initial Safety and Toxicity Report* has just arrived from the lab. You only have an hour before a stakeholder meeting where you must identify the high-risk data points and recommend a path forward. Studying the full report would leave no time for preparation — but with the right tool, it doesn't have to.
+A critical, *Initial Safety and Toxicity Report* has just arrived from the lab. You only have an hour before a stakeholder meeting where you must identify the high-risk data points and recommend a path forward. Studying the full report would leave no time for preparation—but with the right tool, it doesn't have to.
 
 In this lab, you will use NotebookLM as a triage tool: uploading the report, getting an instant overview, and extracting the exact findings that matter before the meeting starts.
 
@@ -65,7 +65,7 @@ https://drive.google.com/file/d/1XUM3q8Jf1D6EGuOCkZPykwzayA0YrG3z/view?usp=drive
 
 ### Task 2: Explore the Notebook Guide
 
-Once a source is added, NotebookLM automatically generates a **Notebook Guide** — a structured overview of the document's key topics, themes, and suggested questions.
+Once a source is added, NotebookLM automatically generates a **Notebook Guide**—a structured overview of the document's key topics, themes, and suggested questions.
 
 1. In the chat panel, click **Notebook Guide**.
 
@@ -154,7 +154,7 @@ Based on the report, what additional safety data would the lab need to collect t
 
 Use these prompts to test NotebookLM's boundaries and sharpen your instincts for working with cited AI tools.
 
-1. Ask a question the report cannot answer — for example:
+1. Ask a question the report cannot answer—for example:
 
 ```text
 What were CPH-412's Phase 2 trial results?
@@ -176,7 +176,7 @@ What were CPH-412's Phase 2 trial results?
 
 ### Bonus Task 6: Try It with Your Own Document
 
-Create a new notebook and upload a long document from your own work — a report, a policy, a research paper, or a lengthy email thread. Ask NotebookLM three questions that would normally take you significant time to answer manually. Note how long it takes compared to reading the document yourself.
+Create a new notebook and upload a long document from your own work—a report, a policy, a research paper, or a lengthy email thread. Ask NotebookLM three questions that would normally take you significant time to answer manually. Note how long it takes compared to reading the document yourself.
 
 ## Congratulations
 
