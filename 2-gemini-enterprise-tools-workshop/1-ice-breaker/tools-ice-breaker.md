@@ -4,7 +4,7 @@
 15 minutes
 
 ## Overview
-In this lab, you will use Gemini's image generation model to place yourself — using your own headshot — into a Cymbal Capital Partners investment setting. This is a quick, fun introduction to Gemini's multimodal image generation capabilities and a great way to kick off the course.
+In this lab, you will use Gemini's image generation model to place yourself—using your own headshot—into a Cymbal Capital Partners investment setting. This is a quick, fun introduction to Gemini's multimodal image generation capabilities and a great way to kick off the course.
 
 ### You learn how to:
 - Upload an image file as context for an image generation prompt.
