@@ -209,7 +209,7 @@ Based on the attached files, summarize the investment opportunity and give a one
 
 ### Bonus Task 8: Bring Your Own Use Case
 
-Choose three or more files from your own work — a mix of types such as a report, a spreadsheet, and a document — that all relate to a single question or decision you need to make.
+Choose three or more files from your own work—a mix of types such as a report, a spreadsheet, and a document—that all relate to a single question or decision you need to make.
 
 1. Open a new Gemini Enterprise chat and attach your files one at a time. After each addition, ask a question that uses all attached files so far and note how the answer evolves.
 
