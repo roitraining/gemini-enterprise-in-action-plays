@@ -25,7 +25,7 @@ Your want to use meta-prompting to see if Gemini can help you build a prompt tha
 
 ## Lab Instructions
 
-### Task 1: Run a Weak Baseline Prompt
+### Task 1: Run a weak baseline prompt
 
 Start with the kind of prompt most people write on their first try.
 
@@ -54,7 +54,7 @@ Research [Company Name] and tell me if it would be a good investment for Cymbal 
 
 5. Click **Start research**. When the output is ready, keep this tab open—you will compare it with Task 3.
 
-### Task 2: Use Meta-Prompting to Build a Better Prompt
+### Task 2: Use Meta-Prompting to build a better prompt
 
 Now ask Gemini to improve the weak prompt before running Deep Research again.
 
@@ -71,7 +71,7 @@ Here is my rough question:
 
 3. Read the improved prompt Gemini returns. Notice what it added—structure, scope, output format, evidence standards—things you did not specify. That is meta-prompting: Gemini applied its own knowledge of what makes a good prompt so you did not have to.
 
-### Task 3: Run Deep Research with the Improved Prompt
+### Task 3: Run Deep Research with the improved prompt
 
 1. Copy the improved prompt from Task 2.
 
@@ -88,7 +88,7 @@ Here is my rough question:
    - Which output would you actually use in a partner meeting?
 
 
-### Bonus Task 4: Apply Meta-Prompting to Your Own Work
+### Bonus Task 4: Apply Meta-Prompting to your own work
 
 Think of a research question relevant to your own organization. It does not need to be investment-related. Some ideas:
 
