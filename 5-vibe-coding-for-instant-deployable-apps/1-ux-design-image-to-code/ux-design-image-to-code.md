@@ -47,7 +47,7 @@ Before writing any code, grab a piece of paper and a pen (or a digital whiteboar
 > [!IMPORTANT] 
 > Ignore fine visual details for now. Focus entirely on the structure and layout of the page.
 
-### Task 2: Upload the Sketch and Generate the Initial UI
+### Task 2: Upload the sketch and generate the initial UI
 Now, let's bring the sketch to life in Canvas. 
 
 1. Open [Gemini](https://gemini.google.com/app), click the __+__ icon, and select **Canvas** from the __Tools__ list. 
