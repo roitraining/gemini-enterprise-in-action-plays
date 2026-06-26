@@ -28,7 +28,7 @@ In this lab, you build an autonomous Competitor Intel Analyst that searches the 
 
 1. Open your Gemini Enterprise web app and click **+ New agent** in the navigation menu.
 
-2. On the Agent Designer page, click **Proceed to builder** to open the flow builder.
+2. On the Agent Designer page, click **Proceed to Builder** to open the flow builder.
 
 3. Click the default agent node to open its configuration panel. Configure the agent by pasting the following:
    - **Name:**
@@ -69,8 +69,8 @@ In this lab, you build an autonomous Competitor Intel Analyst that searches the 
      <br><em>Enable the Google Search tool in the Data and tools section</em>
    </p>
 
-   > [!NOTE]
-   > The Google Search tool allows the agent to access real-time web content. Without it, the agent can only draw on its training data and cannot find overnight news.
+> [!NOTE]
+> The Google Search tool allows the agent to access real-time web content. Without it, the agent can only draw on its training data and cannot find overnight news.
 
 ### Task 2: Configure the schedule
 
@@ -93,8 +93,8 @@ In this lab, you build an autonomous Competitor Intel Analyst that searches the 
 
 3. Click **Add schedule** to save the schedule.
 
-   > [!NOTE]
-   > The schedule is saved but not yet active. It activates when you click **Create** in the next step.
+> [!NOTE]
+> The schedule is saved but not yet active. It activates when you click **Create** in the next step.
 
 4. Before launching, test the agent by clicking **Run in preview** on the schedule card. This triggers the agent immediately using the saved schedule prompt so you can verify the output before the first automatic run.
 
@@ -103,8 +103,8 @@ In this lab, you build an autonomous Competitor Intel Analyst that searches the 
      <br><em>Use Run in preview to test the scheduled agent immediately</em>
    </p>
 
-   > [!NOTE]
-   > It may take 30–60 seconds for the agent to complete its web searches and generate the brief. This is normal, the agent is running live search queries.
+ > [!NOTE]
+ > It may take 30–60 seconds for the agent to complete its web searches and generate the brief. This is normal, the agent is running live search queries.
 
 5. Review the Executive News Brief in the Preview tab. Evaluate:
    - Are all five competitors represented or noted with "No significant activity"?
@@ -137,8 +137,8 @@ Run your daily competitor intelligence scan. Search for the latest news about Na
      <br><em>Chat history with scheduled runs</em>
    </p>
 
-   > [!NOTE]
-   > In a production deployment of Gemini Enterprise, you can enable an email connector. This would allow you to schedule an agent like this and email the results to yourself.
+> [!NOTE]
+> In a production deployment of Gemini Enterprise, you can enable an email connector. This would allow you to schedule an agent like this and email the results to yourself.
 
 ### Bonus Task 4: Build the Morning Risk & Exposure Monitor
 
