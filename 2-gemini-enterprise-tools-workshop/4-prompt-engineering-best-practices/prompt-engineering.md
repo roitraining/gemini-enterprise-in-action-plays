@@ -40,7 +40,7 @@ Start by seeing why prompt engineering matters in the first place.
      <em>Add from Drive</em>
    </p>
 
-3. Paste the following URL into the Search in Drive box, press Enter, then select the resulting file and __Insert__ it. 
+3. Paste the following URL into the Search in Drive box, press **Enter**, then select the resulting file and __Insert__ it. 
 
 ```text
 https://drive.google.com/file/d/1J6AVmG8iO37IkoON8F43d3ymvQvx7btp/view?usp=drive_link
@@ -183,7 +183,7 @@ One-shot prompting means embedding a complete example of the output you want dir
 1. In the same chat, paste the prompt below. The inline example teaches Gemini exactly what a good memo looks like before you ask it to write one.
 
 ```text
-Here is one example of a well-written investment memo. Use it as a one-shot example — match its structure, tone, and analytical depth exactly.
+Here is one example of a well-written investment memo. Use it as a one-shot example—match its structure, tone, and analytical depth exactly.
 
 --- EXAMPLE START ---
 Title: Vanta Security — Series B Consideration
@@ -210,7 +210,7 @@ Now write a memo in the same format for the best investment opportunity from our
 
 2. Compare the outputs from Parts A, B, and C. In Part A you set behavior rules; in Part B you defined a format template with delimiters; in Part C you provided a complete inline example. Which approach produced the most consistent and usable result?
 
-3. One-shot prompting is most useful when you already have a real example of good output you want to replicate — a memo a partner approved, a report that landed well, or a format your team already uses. The richer and more representative the example, the less the model has to guess.
+3. One-shot prompting is most useful when you already have a real example of good output you want to replicate—a memo a partner approved, a report that landed well, or a format your team already uses. The richer and more representative the example, the less the model has to guess.
 
 ### Bonus Task 4: Meta-Prompting
 
@@ -245,7 +245,7 @@ Use clean Markdown with bolded headers and bulleted lists for scannability.
 
 ### Bonus Task 5: Bring Your Own Use Case
 
-Choose a real task from your own work — summarizing a long document, comparing options, drafting a communication, or producing a structured analysis. Apply the techniques from this lab:
+Choose a real task from your own work—summarizing a long document, comparing options, drafting a communication, or producing a structured analysis. Apply the techniques from this lab:
 
 1. Write a raw first attempt and note where the output falls short.
 2. Rewrite it using the 5-step framework.
