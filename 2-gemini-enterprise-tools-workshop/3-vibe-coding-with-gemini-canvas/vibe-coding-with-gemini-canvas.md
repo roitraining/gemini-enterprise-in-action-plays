@@ -47,7 +47,7 @@ Before writing any code, grab a piece of paper and a pen, or use a digital white
 > [!Note]
 > Focus on structure, not styling. The sketch is only there to help Canvas understand the page layout.
 
-### Task 2: Upload the Sketch and Generate the Initial UI
+### Task 2: Upload the sketch and generate the initial UI
 Now bring the sketch to life in Canvas.
 
 > [!Note]
@@ -110,7 +110,7 @@ Output:
 
 10. Inspect the generated code. You should see mostly clean HTML and CSS with just enough JavaScript to support the page shell.
 
-### Task 3: Refine and Polish the UI
+### Task 3: Refine and polish the UI
 With the structure established, your final task is to polish the design so it looks production-ready without changing the underlying layout.
 
 1. Ask Gemini to improve the current layout while keeping the same structure.Use a refinement prompt similar to this:
@@ -146,7 +146,7 @@ Keep this as a front-end dashboard shell that is ready for data integration.
 
 3. Notice how the focus of your prompting is on usability and aesthetics, not new features. The goal is to learn how to steer Canvas with precise follow-up prompts, not to break the layout. Verify that the final UI still matches the sketch, but now looks more polished and easier to scan.
 
-### Bonus Task 4: Combining Image Generation with Canvas
+### Bonus Task 4: Combining image generation with Canvas
 
 1. Open Gemini in a new tab and select **Create images** from the Tools list.
 
