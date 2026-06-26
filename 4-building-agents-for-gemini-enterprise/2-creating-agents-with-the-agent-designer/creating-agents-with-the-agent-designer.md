@@ -62,11 +62,11 @@ For each document:
 
 2. Open your Gemini Enterprise web app and click **+ New agent** in the navigation menu.
 
-3. On the Agent Designer page, click **Proceed to builder** to open the flow builder directly.
+3. On the Agent Designer page, click **Proceed to Builder** to open the flow builder directly.
 
    <p align="left">
      <img src="images/proceed-to-builder.png" width="60%" alt="Agent Designer page showing Proceed to builder option" />
-     <br><em>Click Proceed to builder to open the Flow tab directly</em>
+     <br><em>Click Proceed to Builder to open the Flow tab directly</em>
    </p>
 
 4. The **Flow** tab opens with a default agent node. Click the node to open its configuration panel on the right.
@@ -103,8 +103,8 @@ For each document:
    - `When are the company holidays?`
    - `How does the 401(k) match work?`
 
-   > [!NOTE]
-   > Starter prompts help by giving examples of how the agent can be used, and allow you to just click on commonly used prompts.
+> [!NOTE]
+> Starter prompts help by giving examples of how the agent can be used, and allow you to just click on commonly used prompts.
 
 ### Task 2: Test the Employee Navigator
 
@@ -121,8 +121,8 @@ For each document:
 4. Now test the agent's grounding by asking something the handbook does not cover:
    - "What is the dress code policy?"
 
-   > [!NOTE]
-   > The agent should respond that the information is not available in the Employee Handbook and direct the user to HR — not hallucinate an answer. This is the expected behavior for a well-grounded agent.
+> [!NOTE]
+> The agent should respond that the information is not available in the Employee Handbook and direct the user to HR — not hallucinate an answer. This is the expected behavior for a well-grounded agent.
 
 5. If any response is inaccurate or off-topic, click the **Flow** tab, open the agent node, and update the instructions. You can also type a refinement in the left chat pane:
 
@@ -158,7 +158,7 @@ For each document:
    Pre-approved conference registration fees are fully reimbursable. Written approval must be obtained before registration. Unapproved registrations will not be reimbursed.
    ```
 
-2. In your Gemini Enterprise web app, click **+ New agent** and then click **Proceed to builder**.
+2. In your Gemini Enterprise web app, click **+ New agent** and then click **Proceed to Builder**.
 
 3. Click the default agent node and configure it:
    - **Name:** `Expense Policy Auditor`
