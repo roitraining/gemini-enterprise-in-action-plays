@@ -136,7 +136,7 @@ NotebookLM can search the internet and add live pages directly to your notebook 
    ```
    
 > [!NOTE]
-> Choose sources from credible outlets — FDA press releases, pharma news publications (FiercePharma, STAT News, BioPharma Dive), financial filings, and market research firms tend to produce the best-cited answers. You can always add more sources later.
+> Choose sources from credible outlets—FDA press releases, pharma news publications (FiercePharma, STAT News, BioPharma Dive), financial filings, and market research firms tend to produce the best-cited answers. You can always add more sources later.
 
 4. Your notebook should now contain Cymbal's internal brief alongside live web sources on competitor drugs and the Alzheimer's market.
 
