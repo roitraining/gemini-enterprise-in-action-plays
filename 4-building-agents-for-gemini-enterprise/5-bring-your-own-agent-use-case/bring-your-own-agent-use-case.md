@@ -17,10 +17,10 @@ In this lab, you design and build an agent that solves a real challenge from you
 ## Your Scenario
 
 This lab does not have a prescribed scenario. You will define one. Think about the tasks in your organization that are:
-- **Repetitive** — done the same way every time, following a known process
-- **Information-heavy** — require reading, summarizing, or extracting from documents or web sources
-- **Routing-based** — categorize inputs and direct them to different responses or people
-- **Scheduled** — should happen automatically at a regular cadence without a human trigger
+- **Repetitive**—done the same way every time, following a known process
+- **Information-heavy**—require reading, summarizing, or extracting from documents or web sources
+- **Routing-based**—categorize inputs and direct them to different responses or people
+- **Scheduled**—should happen automatically at a regular cadence without a human trigger
 
 The best agent use cases solve a real pain point. Start there.
 
@@ -47,8 +47,8 @@ Before you build anything, invest a few minutes in clearly defining the problem.
    | Multiple distinct steps or roles | Multi-agent system with sub-agents |
    | Needs to run automatically on a schedule | Agent with a configured schedule |
 
-   > [!NOTE]
-   > You can combine approaches. A scheduled agent can also have sub-agents. A knowledge-grounded agent can also have starter prompts. Start simple and add complexity only if it is needed.
+> [!NOTE]
+> You can combine approaches. A scheduled agent can also have sub-agents. A knowledge-grounded agent can also have starter prompts. Start simple and add complexity only if it is needed.
 
 3. Write a one-paragraph description of your agent. Include: what it is called, what problem it solves, who uses it, what it takes as input, and what it produces as output. This paragraph will become the basis for your agent creation prompt.
 
@@ -110,8 +110,8 @@ A first draft agent rarely performs perfectly. Testing and refinement are part o
 
 5. When you are satisfied, click **Create** (or **Update**) to launch the agent.
 
-   > [!NOTE]
-   > You can always return to edit an agent. Go to **Agent Gallery > Your agents**, click **Actions**, and select **Edit**. There is no penalty for iterating after launch.
+> [!NOTE]
+> You can always return to edit an agent. Go to **Agent Gallery > Your agents**, click **Actions**, and select **Edit**. There is no penalty for iterating after launch.
 
 ### Bonus Task 4: Extend your agent
 
