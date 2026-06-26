@@ -47,8 +47,8 @@ Two of the three sources in this lab are provided below as text you will paste d
    https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.32
    ```
 
-   > [!NOTE]
-   > This is a live, publicly available FDA regulation (21 CFR § 312.32). NotebookLM will index the full text. If the URL is unreachable, search for "21 CFR 312.32" on [ecfr.gov](https://www.ecfr.gov) and add the result.
+ > [!NOTE]
+ > This is a live, publicly available FDA regulation (21 CFR § 312.32). NotebookLM will index the full text. If the URL is unreachable, search for "21 CFR 312.32" on [ecfr.gov](https://www.ecfr.gov) and add the result.
 
 3. **Add Source 2—Cymbal CPH-412 Clinical Trial Protocol (via copied text)**
 
@@ -133,8 +133,8 @@ With all three sources active, NotebookLM can answer questions that require read
    List every specific action the investigator took—or failed to take—that constitutes a protocol deviation or regulatory violation. For each one, cite the exact source document and section.
    ```
 
-   > [!NOTE]
-   > You are looking for at least two distinct violations: (1) the failure to fully suspend dosing as required by Section 5.2 of the Cymbal protocol (4.9x ULN exceeds the 3x threshold, but the investigator only "delayed" rather than suspended), and (2) the delayed QA notification—Thursday afternoon instead of within 24 hours of Monday's result.
+> [!NOTE]
+> You are looking for at least two distinct violations: (1) the failure to fully suspend dosing as required by Section 5.2 of the Cymbal protocol (4.9x ULN exceeds the 3x threshold, but the investigator only "delayed" rather than suspended), and (2) the delayed QA notification—Thursday afternoon instead of within 24 hours of Monday's result.
 
 ### Task 3: Isolate Sources to Test Reasoning
 
