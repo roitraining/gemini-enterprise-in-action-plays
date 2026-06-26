@@ -4,7 +4,7 @@
 45 minutes
 
 ## Overview
-This is your lab. You have worked through the Google Search tool, Canvas, prompt engineering, file-based context, Deep Research, and meta-prompting — all in the context of Cymbal Capital Partners. Now apply those same capabilities to a real challenge from your own work.
+This is your lab. You have worked through the Google Search tool, Canvas, prompt engineering, file-based context, Deep Research, and meta-prompting—all in the context of Cymbal Capital Partners. Now apply those same capabilities to a real challenge from your own work.
 
 Pick the tool or technique that fits your use case best, define a specific goal, and build something you would actually use.
 
@@ -30,7 +30,7 @@ Start by deciding which capability from this course fits your use case best:
 
 Then answer these questions before you start prompting:
 
-- **What is the task?** Describe it specifically — not "research competitors" but "find the top three competitors to our product in the enterprise HR software space and compare them on pricing model and integration depth."
+- **What is the task?** Describe it specifically—not "research competitors" but "find the top three competitors to our product in the enterprise HR software space and compare them on pricing model and integration depth."
 - **Who is the output for?** The answer should shape structure, tone, and detail level.
 - **What materials do you have?** List any files, URLs, or reference content you can attach.
 - **What does a great result look like?** Set a clear bar so you know when you are done.
@@ -43,7 +43,7 @@ Apply the habits from this course:
 - Start with a clear role or context before stating the task.
 - Use the 5-step framework (Task, Context, References, Evaluate, Iterate) if you are writing a prompt from scratch.
 - If your prompt feels vague or too broad, use meta-prompting to improve it before running the main task.
-- Attach files when you have source material — do not describe documents in words when you can upload them.
+- Attach files when you have source material—do not describe documents in words when you can upload them.
 - If you are doing research, ask at least one follow-up prompt to push for more specific evidence or citations.
 
 ### Task 3: Refine and Share
