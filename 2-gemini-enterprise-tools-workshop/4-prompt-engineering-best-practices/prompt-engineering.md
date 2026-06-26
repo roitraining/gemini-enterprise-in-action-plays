@@ -26,7 +26,7 @@ Your job is to learn how to prompt Gemini so it can help the team summarize info
 
 ## Lab Instructions
 
-### Task 1: Compare a Raw Prompt with a Basic Prompt
+### Task 1: Compare a raw prompt with a basic prompt
 
 Start by seeing why prompt engineering matters in the first place.
 
@@ -114,7 +114,7 @@ Return the recommendation, the key reasons, the main risks, and one follow-up qu
 
 4. Refine the prompt if needed. This is the repeatable version you can use when you want a consistent structure for similar tasks.
 
-### Task 3: Apply Advanced Prompting Techniques
+### Task 3: Apply advanced prompting techniques
 
 Use advanced techniques when you need tighter control over structure, tone, or format. In this task, keep the same chat open and use the best investment opportunity from Task 2 as the subject of the memo.
 
@@ -243,7 +243,7 @@ Use clean Markdown with bolded headers and bulleted lists for scannability.
 
 3. Compare the revised prompt with your original version from Task 3 Part C. Did the output quality improve?
 
-### Bonus Task 5: Bring Your Own Use Case
+### Bonus Task 5: Bring your own use case
 
 Choose a real task from your own work—summarizing a long document, comparing options, drafting a communication, or producing a structured analysis. Apply the techniques from this lab:
 
