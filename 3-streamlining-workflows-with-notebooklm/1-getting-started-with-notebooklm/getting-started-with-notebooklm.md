@@ -28,7 +28,7 @@ In this lab, you will use NotebookLM as a triage tool: uploading the report, get
 
 ## Lab Instructions
 
-### Task 1: Create a Notebook and Upload the Report
+### Task 1: Create a Notebook and upload the Report
 
 1. Open [NotebookLM](https://notebooklm.google.com/) in your browser. Sign in with your Google account if prompted.
 
@@ -84,7 +84,7 @@ Once a source is added, NotebookLM automatically generates a **Notebook Guide**�
 > [!NOTE]
 > The Notebook Guide is generated automatically but is not saved. If you want to keep it, click the **Save to note** icon (📌) before closing or scrolling past it.
 
-### Task 3: Ask Targeted Questions
+### Task 3: Ask targeted questions
 
 You want three specific answers before the stakeholder meeting. Ask each of the following questions in the chat and evaluate the response — paying close attention to the citations NotebookLM provides.
 
@@ -174,7 +174,7 @@ What were CPH-412's Phase 2 trial results?
 
 4. Compare the table against the original report to verify that no information was added or altered.
 
-### Bonus Task 6: Try It with Your Own Document
+### Bonus Task 6: Try it with your own document
 
 Create a new notebook and upload a long document from your own work—a report, a policy, a research paper, or a lengthy email thread. Ask NotebookLM three questions that would normally take you significant time to answer manually. Note how long it takes compared to reading the document yourself.
 
