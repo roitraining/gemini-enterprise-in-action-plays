@@ -71,7 +71,7 @@ Return:
 Use reliable sources and cite where each claim comes from.
 ```
 
-5. Wait for Deep Research to generate a research plan. Review the plan — a good plan should cover at least the company background, the founders, and the market. If it looks too narrow or too broad, ask Deep Research to adjust it before proceeding.
+5. Wait for Deep Research to generate a research plan. Review the plan—a good plan should cover at least the company background, the founders, and the market. If it looks too narrow or too broad, ask Deep Research to adjust it before proceeding.
 
 6. Scroll to the bottom of the plan and click **Start research**.
 
@@ -160,7 +160,7 @@ Rewrite the recommendation section to be more direct. State clearly whether Cymb
 
 ### Bonus Task 5: Apply Deep Research to Your Own Work
 
-Choose a research question that is relevant to your organization — something you would normally spend hours investigating manually. Use Deep Research to do the first pass.
+Choose a research question that is relevant to your organization—something you would normally spend hours investigating manually. Use Deep Research to do the first pass.
 
 Here are some ideas to get you started:
 
@@ -176,7 +176,7 @@ Here are some ideas to get you started:
 
 2. Write a prompt that gives Deep Research your role, your organization's context, and the specific question you want answered. Ask it to return findings with citations.
 
-3. When the research plan appears, check that it covers the right scope — not too broad, not too narrow. Adjust it if needed before clicking **Start research**.
+3. When the research plan appears, check that it covers the right scope—not too broad, not too narrow. Adjust it if needed before clicking **Start research**.
 
 4. Review the output. Ask at least one follow-up prompt to push for more specific evidence or to clarify a claim that looks too general.
 
