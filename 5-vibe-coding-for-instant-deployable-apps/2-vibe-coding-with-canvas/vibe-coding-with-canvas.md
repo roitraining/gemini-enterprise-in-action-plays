@@ -43,7 +43,7 @@ To ensure a consistent starting point for the complex logic ahead, you will quic
    <p align="left">
      <img src="images/ui-sketch.png" width="75%" alt="Cymbal Fleet and Shipment Dashboard sketch" style="border: 1px solid black;" />
      <br>
-     <em>Cymbal Fleet &amp; Shipment Dashboard — wireframe sketch</em>
+     <em>Cymbal Fleet &amp; Shipment Dashboard—wireframe sketch</em>
    </p>
 
 3. Run the following structured prompt to generate the clean dashboard shell. 
