@@ -18,7 +18,7 @@ In this lab, you use the Agent Designer to build a multi-agent system. You will 
   <img src="images/cymbal-office.png" width="25%" alt="Cymbal Insurance Logo" />
 </p>
 
-Every time a new employee joins Cymbal Insurance, the same process plays out across four separate departments: IT sets up equipment and system access, HR sends paperwork and a welcome email, Facilities assigns a badge and workspace, and Training schedules the first week of orientation. Today, each team learns about a new hire independently — often late. The result is a fragmented onboarding experience where equipment isn't ready, badges aren't printed, and new employees spend their first day waiting.
+Every time a new employee joins Cymbal Insurance, the same process plays out across four separate departments: IT sets up equipment and system access, HR sends paperwork and a welcome email, Facilities assigns a badge and workspace, and Training schedules the first week of orientation. Today, each team learns about a new hire independently—often late. The result is a fragmented onboarding experience where equipment isn't ready, badges aren't printed, and new employees spend their first day waiting.
 
 In this lab, you build a single Orchestrator Agent that takes new hire details and coordinates all four departments in one step.
 
@@ -32,7 +32,7 @@ In this lab, you build a single Orchestrator Agent that takes new hire details a
   <img src="images/new-agent.png" width="50%" alt="New Agent" />
 </p>
 
-2. On the Agent Designer page, click **Proceed to builder**.
+2. On the Agent Designer page, click **Proceed to Builder**.
 
 3. The **Flow** tab opens with a default agent node. Click the node to open its configuration panel. Configure the Orchestrator by pasting the following:
 
@@ -66,15 +66,15 @@ In this lab, you build a single Orchestrator Agent that takes new hire details a
 
 4. Do not click **Create** yet. You need to add the sub-agents before launching.
 
-   > [!IMPORTANT]
-   > If you exit the Agent Designer at this point, your agent will be saved as a **Draft**. You can reopen it from **Agent Gallery > Your agents** and continue from where you left off.
+> [!IMPORTANT]
+> If you exit the Agent Designer at this point, your agent will be saved as a **Draft**. You can reopen it from **Agent Gallery > Your agents** and continue from where you left off.
 
 ### Task 2: Add the IT Provisioner and HR Assistant
 
-1. In the **Flow** tab, hover over the **New Hire Onboarding Orchestrator** node. A **+ Add subagent** button appears. Click it.
+1. In the **Flow** tab, hover over the **New Hire Onboarding Orchestrator** node. A **+ Add a sub-agent** button appears. Click it.
 
    <p align="left">
-     <img src="images/add-subagent.png" width="70%" alt="Flow tab showing the Add subagent button" />
+     <img src="images/add-subagent.png" width="70%" alt="Flow tab showing the Add a sub-agent button" />
      <br><em>Hover over the Orchestrator node to reveal the + Add subagent button</em>
    </p>
 
@@ -211,8 +211,8 @@ The system is working but onboarding at Cymbal Insurance involves four departmen
 
 4. Once the sub-agent is configured, open the **Orchestrator** node and update its instructions to include the Training Coordinator as a fourth delegation target and add a Training section to the final summary.
 
-   > [!NOTE]
-   > This step is essential. The Orchestrator's instructions are the routing logic for the entire system. Without updating them, the Orchestrator will not know the Training Coordinator exists and will not call it.
+> [!NOTE]
+> This step is essential. The Orchestrator's instructions are the routing logic for the entire system. Without updating them, the Orchestrator will not know the Training Coordinator exists and will not call it.
 
 5. Click the **Preview** tab and test with Maria Santos again. Confirm that the Onboarding Summary now includes all four sections, with a well-structured Training schedule.
 
