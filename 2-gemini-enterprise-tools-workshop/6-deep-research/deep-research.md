@@ -26,7 +26,7 @@ Your job is to use Gemini Enterprise Deep Research to gather evidence on the com
 
 ## Lab Instructions
 
-### Task 1: Start with a Broad Research Brief
+### Task 1: Start with a broad research brief
 
 Begin with a wide question so Deep Research can surface the company overview and the main evidence themes.
 
@@ -75,7 +75,7 @@ Use reliable sources and cite where each claim comes from.
 
 6. Scroll to the bottom of the plan and click **Start research**.
 
-### Task 2: Focus on the Founders
+### Task 2: Focus on the founders
 
 Now narrow the research to the people behind the company.
 
@@ -102,7 +102,7 @@ Use only evidence you can support from reliable sources.
 For each founder, cite specific roles, companies, and dates rather than general descriptions. Label anything you cannot verify from a reliable source as Unverified.
 ```
 
-### Task 3: Test Market Viability
+### Task 3: Test market viability
 
 Shift from people to market opportunity.
 
@@ -128,7 +128,7 @@ Return:
 Replace any general market size claims with specific figures or named sources. If a number cannot be verified, label it Unverified.
 ```
 
-### Task 4: Produce an Investment Summary
+### Task 4: Produce an investment summary
 
 Now turn the research into an internal memo.
 
@@ -158,7 +158,7 @@ Rules:
 Rewrite the recommendation section to be more direct. State clearly whether Cymbal Capital Partners should proceed to diligence, hold, or pass, and give a one-line rationale.
 ```
 
-### Bonus Task 5: Apply Deep Research to Your Own Work
+### Bonus Task 5: Apply Deep Research to your own work
 
 Choose a research question that is relevant to your organization—something you would normally spend hours investigating manually. Use Deep Research to do the first pass.
 
