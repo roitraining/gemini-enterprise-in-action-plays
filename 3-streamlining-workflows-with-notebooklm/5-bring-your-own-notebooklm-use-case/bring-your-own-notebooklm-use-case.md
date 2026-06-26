@@ -14,7 +14,7 @@ In this lab, you will apply everything you have learned across the course to a N
 
 ## Lab Instructions
 
-### Task 1: Define Your Use Case
+### Task 1: Define your use case
 
 Before opening NotebookLM, spend 5 minutes thinking through your scenario using the questions below. There are no right answers—the goal is to arrive at a focused, specific challenge rather than a vague topic.
 
@@ -35,7 +35,7 @@ Before opening NotebookLM, spend 5 minutes thinking through your scenario using 
 5. **What would a great outcome look like?**
    Describe what success looks like at the end of this lab. What will you be able to do or share that you could not before?
 
-### Task 2: Build Your Notebook
+### Task 2: Build your Notebook
 
 1. Open [NotebookLM](https://notebooklm.google.com/) and create a new notebook. Give it a descriptive name that reflects your use case.
 
@@ -52,7 +52,7 @@ Before opening NotebookLM, spend 5 minutes thinking through your scenario using 
 > [!NOTE]
 > NotebookLM works best when sources are complementary — each one adds something the others don't have. If all your sources say the same thing, the cross-source analysis will be less useful. Aim for variety: official/regulatory, internal/operational, external/market, or primary/secondary.
 
-### Task 3: Ask Your Questions and Refine
+### Task 3: Ask your questions and refine
 
 1. Start with the three questions you wrote in Task 1. Ask them one at a time and review each answer carefully:
    - Does the answer cite specific sections from the relevant sources?
@@ -71,7 +71,7 @@ Before opening NotebookLM, spend 5 minutes thinking through your scenario using 
    - The question is too broad—narrow it
    - The answer is genuinely uncertain given the sources—that is a useful finding, not a failure
 
-### Task 4: Generate Your Output
+### Task 4: Generate Your output
 
 1. Open the **Studio** panel and select the output type that best fits your use case (as defined in Task 1). Use a customization instruction to tailor the output to your specific audience and purpose.
 
@@ -84,7 +84,7 @@ Before opening NotebookLM, spend 5 minutes thinking through your scenario using 
 
 4. Save your final output as a note (📌) for easy retrieval.
 
-### Bonus Task 5: Share and Get Feedback
+### Bonus Task 5: Share and get feedback
 
 1. Share your notebook with a colleague by clicking the share icon and adding their email address.
 
