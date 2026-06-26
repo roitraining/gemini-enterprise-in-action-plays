@@ -67,7 +67,7 @@ The Audio Overview feature converts your notebook's sources into a conversationa
      <br><em>The generated Audio Overview with playback and download controls</em>
    </p>
 
-### Task 2: Create a Presentation
+### Task 2: Create a presentation
 
 The Presentation output generates a structured slide-by-slide outline from your notebook sources, formatted as a presentation that can be opened in Google Slides.
 
@@ -161,7 +161,7 @@ The final two Studio outputs serve different needs: Flashcards for learning and 
      <br><em>The Report with a board-level briefing structure</em>
    </p>
 
-### Bonus Task 5: Customize the Audio Overview for a Different Audience
+### Bonus Task 5: Customize the Audio Overview for a different audience
 
 A single set of sources can produce very different Audio Overviews depending on the audience instruction.
 
@@ -177,7 +177,7 @@ A single set of sources can produce very different Audio Overviews depending on 
 
 4. Compare this version to the first Audio Overview. Note at least three differences in tone, content, or emphasis between the two.
 
-### Bonus Task 6: Try It with Your Own Data
+### Bonus Task 6: Try it with your own data
 
 Create a new notebook and add one or more of your own documents—meeting notes, a project proposal, a research report, or a set of articles. Use the Studio panel to generate an output that would be immediately useful in your work: a Presentation outline, a Report, or an Audio Overview. Share the result with a colleague.
 
