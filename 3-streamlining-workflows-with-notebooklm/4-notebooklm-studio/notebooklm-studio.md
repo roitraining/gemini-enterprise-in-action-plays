@@ -60,7 +60,7 @@ The Audio Overview feature converts your notebook's sources into a conversationa
    - Does it raise the investor objections you would expect?
    - Is there anything important from the notebook that the hosts did not mention?
 
-6. Click the **download icon** (⬇) to save the audio file.
+6. Click the **Download icon** (⬇) to save the audio file.
 
    <p align="left">
      <img src="images/audio-overview.png" width="55%" alt="Audio Overview player with download option" />
