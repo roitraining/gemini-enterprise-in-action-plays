@@ -207,7 +207,7 @@ One of NotebookLM's most powerful features is source deselection. Turning off in
 
 Create a new notebook around a real situation where you have multiple documents that need to be compared or cross-referenced—for example, a vendor contract alongside an internal policy, or meeting notes alongside a project brief. Add at least two sources, ask a cross-source question, and try deselecting one source to see how much it changes the answer.
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Added three diverse source types to a single NotebookLM notebook.
