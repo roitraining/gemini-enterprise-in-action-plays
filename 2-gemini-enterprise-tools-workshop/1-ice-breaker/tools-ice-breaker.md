@@ -71,7 +71,7 @@ Cymbal Capital Partners is running an internal leadership spotlight campaign. Th
 
 1. Do something similar, but appropriate to your own workplace. Create an image you could use for a social media post that puts you into a scene that would be appropiate to your company. 
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Uploaded a personal image as generation context.
