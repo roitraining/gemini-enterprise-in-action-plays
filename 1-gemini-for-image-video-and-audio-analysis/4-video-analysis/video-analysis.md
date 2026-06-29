@@ -21,7 +21,7 @@ Cymbal Mart's Loss Prevention and Store Operations team conducts quarterly compl
 
 ## Before you begin
 
-This lab analyzes a video of a store walk through, comparing it against a PDF document of safety standards for 's retail stores. Take a few minutes to view both. 
+This lab analyzes a video of a store walk through, comparing it against a PDF document of safety standards for Cymbal Mart's retail stores. Take a few minutes to view both. 
 
 [Cymbal Mart Store Safety Standards](https://drive.google.com/file/d/1_yZkzZPBTEk1rUE32SmW4aAJPIXUdR4J/view?usp=drive_link)
 
