@@ -132,7 +132,7 @@ Return:
 
 ### Task 5: Manage the file set deliberately
 
-A key part of Manage files is choosing the right file set *before* you ask a question. Once files have been discussed in a chat, the conversation history already contains the model's knowledge of them — so the meaningful way to see how file selection affects output is to start a new chat with a different set of files.
+A key part of Manage files is choosing the right file set *before* you ask a question. Once files have been discussed in a chat, the conversation history already contains the model's knowledge of them—so the meaningful way to see how file selection affects output is to start a new chat with a different set of files.
 
 1. Open a **new chat** in Gemini Enterprise. Add only three files: `cymbal-alpha-deal-memo.pdf`, `traction-metrics.xlsx`, and `customer-interview-notes.docx`. Do **not** attach the infographic yet.
 
@@ -149,7 +149,7 @@ Based on the attached files, explain whether the product looks real, differentia
 ```text
 You are an investment analyst for Cymbal Capital Partners. Use ONLY the attached files and do not browse external sources or invent facts.
 
-Task — Clean & Synthesize:
+Task—Clean & Synthesize:
 1. Identify and remove noisy or unreliable data across these files (unsupported claims, contradictions, undated items, unexplained outliers, or unclear provenance). For each removed item list: file, precise location (PDF page/paragraph, spreadsheet sheet+row/cell, docx paragraph, image area), and a one-line reason for removal.
 2. Using the remaining reliable evidence, produce a concise synthesis (max 250 words) with:
    - Investment thesis (one sentence)
@@ -215,7 +215,7 @@ Choose three or more files from your own work—a mix of types such as a report,
 
 2. When all files are attached, run a synthesis prompt asking Gemini to identify the strongest evidence, surface any contradictions, and give a recommendation or next step.
 
-3. Open a second new chat and attach only the files you trust most — leave out the weakest source. Run the same synthesis prompt and compare the two outputs. Did removing the weaker file improve or degrade the answer?
+3. Open a second new chat and attach only the files you trust most—leave out the weakest source. Run the same synthesis prompt and compare the two outputs. Did removing the weaker file improve or degrade the answer?
 
 4. Share your final synthesis with the group and explain which file combination produced the most useful output.
 
