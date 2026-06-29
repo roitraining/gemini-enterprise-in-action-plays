@@ -63,7 +63,7 @@ Now, let's bring the sketch to life in Canvas.
    <p align="left">
      <img src="images/ui-sketch.png" width="75%" alt="Cymbal Fleet and Shipment Dashboard sketch" />
      <br>
-     <em>Cymbal Fleet &amp; Shipment Dashboard — wireframe sketch</em>
+     <em>Cymbal Fleet &amp; Shipment Dashboard—wireframe sketch</em>
    </p>
 
 3. Start small. Try a very brief, basic prompt to see how Gemini interprets the image natively.
