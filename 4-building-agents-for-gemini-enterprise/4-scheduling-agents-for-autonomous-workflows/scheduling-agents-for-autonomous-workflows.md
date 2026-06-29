@@ -61,7 +61,7 @@ In this lab, you build an autonomous Competitor Intel Analyst that searches the 
 
    - **Model:** Leave the default model selected.
 
-4. Notice, in the __Connectors__ section the **Google Search** tool should be included by default. It it is not for some reason, click the __+__ button to enable it.
+4. Notice, in the __Connectors__ section the **Google Search** tool should be included by default. It it is not for some reason, click the **+** button to enable it.
 
 
    <p align="left">
@@ -170,7 +170,7 @@ The Claims Department faces a different kind of information need: knowing about 
    - Estimated claims impact: LOW / MEDIUM / HIGH / CRITICAL
 
    Format your output as a "Daily Risk Alert" with:
-   - Report header: "Cymbal Insurance — Morning Risk Alert" followed by the current date
+   - Report header: "Cymbal Insurance—Morning Risk Alert" followed by the current date
    - Events listed in order of estimated claims impact (highest first)
    - A "Claims Department Action Items" section with 2–3 specific preparation recommendations
    - An overall risk level for the day: LOW / MEDIUM / HIGH / CRITICAL
