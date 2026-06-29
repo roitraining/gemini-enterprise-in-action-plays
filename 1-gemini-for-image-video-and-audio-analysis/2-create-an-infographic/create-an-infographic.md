@@ -68,8 +68,8 @@ Prompt engineering for image generation is iterative. Try at least two of the fo
 
 3. **Change the campaign.** Swap the Back-to-School theme for a **Black Friday** version. Update the copy: replace the mountain metaphor with a crowded parking lot vs. calm online checkout, and update the pricing callouts to reflect holiday deals.
 
-   > [!NOTE]
-   > Each iteration should change only one or two things at a time. Changing everything at once makes it hard to understand what improved the result.
+> [!NOTE]
+> Each iteration should change only one or two things at a time. Changing everything at once makes it hard to understand what improved the result.
 
 ### Bonus Task 3: Use your own example
 
@@ -77,8 +77,8 @@ Prompt engineering for image generation is iterative. Try at least two of the fo
 
 2. Create a prompt for an infographic, but using an example appropriate to your business. It could refer to something you sell, a new product or service you are promoting, a company celebration, or anything else. 
 
-   > [!NOTE]
-   > You can ask Gemini for help creating the prompt. Tell Gemini something like the following:
+ > [!NOTE]
+ > You can ask Gemini for help creating the prompt. Tell Gemini something like the following:
 
    ```text
    You are an expert prompt engineer. 
