@@ -178,7 +178,7 @@ What were CPH-412's Phase 2 trial results?
 
 Create a new notebook and upload a long document from your own work—a report, a policy, a research paper, or a lengthy email thread. Ask NotebookLM three questions that would normally take you significant time to answer manually. Note how long it takes compared to reading the document yourself.
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Created a NotebookLM notebook and uploaded a source document.
