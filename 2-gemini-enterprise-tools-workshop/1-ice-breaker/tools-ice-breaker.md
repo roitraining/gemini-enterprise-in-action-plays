@@ -21,7 +21,7 @@ Cymbal Capital Partners is running an internal leadership spotlight campaign. Th
 
 ## Lab Instructions
 
-### Task 1: Generate Your Finance Portrait
+### Task 1: Generate your finance portrait
 
 1. Open Gemini Enterprise in your browser.
 
