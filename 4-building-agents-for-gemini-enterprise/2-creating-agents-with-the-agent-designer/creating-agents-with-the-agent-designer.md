@@ -39,7 +39,7 @@ For each document:
 1. Create a new Google Doc, paste the following content, and download it as **`cymbal-employee-handbook.pdf`**:
 
    ```text
-   CYMBAL INSURANCE — EMPLOYEE HANDBOOK (Summary Edition)
+   CYMBAL INSURANCE—EMPLOYEE HANDBOOK (Summary Edition)
 
    PTO POLICY
    Full-time employees accrue 15 PTO days per year in their first three years of employment. After three years, accrual increases to 20 days per year. PTO must be approved by your direct manager at least 5 business days in advance for absences of 3 or more consecutive days. Up to 5 unused PTO days may be carried over to the following calendar year.
@@ -137,7 +137,7 @@ For each document:
 1. Create a new Google Doc, paste the following content, and download it as **`cymbal-expense-policy.pdf`**:
 
    ```text
-   CYMBAL INSURANCE — TRAVEL & EXPENSE POLICY (Summary Edition)
+   CYMBAL INSURANCE—TRAVEL & EXPENSE POLICY (Summary Edition)
 
    AIRFARE
    Economy class is required for all flights under 6 hours. Business class is permitted for flights of 6 hours or more with VP-level approval. Airfare should be booked at least 14 days in advance when possible. Maximum reimbursable domestic airfare: $600 roundtrip.
