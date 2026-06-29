@@ -22,7 +22,7 @@ You are the Director of Business Development and Investor Relations at Cymbal Ph
 
 To convince investors, you need to prove that Cymbal's market positioning is strong—and that the opportunity in Alzheimer's disease is real and large. You have Cymbal's internal pipeline and financial data, but also need real-world competitor intelligence: recent FDA approvals, drug pricing, pipeline updates, and market size forecasts for the Alzheimer's space.
 
-In this lab, you will load Cymbal's internal data into a notebook and then use NotebookLM's web search to pull in live competitor intelligence — building a research workspace that can answer the hard investor questions.
+In this lab, you will load Cymbal's internal data into a notebook and then use NotebookLM's web search to pull in live competitor intelligence—building a research workspace that can answer the hard investor questions.
 
 ## Lab Instructions
 
@@ -38,7 +38,7 @@ In this lab, you will load Cymbal's internal data into a notebook and then use N
 2. In the **Sources** panel, click **+ Add sources**, select **Copied text**, and then paste the following, and click **Insert**:
 
    ```text
-   CYMBAL PHARMA — INTERNAL PIPELINE & FINANCIAL BRIEF
+   CYMBAL PHARMA—INTERNAL PIPELINE & FINANCIAL BRIEF
    Prepared for: Series B Investor Briefing | Confidential
 
    PIPELINE
