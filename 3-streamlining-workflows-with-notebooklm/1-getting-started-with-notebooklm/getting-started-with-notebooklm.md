@@ -86,7 +86,7 @@ Once a source is added, NotebookLM automatically generates a **Notebook Guide**�
 
 ### Task 3: Ask targeted questions
 
-You want three specific answers before the stakeholder meeting. Ask each of the following questions in the chat and evaluate the response — paying close attention to the citations NotebookLM provides.
+You want three specific answers before the stakeholder meeting. Ask each of the following questions in the chat and evaluate the response—paying close attention to the citations NotebookLM provides.
 
 **Question 1: Identify the high-risk dosage group**
 
