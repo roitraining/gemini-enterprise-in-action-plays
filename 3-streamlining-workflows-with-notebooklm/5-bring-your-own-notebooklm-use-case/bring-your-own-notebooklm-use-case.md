@@ -97,7 +97,7 @@ Before opening NotebookLM, spend 5 minutes thinking through your scenario using 
 
 4. Discuss with your colleague: for which kinds of information work in your role would NotebookLM be genuinely useful? Where would it not be the right tool?
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Defined a real information challenge and selected appropriate sources.
