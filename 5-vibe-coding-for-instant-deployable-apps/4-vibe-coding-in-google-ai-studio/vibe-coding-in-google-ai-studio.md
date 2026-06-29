@@ -74,7 +74,7 @@ Stop here. Just build the visual layout.
    <p align="left">
      <img src="images/driver-log-initial.png" width="50%" alt="Cymbal Driver Log App" />
      <br>
-     <em>Cymbal Driver Log — initial UI</em>
+     <em>Cymbal Driver Log—initial UI</em>
    </p>
 
 4. Click the __Code__ button at the top. Notice, this app is not being coded in a single file like in Gemini using Canvas. This program uses a proper structure for a ReactJS app using TypeScript files, CSS, and an organized folder structure. 
