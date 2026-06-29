@@ -75,7 +75,7 @@ In this lab, you build a single Orchestrator Agent that takes new hire details a
 
    <p align="left">
      <img src="images/add-subagent.png" width="70%" alt="Flow tab showing the Add a sub-agent button" />
-     <br><em>Hover over the Orchestrator node to reveal the + Add subagent button</em>
+     <br><em>Hover over the Orchestrator node to reveal the + Add a sub-agent button</em>
    </p>
 
 2. A new sub-agent node appears on the canvas. Click the node and configure it:
@@ -104,7 +104,7 @@ In this lab, you build a single Orchestrator Agent that takes new hire details a
    Keep the tone direct and professional.
    ```
 
-3. In the **Flow** tab, hover over the Orchestrator node again and click **+ Add subagent** to add a second sub-agent. Configure it:
+3. In the **Flow** tab, hover over the Orchestrator node again and click **+ Add a sub-agent** to add a second sub-agent. Configure it:
    - **Name:**
    ```
    HR Assistant
@@ -140,7 +140,7 @@ In this lab, you build a single Orchestrator Agent that takes new hire details a
 
 ### Task 3: Add the Facilities Agent, then test
 
-1. Hover over the Orchestrator node and click **+ Add subagent** to add the third sub-agent:
+1. Hover over the Orchestrator node and click **+ Add a sub-agent** to add the third sub-agent:
    - **Name:**
    ```
    Facilities Agent
@@ -203,7 +203,7 @@ The system is working but onboarding at Cymbal Insurance involves four departmen
 
 1. Open the agent for editing. In the **Agent Gallery**, go to **Your agents**, find **New Hire Onboarding Orchestrator**, click **Actions**, and select **Edit**.
 
-2. In the **Flow** tab, hover over the Orchestrator node and click **+ Add subagent**.
+2. In the **Flow** tab, hover over the Orchestrator node and click **+ Add a sub-agent**.
 
 3. Configure the sub-agent's name and description, then write the instructions yourself. Use the IT Provisioner, HR Assistant, and Facilities Agent as your guide for structure and tone. The Training Coordinator should produce:
    - A structured first-week onboarding schedule with a clear agenda for each day
