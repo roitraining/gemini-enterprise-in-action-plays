@@ -178,7 +178,7 @@ Recommendation:
 
 #### Part C: Use a one-shot example to lock in the style
 
-One-shot prompting means embedding a complete example of the output you want directly inside the prompt. The model reads the example and imitates its structure, tone, and level of detail — without you needing to describe those qualities abstractly.
+One-shot prompting means embedding a complete example of the output you want directly inside the prompt. The model reads the example and imitates its structure, tone, and level of detail—without you needing to describe those qualities abstractly.
 
 1. In the same chat, paste the prompt below. The inline example teaches Gemini exactly what a good memo looks like before you ask it to write one.
 
