@@ -181,7 +181,7 @@ A single set of sources can produce very different Audio Overviews depending on 
 
 Create a new notebook and add one or more of your own documents—meeting notes, a project proposal, a research report, or a set of articles. Use the Studio panel to generate an output that would be immediately useful in your work: a Presentation outline, a Report, or an Audio Overview. Share the result with a colleague.
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Generated a customized Audio Overview for a specific audience.
