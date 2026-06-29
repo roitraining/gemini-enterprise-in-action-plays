@@ -122,7 +122,7 @@ For each document:
    - "What is the dress code policy?"
 
 > [!NOTE]
-> The agent should respond that the information is not available in the Employee Handbook and direct the user to HR — not hallucinate an answer. This is the expected behavior for a well-grounded agent.
+> The agent should respond that the information is not available in the Employee Handbook and direct the user to HR—not hallucinate an answer. This is the expected behavior for a well-grounded agent.
 
 5. If any response is inaccurate or off-topic, click the **Flow** tab, open the agent node, and update the instructions. You can also type a refinement in the left chat pane:
 
