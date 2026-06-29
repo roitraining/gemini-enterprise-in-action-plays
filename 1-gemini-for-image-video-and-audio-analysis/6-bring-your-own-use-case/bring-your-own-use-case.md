@@ -42,7 +42,7 @@ Apply the prompt engineering habits from this course:
 - Give Gemini a clear role before stating the task.
 - Be specific about style, format, dimensions, and brand details.
 - Use reference files when you have them rather than describing them in words.
-- Iterate — change one thing at a time and compare results.
+- Iterate—change one thing at a time and compare results.
 
 If you are doing video analysis, pair your footage with a written standard or brief that gives Gemini something concrete to check against. The more structured the grounding document, the more actionable the output.
 
@@ -59,7 +59,7 @@ Make at least one refinement, then share your final output and the prompt that p
 
 Take your asset one step further:
 - If you generated an image, use the meta-prompting technique to ask Gemini to improve your original prompt, then regenerate and compare.
-- If you analyzed a video, ask Gemini to draft the follow-up communication the output requires — a corrective action email, a briefing, or a summary for leadership.
+- If you analyzed a video, ask Gemini to draft the follow-up communication the output requires—a corrective action email, a briefing, or a summary for leadership.
 - If you produced a video or audio asset, ask Gemini to write a second version of the script for a different audience or platform and note what changes.
 
 ## Congratulations
