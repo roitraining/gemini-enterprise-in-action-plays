@@ -137,4 +137,4 @@ In this lab, you have:
 - Written agent instructions that produce reliable, structured output.
 - Tested and refined your agent using the Preview tab and real-world feedback.
 
-You have now built agents for structured tasks, knowledge-grounded assistance, multi-department coordination, and autonomous scheduled workflows. The tools are the same for every use case — the skill is in knowing how to define the problem clearly enough that the agent can solve it reliably.
+You have now built agents for structured tasks, knowledge-grounded assistance, multi-department coordination, and autonomous scheduled workflows. The tools are the same for every use case—the skill is in knowing how to define the problem clearly enough that the agent can solve it reliably.
