@@ -56,7 +56,7 @@ The UI should have:
    <p align="left">
      <img src="images/initial-ui.png" width="50%" alt="Cymbal Shift Handover Tool" />
      <br>
-     <em>Cymbal Logistics Shift Handoff Tool — initial UI</em>
+     <em>Cymbal Logistics Shift Handoff Tool—initial UI</em>
    </p>
 
 3. Enter the following prompt to add the logic to the application. 
@@ -92,7 +92,7 @@ Warehouse bay 4 has a broken docking plate, maintenance is coming tomorrow at 9 
 Jeff Smith called in sick, John Miller will cover for him. 
 ```
 
-5. Click the Format AI Prompt button. This creates a structured prompt optimized for this use case. It should look similar to the screenshot below. 
+5. Click the **Format AI Prompt button**. This creates a structured prompt optimized for this use case. It should look similar to the screenshot below. 
 
    <p align="left">
      <img src="images/ai-prompt.png" width="50%" alt="AI Prompt" style="border: 1px solid black;" />
