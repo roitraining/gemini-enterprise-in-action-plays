@@ -195,7 +195,7 @@ With internal and external sources in the same notebook, you can ask questions t
 
 Create a new notebook, add a short internal document or memo as copied text, then use web search to find 2–3 live sources on a topic relevant to your role—a competitor, a market trend, or a new regulation. Ask one question that requires both your internal source and the web sources to answer.
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Loaded internal company data as a private source in NotebookLM.
