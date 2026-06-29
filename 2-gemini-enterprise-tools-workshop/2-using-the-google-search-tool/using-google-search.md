@@ -31,7 +31,7 @@ You need to produce an initial research brief that helps the investment team dec
 
 ## Lab Instructions
 
-### Task 1: Baseline Pass (No Search Tool)
+### Task 1: Baseline pass (no search tool)
 
 Start with a quick baseline so you can compare results later.
 
@@ -61,7 +61,7 @@ Deliver:
 
 4. Copy and paste this output to a document. Note any statements that do not include concrete evidence, links, or dates.
 
-### Task 2: Grounded Pass with Search Google
+### Task 2: Grounded pass with Search Google
 
 1. Start a new chat in Gemini Enterprise.
 
