@@ -62,7 +62,7 @@ Take your asset one step further:
 - If you analyzed a video, ask Gemini to draft the follow-up communication the output requires—a corrective action email, a briefing, or a summary for leadership.
 - If you produced a video or audio asset, ask Gemini to write a second version of the script for a different audience or platform and note what changes.
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Applied multimodal AI capabilities to a real use case from your own work.
