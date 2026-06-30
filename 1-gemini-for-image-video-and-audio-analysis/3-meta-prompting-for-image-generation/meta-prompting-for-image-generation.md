@@ -104,7 +104,7 @@ A meta-prompt asks Gemini to generate a prompt for another task—in this case, 
 
 1. Start a new chat. Come up with an example relevant to your work or your company. Experiment with meta-prompting to have Gemini create the prompts to generate an ad campaign, a company promotion, a graphic for a social media post, or anything else. 
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Used a meta-prompt to generate a structured, technical image generation prompt from a plain-language brief.
