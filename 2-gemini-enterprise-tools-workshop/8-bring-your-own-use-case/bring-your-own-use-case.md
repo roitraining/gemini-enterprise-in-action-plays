@@ -64,7 +64,7 @@ Most real work challenges benefit from more than one capability. Extend your Tas
 - If you used **Canvas** to build a layout, upload your output as a reference image and ask Gemini to critique it and suggest one concrete improvement.
 - If you used **Prompt Engineering** or **Meta-Prompting**, share your before-and-after prompts with someone in the group and ask them which output they would actually use and why.
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Identified a real work challenge and matched it to the right Gemini Enterprise tool.
