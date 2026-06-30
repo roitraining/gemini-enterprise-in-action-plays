@@ -158,7 +158,7 @@ Keep this as a front-end dashboard shell that is ready for data integration.
 
 4. If the first Canvas result is too loose, follow up with a tighter prompt that asks for the same layout structure, clearer spacing, and a more polished visual style.
 
-## Congratulations
+## Congratulations!
 In this lab, you have:
 - Translated a low-fidelity UI sketch into a structured web layout.
 - Prompted Gemini Canvas to generate an investment dashboard shell from an image.
