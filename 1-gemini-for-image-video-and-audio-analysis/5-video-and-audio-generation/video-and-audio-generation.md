@@ -127,7 +127,7 @@ The video needs a voiceover that fits the 10-second runtime precisely.
 
 1. Create a video clip, script, and voiceover for something relevant for your own work or personal use. 
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Generated a branded holiday video clip using Gemini's video creation tool.
