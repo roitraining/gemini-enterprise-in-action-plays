@@ -75,7 +75,7 @@ Adjust the image using the attached logo on the vest.
       <em>Example of a generated image.</em>
    </p>
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Uploaded a personal image as generation context.
