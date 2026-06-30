@@ -252,7 +252,7 @@ Choose a real task from your own work—summarizing a long document, comparing o
 3. Optionally add a persona block, use delimiters to separate instructions from a format template, or embed a one-shot example drawn from a real output you were happy with.
 4. Share your before and after prompts with the group and explain which technique made the biggest improvement.
 
-## Congratulations
+## Congratulations!
 In this lab, you have:
 - Compared a plain request with a more structured prompt to see why prompt engineering matters.
 - Used the 5-step prompting framework to make requests repeatable.
