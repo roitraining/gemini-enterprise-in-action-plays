@@ -95,7 +95,7 @@ Prompt engineering for image generation is iterative. Try at least two of the fo
      <em>Infographic Example</em>
    </p>
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Built a complex, multi-element image generation prompt for a real promotional brief.
