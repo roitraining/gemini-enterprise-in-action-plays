@@ -106,7 +106,7 @@ Think of a research question relevant to your own organization. It does not need
 
 3. Run the improved prompt and share one key finding with the group.
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Run a vague prompt through Deep Research and identified its limitations.
