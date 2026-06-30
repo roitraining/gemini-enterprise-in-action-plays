@@ -95,7 +95,7 @@ https://drive.google.com/file/d/1J3Xyq90oJzBGFPMRdgX_18mRKXknmdSD/view?usp=shari
 
    __Note:__ You will need to convert the video to MP4 format, and the video size will be limited. This can be as low as 50MB depending on your license. 
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Uploaded a video and a PDF document for simultaneous multimodal analysis.
