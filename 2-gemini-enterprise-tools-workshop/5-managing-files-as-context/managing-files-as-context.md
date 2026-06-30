@@ -219,7 +219,7 @@ Choose three or more files from your own work—a mix of types such as a report,
 
 4. Share your final synthesis with the group and explain which file combination produced the most useful output.
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Added contextual files (PDF, spreadsheet, DOCX, image) to Gemini Enterprise.
