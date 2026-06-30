@@ -182,7 +182,7 @@ Here are some ideas to get you started:
 
 5. Share your question and one key finding with the group. Did Deep Research surface anything you did not already know?
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Used Gemini Enterprise Deep Research to investigate a company's background, founders, and market viability.
