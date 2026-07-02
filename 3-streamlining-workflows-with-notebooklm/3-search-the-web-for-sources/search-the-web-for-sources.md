@@ -4,7 +4,7 @@
 30 minutes
 
 ## Overview
-In this lab, you will use NotebookLM's built-in web search feature to find and add live sources from the internet directly into your notebook — no copy-pasting from a browser required. This turns NotebookLM into a competitive intelligence workspace where your private internal data and real-world external research sit side by side, and every answer cites exactly where it came from.
+In this lab, you will use NotebookLM's built-in web search feature to find and add live sources from the internet directly into your notebook—no copy-pasting from a browser required. This turns NotebookLM into a competitive intelligence workspace where your private internal data and real-world external research sit side by side, and every answer cites exactly where it came from.
 
 ### You learn how to:
 - Add internal data to a notebook as copied text.
@@ -20,13 +20,13 @@ In this lab, you will use NotebookLM's built-in web search feature to find and a
 
 You are the Director of Business Development and Investor Relations at Cymbal Pharma. The company is preparing a **Series B funding pitch** to raise $45 million for CPH-412's upcoming Phase 1b trial.
 
-To convince investors, you need to prove that Cymbal's market positioning is strong — and that the opportunity in Alzheimer's disease is real and large. You have Cymbal's internal pipeline and financial data, but also need real-world competitor intelligence: recent FDA approvals, drug pricing, pipeline updates, and market size forecasts for the Alzheimer's space.
+To convince investors, you need to prove that Cymbal's market positioning is strong—and that the opportunity in Alzheimer's disease is real and large. You have Cymbal's internal pipeline and financial data, but also need real-world competitor intelligence: recent FDA approvals, drug pricing, pipeline updates, and market size forecasts for the Alzheimer's space.
 
-In this lab, you will load Cymbal's internal data into a notebook and then use NotebookLM's web search to pull in live competitor intelligence — building a research workspace that can answer the hard investor questions.
+In this lab, you will load Cymbal's internal data into a notebook and then use NotebookLM's web search to pull in live competitor intelligence—building a research workspace that can answer the hard investor questions.
 
 ## Lab Instructions
 
-### Task 1: Create the Notebook and Add Cymbal's Internal Data
+### Task 1: Create the Notebook and add Cymbal's internal data
 
 1. Open [NotebookLM](https://notebooklm.google.com/) and click **Create new notebook**. Close the __Add sources__ screen, and then name the notebook `CPH-412 Series B Pitch Research`.
 
@@ -38,7 +38,7 @@ In this lab, you will load Cymbal's internal data into a notebook and then use N
 2. In the **Sources** panel, click **+ Add sources**, select **Copied text**, and then paste the following, and click **Insert**:
 
    ```text
-   CYMBAL PHARMA — INTERNAL PIPELINE & FINANCIAL BRIEF
+   CYMBAL PHARMA—INTERNAL PIPELINE & FINANCIAL BRIEF
    Prepared for: Series B Investor Briefing | Confidential
 
    PIPELINE
@@ -71,9 +71,9 @@ In this lab, you will load Cymbal's internal data into a notebook and then use N
 3. After the source is added, click the action menu and select __Rename source__. give it the title `Cymbal Pharma — Internal Pipeline & Financial Brief`, 
 
 > [!NOTE]
-> With only this source loaded, NotebookLM knows everything about Cymbal — but nothing about the competitive landscape. That changes in the next task.
+> With only this source loaded, NotebookLM knows everything about Cymbal—but nothing about the competitive landscape. That changes in the next task.
 
-### Task 2: Search the Web for Competitor Sources
+### Task 2: Search the web for competitor sources
 
 NotebookLM can search the internet and add live pages directly to your notebook as sources.
 
@@ -86,8 +86,8 @@ NotebookLM can search the internet and add live pages directly to your notebook 
 
 2. Click the research mode dropdown (the magnifying glassicon next to the search box) to see the two options:
 
-   - **Fast Research** — quick results; best for broad topic discovery
-   - **Deep Research** — slower and more thorough; best for detailed competitive analysis
+   - **Fast Research**—quick results; best for broad topic discovery
+   - **Deep Research**—slower and more thorough; best for detailed competitive analysis
 
    In the interest of time, select **Fast Research** for this lab.
 
@@ -98,7 +98,7 @@ NotebookLM can search the internet and add live pages directly to your notebook 
 
 3. Run each of the following searches. After each one, review the suggested sources and click **+** on the most relevant results to add them to your notebook. 
 
-   **Search 1 — Biogen Alzheimer's treatments:**
+   **Search 1—Biogen Alzheimer's treatments:**
 
    Paste the following prompt in the web search box and run it. 
 
@@ -118,15 +118,15 @@ NotebookLM can search the internet and add live pages directly to your notebook 
      <br><em>Review search results and add the most relevant sources to your notebook</em>
    </p>
 
-   **Search 2 — Eli Lilly Alzheimer's treatment:**
+   **Search 2—Eli Lilly Alzheimer's treatment:**
 
-   Run the following search and select the most relevant results (_or all of them_).   Look for results covering trial outcomes, approval timeline, and pricing.
+   Run the following search and select the most relevant results (_or all of them_).  Look for results covering trial outcomes, approval timeline, and pricing.
 
    ```text
    Eli Lilly donanemab Alzheimer's FDA approval clinical trial results
    ```
 
-   **Search 3 — Alzheimer's market size:**
+   **Search 3—Alzheimer's market size:**
 
    Run the following search and select the most relevant results (_or all of them_). Look for market research results with total addressable market (TAM) figures and growth projections.
 
@@ -134,15 +134,13 @@ NotebookLM can search the internet and add live pages directly to your notebook 
    ```text
    Alzheimer's disease treatment market size forecast 2024 2030
    ```
-
    
-   > [!NOTE]
-   > Choose sources from credible outlets — FDA press releases, pharma news publications (FiercePharma, STAT News, BioPharma Dive), financial filings, and market research firms tend to produce the best-cited answers. You can always add more sources later.
-
+> [!NOTE]
+> Choose sources from credible outlets—FDA press releases, pharma news publications (FiercePharma, STAT News, BioPharma Dive), financial filings, and market research firms tend to produce the best-cited answers. You can always add more sources later.
 
 4. Your notebook should now contain Cymbal's internal brief alongside live web sources on competitor drugs and the Alzheimer's market.
 
-### Task 3: Ask Competitive Intelligence Questions
+### Task 3: Ask competitive intelligence questions
 
 With internal and external sources in the same notebook, you can ask questions that no single source could answer on its own.
 
@@ -170,12 +168,12 @@ With internal and external sources in the same notebook, you can ask questions t
    Based on the competitor landscape and market data in the notebook, what is the single most important question an investor would ask that Cymbal's current data cannot yet answer?
    ```
 
-   > [!NOTE]
-   > This last question is deliberately open-ended. A question that NotebookLM cannot fully answer from the available sources points to a gap you would need to address in the pitch deck itself.
+> [!NOTE]
+> This last question is deliberately open-ended. A question that NotebookLM cannot fully answer from the available sources points to a gap you would need to address in the pitch deck itself.
 
 5. Use source deselection to verify which sources are driving specific answers. Deselect the Cymbal internal brief and re-ask Question 2. Does the answer change in a meaningful way?
 
-### Bonus Task 4: Expand the Competitive Picture
+### Bonus Task 4: Expand the competitive picture
 
 1. Search for one more competitor or market factor that matters for the investor pitch:
 
@@ -193,11 +191,11 @@ With internal and external sources in the same notebook, you can ask questions t
 
 3. Ask NotebookLM to generate a one-paragraph **Competitive Landscape Summary** suitable for the executive summary page of the investor pitch deck. Save it as a note.
 
-### Bonus Task 5: Try It with Your Own Topic
+### Bonus Task 5: Try it with your own topic
 
-Create a new notebook, add a short internal document or memo as copied text, then use web search to find 2–3 live sources on a topic relevant to your role — a competitor, a market trend, or a new regulation. Ask one question that requires both your internal source and the web sources to answer.
+Create a new notebook, add a short internal document or memo as copied text, then use web search to find 2–3 live sources on a topic relevant to your role—a competitor, a market trend, or a new regulation. Ask one question that requires both your internal source and the web sources to answer.
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Loaded internal company data as a private source in NotebookLM.

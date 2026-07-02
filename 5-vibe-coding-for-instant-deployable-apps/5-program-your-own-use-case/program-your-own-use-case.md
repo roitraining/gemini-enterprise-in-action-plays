@@ -49,8 +49,8 @@ Before writing a single prompt, you need a clear picture of what you are buildin
 > If you are stuck for ideas, open a new chat in [Gemini](https://gemini.google.com/app) and describe your job or a daily frustration. Ask: *"What simple web app could I build to solve this?"* Use the suggestions as a starting point, then make the idea your own.
 
 5. **Choose your tool.** Use this as a guide:
-   - **Gemini Canvas** — best for self-contained, single-page apps built with plain HTML, CSS, and JavaScript. Great for dashboards, forms, and quick tools.
-   - **Google AI Studio** — best for multi-page applications, or when you want a structured React/TypeScript project you can download and deploy.
+   - **Gemini Canvas**—best for self-contained, single-page apps built with plain HTML, CSS, and JavaScript. Great for dashboards, forms, and quick tools.
+   - **Google AI Studio**—best for multi-page applications, or when you want a structured React/TypeScript project you can download and deploy.
 
 > [!IMPORTANT]
 > Write down your app description, feature list, and tool choice before moving on. You will paste this information directly into your first prompt in Task 2.
@@ -144,7 +144,7 @@ Do not add any other new features yet.
 
 3. Think about what would make this app genuinely production-ready. Consider adding one of the following:
    - **Data persistence** using `localStorage` so data survives a page refresh
-   - **Export functionality** — a CSV download or a clipboard copy button
+   - **Export functionality**—a CSV download or a clipboard copy button
    - **A light/dark theme toggle**
    - **Mobile responsiveness** with a stacked layout on small screens
 

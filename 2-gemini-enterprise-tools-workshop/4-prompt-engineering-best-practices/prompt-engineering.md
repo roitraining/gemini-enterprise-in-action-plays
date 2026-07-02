@@ -26,7 +26,7 @@ Your job is to learn how to prompt Gemini so it can help the team summarize info
 
 ## Lab Instructions
 
-### Task 1: Compare a Raw Prompt with a Basic Prompt
+### Task 1: Compare a raw prompt with a basic prompt
 
 Start by seeing why prompt engineering matters in the first place.
 
@@ -40,7 +40,7 @@ Start by seeing why prompt engineering matters in the first place.
      <em>Add from Drive</em>
    </p>
 
-3. Paste the following URL into the Search in Drive box, press Enter, then select the resulting file and __Insert__ it. 
+3. Paste the following URL into the Search in Drive box, press **Enter**, then select the resulting file and __Insert__ it. 
 
 ```text
 https://drive.google.com/file/d/1J6AVmG8iO37IkoON8F43d3ymvQvx7btp/view?usp=drive_link
@@ -114,7 +114,7 @@ Return the recommendation, the key reasons, the main risks, and one follow-up qu
 
 4. Refine the prompt if needed. This is the repeatable version you can use when you want a consistent structure for similar tasks.
 
-### Task 3: Apply Advanced Prompting Techniques
+### Task 3: Apply advanced prompting techniques
 
 Use advanced techniques when you need tighter control over structure, tone, or format. In this task, keep the same chat open and use the best investment opportunity from Task 2 as the subject of the memo.
 
@@ -178,12 +178,12 @@ Recommendation:
 
 #### Part C: Use a one-shot example to lock in the style
 
-One-shot prompting means embedding a complete example of the output you want directly inside the prompt. The model reads the example and imitates its structure, tone, and level of detail — without you needing to describe those qualities abstractly.
+One-shot prompting means embedding a complete example of the output you want directly inside the prompt. The model reads the example and imitates its structure, tone, and level of detail—without you needing to describe those qualities abstractly.
 
 1. In the same chat, paste the prompt below. The inline example teaches Gemini exactly what a good memo looks like before you ask it to write one.
 
 ```text
-Here is one example of a well-written investment memo. Use it as a one-shot example — match its structure, tone, and analytical depth exactly.
+Here is one example of a well-written investment memo. Use it as a one-shot example—match its structure, tone, and analytical depth exactly.
 
 --- EXAMPLE START ---
 Title: Vanta Security — Series B Consideration
@@ -210,7 +210,7 @@ Now write a memo in the same format for the best investment opportunity from our
 
 2. Compare the outputs from Parts A, B, and C. In Part A you set behavior rules; in Part B you defined a format template with delimiters; in Part C you provided a complete inline example. Which approach produced the most consistent and usable result?
 
-3. One-shot prompting is most useful when you already have a real example of good output you want to replicate — a memo a partner approved, a report that landed well, or a format your team already uses. The richer and more representative the example, the less the model has to guess.
+3. One-shot prompting is most useful when you already have a real example of good output you want to replicate—a memo a partner approved, a report that landed well, or a format your team already uses. The richer and more representative the example, the less the model has to guess.
 
 ### Bonus Task 4: Meta-Prompting
 
@@ -243,16 +243,16 @@ Use clean Markdown with bolded headers and bulleted lists for scannability.
 
 3. Compare the revised prompt with your original version from Task 3 Part C. Did the output quality improve?
 
-### Bonus Task 5: Bring Your Own Use Case
+### Bonus Task 5: Bring your own use case
 
-Choose a real task from your own work — summarizing a long document, comparing options, drafting a communication, or producing a structured analysis. Apply the techniques from this lab:
+Choose a real task from your own work—summarizing a long document, comparing options, drafting a communication, or producing a structured analysis. Apply the techniques from this lab:
 
 1. Write a raw first attempt and note where the output falls short.
 2. Rewrite it using the 5-step framework.
 3. Optionally add a persona block, use delimiters to separate instructions from a format template, or embed a one-shot example drawn from a real output you were happy with.
 4. Share your before and after prompts with the group and explain which technique made the biggest improvement.
 
-## Congratulations
+## Congratulations!
 In this lab, you have:
 - Compared a plain request with a more structured prompt to see why prompt engineering matters.
 - Used the 5-step prompting framework to make requests repeatable.

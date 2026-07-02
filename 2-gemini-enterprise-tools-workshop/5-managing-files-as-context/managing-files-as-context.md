@@ -26,7 +26,7 @@ The team has collected a deal memo, traction metrics, customer notes, and produc
 
 ## Lab Instructions
 
-### Task 1: Start with One File
+### Task 1: Start with one file
 
 Begin with a single source so you can see how much context Gemini gets from one attachment.
 
@@ -63,7 +63,7 @@ Return:
 
 5. If the answer is too generic, ask a follow-up question that forces a tighter summary.
 
-### Task 2: Add a Second File Type
+### Task 2: Add a second file type
 
 Now add a different type of evidence so Gemini can combine narrative and numbers.
 
@@ -85,7 +85,7 @@ Return:
 
 3. Review whether Gemini uses the spreadsheet as evidence. It should cite specific rows, columns, or metric names from the spreadsheet.
 
-### Task 3: Add a Third File Type
+### Task 3: Add a third file type
 
 Add a DOCX file to show that Manage files works across different document types, not just PDFs and spreadsheets.
 
@@ -105,7 +105,7 @@ Return:
 
 2. If Gemini surfaces a contradiction between files, ask it to identify which source it trusts more and why.
 
-### Task 4: Use an Image as Context
+### Task 4: Use an image as context
 
 Now add a visual file so Gemini has to interpret a different format.
 
@@ -130,9 +130,9 @@ Return:
 4. If the response is vague, ask it to separate visual evidence from written evidence.
 
 
-### Task 5: Manage the File Set Deliberately
+### Task 5: Manage the file set deliberately
 
-A key part of Manage files is choosing the right file set *before* you ask a question. Once files have been discussed in a chat, the conversation history already contains the model's knowledge of them — so the meaningful way to see how file selection affects output is to start a new chat with a different set of files.
+A key part of Manage files is choosing the right file set *before* you ask a question. Once files have been discussed in a chat, the conversation history already contains the model's knowledge of them—so the meaningful way to see how file selection affects output is to start a new chat with a different set of files.
 
 1. Open a **new chat** in Gemini Enterprise. Add only three files: `cymbal-alpha-deal-memo.pdf`, `traction-metrics.xlsx`, and `customer-interview-notes.docx`. Do **not** attach the infographic yet.
 
@@ -149,7 +149,7 @@ Based on the attached files, explain whether the product looks real, differentia
 ```text
 You are an investment analyst for Cymbal Capital Partners. Use ONLY the attached files and do not browse external sources or invent facts.
 
-Task — Clean & Synthesize:
+Task—Clean & Synthesize:
 1. Identify and remove noisy or unreliable data across these files (unsupported claims, contradictions, undated items, unexplained outliers, or unclear provenance). For each removed item list: file, precise location (PDF page/paragraph, spreadsheet sheet+row/cell, docx paragraph, image area), and a one-line reason for removal.
 2. Using the remaining reliable evidence, produce a concise synthesis (max 250 words) with:
    - Investment thesis (one sentence)
@@ -165,7 +165,7 @@ Begin by listing the number of removed items and the number of retained evidence
 
 5. Review the cleaned synthesis. Compare this view with the earlier, broader answers from Tasks 1–4. Ask a follow-up if something looks incorrectly removed or still noisy.
 
-### Task 6: Produce a Final Investment Note
+### Task 6: Produce a final investment note
 
 Use the cleaned evidence to create a tight partner-ready memo.
 
@@ -191,7 +191,7 @@ Rules:
 
 2. Review the memo for clarity and evidence linkage. You can save the final memo to share it by clicking the **Download response** button.
 
-### Bonus Task 7: Start Without the Primary Document
+### Bonus Task 7: Start without the primary document
 
 So far every chat has started with the deal memo as the anchor. See what happens when the primary narrative document is absent from the start.
 
@@ -207,19 +207,19 @@ Based on the attached files, summarize the investment opportunity and give a one
 
 4. Add `cymbal-alpha-deal-memo.pdf` to this chat and re-run the same question. Confirm whether the recommendation aligns with your earlier Task 6 output.
 
-### Bonus Task 8: Bring Your Own Use Case
+### Bonus Task 8: Bring your own use case
 
-Choose three or more files from your own work — a mix of types such as a report, a spreadsheet, and a document — that all relate to a single question or decision you need to make.
+Choose three or more files from your own work—a mix of types such as a report, a spreadsheet, and a document—that all relate to a single question or decision you need to make.
 
 1. Open a new Gemini Enterprise chat and attach your files one at a time. After each addition, ask a question that uses all attached files so far and note how the answer evolves.
 
 2. When all files are attached, run a synthesis prompt asking Gemini to identify the strongest evidence, surface any contradictions, and give a recommendation or next step.
 
-3. Open a second new chat and attach only the files you trust most — leave out the weakest source. Run the same synthesis prompt and compare the two outputs. Did removing the weaker file improve or degrade the answer?
+3. Open a second new chat and attach only the files you trust most—leave out the weakest source. Run the same synthesis prompt and compare the two outputs. Did removing the weaker file improve or degrade the answer?
 
 4. Share your final synthesis with the group and explain which file combination produced the most useful output.
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Added contextual files (PDF, spreadsheet, DOCX, image) to Gemini Enterprise.

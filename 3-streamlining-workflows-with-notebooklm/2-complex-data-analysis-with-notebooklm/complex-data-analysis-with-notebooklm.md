@@ -4,7 +4,7 @@
 30 minutes
 
 ## Overview
-In this lab, you will load three diverse source types into a single NotebookLM notebook — a real regulatory document added via URL, an internal protocol added as copied text, and a raw field log added as copied text. You will then ask questions that require synthesizing all three simultaneously, and use source deselection to isolate and compare different information subsets. NotebookLM's cited answers make it uniquely suited for compliance work: every finding traces back to a specific document and section.
+In this lab, you will load three diverse source types into a single NotebookLM notebook—a real regulatory document added via URL, an internal protocol added as copied text, and a raw field log added as copied text. You will then ask questions that require synthesizing all three simultaneously, and use source deselection to isolate and compare different information subsets. NotebookLM's cited answers make it uniquely suited for compliance work: every finding traces back to a specific document and section.
 
 ### You learn how to:
 - Add multiple source types to a single notebook (URL, and copied text).
@@ -30,7 +30,7 @@ Two of the three sources in this lab are provided below as text you will paste d
 
 ## Lab Instructions
 
-### Task 1: Create the Notebook and Add All Three Sources
+### Task 1: Create the Notebook and add all three sources
 
 1. Open [NotebookLM](https://notebooklm.google.com/) and create a **New notebook**. Close the __Add sources__ screen, and then name the notebook `CPH-412 SAE Compliance Review`.
 
@@ -39,18 +39,18 @@ Two of the three sources in this lab are provided below as text you will paste d
      <br><em>The CPH-412 SAE Compliance Review notebook</em>
    </p>
 
-2. **Add Source 1 — FDA Regulation (via URL)**
+2. **Add Source 1—FDA Regulation (via URL)**
 
-   In the **Sources** panel, click **+ Add sources** and select **Website**. Paste the following URL — this is the actual FDA Code of Federal Regulations rule governing IND safety reporting:
+   In the **Sources** panel, click **+ Add sources** and select **Website**. Paste the following URL—this is the actual FDA Code of Federal Regulations rule governing IND safety reporting:
 
    ```text
    https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-B/section-312.32
    ```
 
-   > [!NOTE]
-   > This is a live, publicly available FDA regulation (21 CFR § 312.32). NotebookLM will index the full text. If the URL is unreachable, search for "21 CFR 312.32" on [ecfr.gov](https://www.ecfr.gov) and add the result.
+ > [!NOTE]
+ > This is a live, publicly available FDA regulation (21 CFR § 312.32). NotebookLM will index the full text. If the URL is unreachable, search for "21 CFR 312.32" on [ecfr.gov](https://www.ecfr.gov) and add the result.
 
-3. **Add Source 2 — Cymbal CPH-412 Clinical Trial Protocol (via copied text)**
+3. **Add Source 2—Cymbal CPH-412 Clinical Trial Protocol (via copied text)**
 
    Click **+ Add sources**, select **Copied text**, paste the following, and click **Insert**:
 
@@ -79,7 +79,7 @@ Two of the three sources in this lab are provided below as text you will paste d
 
 4. After the source is added, click the action menu and select __Rename source__. Give it the title `Cymbal CPH-412 Clinical Trial Protocol`.
 
-5. **Add Source 3 — Clinical Investigator's Raw Daily Log (via copied text)**
+5. **Add Source 3—Clinical Investigator's Raw Daily Log (via copied text)**
 
    Click **+ Add sources** again, select **Copied text**, paste the following, and click **Insert**:
 
@@ -89,13 +89,13 @@ Two of the three sources in this lab are provided below as text you will paste d
    Participant: Subject 1411
 
    Monday, Day 5:
-   Reviewed Subject 1411's Day 5 lab results this morning. ALT came back at 4.9x ULN — higher than I expected. Decided to delay next dose rather than suspend. Subject is showing no clinical symptoms and is in good spirits. Administered standard liver support supplements and scheduled a follow-up blood draw for Thursday.
+   Reviewed Subject 1411's Day 5 lab results this morning. ALT came back at 4.9x ULN—higher than I expected. Decided to delay next dose rather than suspend. Subject is showing no clinical symptoms and is in good spirits. Administered standard liver support supplements and scheduled a follow-up blood draw for Thursday.
 
    Wednesday, Day 7:
    Follow-up bloods not yet back. Subject feeling fine, no complaints. Proceeding with monitoring.
 
    Thursday, Day 8:
-   Results returned. ALT is now 3.2x ULN — trending down, which is encouraging. Called Cymbal QA this afternoon to let them know about Monday's result. They flagged it as a potential SAE. Will document formally in the trial log tomorrow and prepare the deviation report over the weekend.
+   Results returned. ALT is now 3.2x ULN—trending down, which is encouraging. Called Cymbal QA this afternoon to let them know about Monday's result. They flagged it as a potential SAE. Will document formally in the trial log tomorrow and prepare the deviation report over the weekend.
    ```
 6. As you did before, give this source the name `Site Log — Dr. Patricia Wren`. 
 
@@ -106,7 +106,7 @@ Two of the three sources in this lab are provided below as text you will paste d
      <br><em>The Sources panel with the FDA regulation, Cymbal protocol, and investigator log loaded</em>
    </p>
 
-### Task 2: Cross-Reference the Sources
+### Task 2: Cross-reference the sources
 
 With all three sources active, NotebookLM can answer questions that require reading across all of them simultaneously.
 
@@ -130,15 +130,15 @@ With all three sources active, NotebookLM can answer questions that require read
 3. Ask NotebookLM to enumerate every specific violation:
 
    ```text
-   List every specific action the investigator took — or failed to take — that constitutes a protocol deviation or regulatory violation. For each one, cite the exact source document and section.
+   List every specific action the investigator took—or failed to take—that constitutes a protocol deviation or regulatory violation. For each one, cite the exact source document and section.
    ```
 
-   > [!NOTE]
-   > You are looking for at least two distinct violations: (1) the failure to fully suspend dosing as required by Section 5.2 of the Cymbal protocol (4.9x ULN exceeds the 3x threshold, but the investigator only "delayed" rather than suspended), and (2) the delayed QA notification — Thursday afternoon instead of within 24 hours of Monday's result.
+> [!NOTE]
+> You are looking for at least two distinct violations: (1) the failure to fully suspend dosing as required by Section 5.2 of the Cymbal protocol (4.9x ULN exceeds the 3x threshold, but the investigator only "delayed" rather than suspended), and (2) the delayed QA notification—Thursday afternoon instead of within 24 hours of Monday's result.
 
-### Task 3: Isolate Sources to Test Reasoning
+### Task 3: Isolate sources to test reasoning
 
-One of NotebookLM's most powerful features is source deselection. Turning off individual sources lets you ask the same question with different information available — revealing how much each source contributes to the answer.
+One of NotebookLM's most powerful features is source deselection. Turning off individual sources lets you ask the same question with different information available—revealing how much each source contributes to the answer.
 
 1. In the **Sources** panel, uncheck the first source you added (the FDA regulation) to deactivate it. Only the Cymbal protocol and the investigator log are now active.
 
@@ -153,9 +153,9 @@ One of NotebookLM's most powerful features is source deselection. Turning off in
    Did the investigator comply with the applicable requirements when handling Subject 1411's ALT spike?
    ```
 
-   Notice how the answer changes — it now reflects only the Cymbal internal protocol, without any FDA regulatory context.
+   Notice how the answer changes—it now reflects only the Cymbal internal protocol, without any FDA regulatory context.
 
-3. Re-activate Source 1. Now deactivate **Source 2** (the Cymbal protocol) and ask the same question again. The answer will now reflect only the FDA regulation and the investigator's log — no internal Cymbal standards.
+3. Re-activate Source 1. Now deactivate **Source 2** (the Cymbal protocol) and ask the same question again. The answer will now reflect only the FDA regulation and the investigator's log—no internal Cymbal standards.
 
 4. Re-activate all sources. Ask a question from the perspective of an external auditor:
 
@@ -172,18 +172,18 @@ One of NotebookLM's most powerful features is source deselection. Turning off in
    
    (1) identify the specific protocol deviations and regulatory violations, citing the exact sections from the relevant documents.
    
-   (2) SState the potential risk to the CPH-412 program. 
+   (2) State the potential risk to the CPH-412 program. 
    
    (3) List the immediate corrective actions required.
    ```
 
-2. Review the output. Verify that every violation cited traces back to a specific section in Source 1 or Source 2 — not to a general statement.
+2. Review the output. Verify that every violation cited traces back to a specific section in Source 1 or Source 2—not to a general statement.
 
 3. Save the memo as a note by clicking the **Save to note** icon (📌).
 
 4. Look back at the investigator's log. Is there any detail in the log that the memo did not address? If so, ask a follow-up to surface it.
 
-### Bonus Task 5: Stress-Test the Sources
+### Bonus Task 5: Stress-test the sources
 
 1. Ask NotebookLM a question it cannot fully answer from the available sources:
 
@@ -203,11 +203,11 @@ One of NotebookLM's most powerful features is source deselection. Turning off in
 
 3. Now ask the timing compliance question again. Does NotebookLM surface the conflict between Protocol v3.1 and the draft amendment? How does it handle the discrepancy?
 
-### Bonus Task 6: Try It with Your Own Multi-Source Problem
+### Bonus Task 6: Try it with your own multi-source problem
 
-Create a new notebook around a real situation where you have multiple documents that need to be compared or cross-referenced — for example, a vendor contract alongside an internal policy, or meeting notes alongside a project brief. Add at least two sources, ask a cross-source question, and try deselecting one source to see how much it changes the answer.
+Create a new notebook around a real situation where you have multiple documents that need to be compared or cross-referenced—for example, a vendor contract alongside an internal policy, or meeting notes alongside a project brief. Add at least two sources, ask a cross-source question, and try deselecting one source to see how much it changes the answer.
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Added three diverse source types to a single NotebookLM notebook.

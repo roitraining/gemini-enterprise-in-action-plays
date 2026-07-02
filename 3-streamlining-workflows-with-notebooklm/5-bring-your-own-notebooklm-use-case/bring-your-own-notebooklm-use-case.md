@@ -14,9 +14,9 @@ In this lab, you will apply everything you have learned across the course to a N
 
 ## Lab Instructions
 
-### Task 1: Define Your Use Case
+### Task 1: Define your use case
 
-Before opening NotebookLM, spend 5 minutes thinking through your scenario using the questions below. There are no right answers — the goal is to arrive at a focused, specific challenge rather than a vague topic.
+Before opening NotebookLM, spend 5 minutes thinking through your scenario using the questions below. There are no right answers—the goal is to arrive at a focused, specific challenge rather than a vague topic.
 
 1. **What is the information challenge?**
    Describe the situation. What do you need to understand, decide, or communicate, and what is making it hard?
@@ -35,15 +35,15 @@ Before opening NotebookLM, spend 5 minutes thinking through your scenario using 
 5. **What would a great outcome look like?**
    Describe what success looks like at the end of this lab. What will you be able to do or share that you could not before?
 
-### Task 2: Build Your Notebook
+### Task 2: Build your Notebook
 
 1. Open [NotebookLM](https://notebooklm.google.com/) and create a new notebook. Give it a descriptive name that reflects your use case.
 
 2. Add your sources. Use the source type that best fits each one:
-   - **PDF** — drag or upload the file
-   - **URL / Website** — paste the link directly
-   - **Google Doc, Slides, or Sheets** — connect via Google Drive
-   - **Copied text** — paste content directly if it is not in a file
+   - **PDF**—drag or upload the file
+   - **URL / Website**—paste the link directly
+   - **Google Doc, Slides, or Sheets**—connect via Google Drive
+   - **Copied text**—paste content directly if it is not in a file
 
 3. If any of your sources require the web search feature (from Lab 3), use **Deep Research** mode to find and add live sources.
 
@@ -52,11 +52,11 @@ Before opening NotebookLM, spend 5 minutes thinking through your scenario using 
 > [!NOTE]
 > NotebookLM works best when sources are complementary — each one adds something the others don't have. If all your sources say the same thing, the cross-source analysis will be less useful. Aim for variety: official/regulatory, internal/operational, external/market, or primary/secondary.
 
-### Task 3: Ask Your Questions and Refine
+### Task 3: Ask your questions and refine
 
 1. Start with the three questions you wrote in Task 1. Ask them one at a time and review each answer carefully:
    - Does the answer cite specific sections from the relevant sources?
-   - Are there any claims that are not grounded in your sources — or that you expected a source to support but it didn't?
+   - Are there any claims that are not grounded in your sources—or that you expected a source to support but it didn't?
    - Does the answer reveal a gap or contradiction you hadn't noticed?
 
 2. Based on the answers, ask at least two follow-up questions. Good follow-ups might:
@@ -67,11 +67,11 @@ Before opening NotebookLM, spend 5 minutes thinking through your scenario using 
 3. Try deselecting one source and re-asking your most important question. Does the answer change in a meaningful way? This tells you how much that source is actually driving the analysis.
 
 4. If a question returns an answer that is vague or incomplete, it usually means one of three things:
-   - A source is missing — add it
-   - The question is too broad — narrow it
-   - The answer is genuinely uncertain given the sources — that is a useful finding, not a failure
+   - A source is missing—add it
+   - The question is too broad—narrow it
+   - The answer is genuinely uncertain given the sources—that is a useful finding, not a failure
 
-### Task 4: Generate Your Output
+### Task 4: Generate Your output
 
 1. Open the **Studio** panel and select the output type that best fits your use case (as defined in Task 1). Use a customization instruction to tailor the output to your specific audience and purpose.
 
@@ -84,7 +84,7 @@ Before opening NotebookLM, spend 5 minutes thinking through your scenario using 
 
 4. Save your final output as a note (📌) for easy retrieval.
 
-### Bonus Task 5: Share and Get Feedback
+### Bonus Task 5: Share and get feedback
 
 1. Share your notebook with a colleague by clicking the share icon and adding their email address.
 
@@ -97,7 +97,7 @@ Before opening NotebookLM, spend 5 minutes thinking through your scenario using 
 
 4. Discuss with your colleague: for which kinds of information work in your role would NotebookLM be genuinely useful? Where would it not be the right tool?
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Defined a real information challenge and selected appropriate sources.

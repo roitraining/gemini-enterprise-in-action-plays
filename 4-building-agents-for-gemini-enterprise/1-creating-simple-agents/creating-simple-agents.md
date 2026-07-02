@@ -53,8 +53,8 @@ The Claims Briefing Assistant helps adjusters instantly extract and structure ke
    The agent should be professional and factual. It must not add any information that was not stated in the incident report.
    ```
 
-   > [!NOTE]
-   > Gemini Enterprise analyzes your prompt and may ask clarifying questions before building the agent. If it does, review what it proposes before proceeding.
+> [!NOTE]
+> Gemini Enterprise analyzes your prompt and may ask clarifying questions before building the agent. If it does, review what it proposes before proceeding.
 
 4. The **Agent Designer canvas** appears with your agent and a live preview pane.
 
@@ -65,8 +65,8 @@ The Claims Briefing Assistant helps adjusters instantly extract and structure ke
 
 5. Click the **Flow** tab to inspect the generated agent structure. Click the agent node to review the generated **Name**, **Description**, and **Instructions**.
 
-   > [!NOTE]
-   > Review the generated instructions carefully. They should reflect what you described in the prompt. You can edit them directly in the configuration panel if anything needs adjustment.
+> [!NOTE]
+> Review the generated instructions carefully. They should reflect what you described in the prompt. You can edit them directly in the configuration panel if anything needs adjustment.
 
 ### Task 2: Test and refine the Claims Briefing Assistant
 
@@ -103,8 +103,8 @@ Customer Mike Jones called this morning. Says his car was rear-ended on 495 Sout
 
 6. When you are satisfied with the output, click **Create** to launch the agent.
 
-   > [!IMPORTANT]
-   > If you exit the Agent Designer without clicking **Create**, your agent is saved as a **Draft** and will not be available to use until it is launched.
+> [!IMPORTANT]
+> If you exit the Agent Designer without clicking **Create**, your agent is saved as a **Draft** and will not be available to use until it is launched.
 
 7. Click the __Chat with Agent__ button to open it in a new chat window. Test it again. You can use one of the earlier test prompts or enter your own.
 

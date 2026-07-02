@@ -31,7 +31,7 @@ You need to produce an initial research brief that helps the investment team dec
 
 ## Lab Instructions
 
-### Task 1: Baseline Pass (No Search Tool)
+### Task 1: Baseline pass (no search tool)
 
 Start with a quick baseline so you can compare results later.
 
@@ -61,7 +61,7 @@ Deliver:
 
 4. Copy and paste this output to a document. Note any statements that do not include concrete evidence, links, or dates.
 
-### Task 2: Grounded Pass with Search Google
+### Task 2: Grounded pass with Search Google
 
 1. Start a new chat in Gemini Enterprise.
 
@@ -96,7 +96,7 @@ Requirements:
 
 5. Compare this response against your first results without Google Search. Now, there are citations with links that can be used to verify the claims made by the AI model. 
 
-### Task 3: Recency Stress Test and Company Comparison
+### Task 3: Recency stress test and company comparison
 
 Now test whether the output can handle very recent developments and then narrow to targets.
 
@@ -147,7 +147,7 @@ Based on the evidence collected, shortlist the top 3 companies for deeper dilige
 Explain the selection criteria and cite supporting sources.
 ```
 
-### Task 4: Test Investment Thesis Strength with Focused Follow-Ups
+### Task 4: Test investment thesis strength with focused follow-ups
 
 Pressure-test the opportunity before recommending next steps.
 
@@ -175,7 +175,7 @@ Back every major point with sourced evidence.
 3. Compare both outputs and note where evidence is strong versus where uncertainty remains.
 
 
-### Task 5: Produce an Investment Brief for Leadership
+### Task 5: Produce an investment brief for leadership
 
 Create a final, decision-oriented output for an internal investment committee.
 
@@ -205,7 +205,7 @@ Requirements:
 Rewrite this brief for an investment committee memo. Make it sharper and more concise while preserving all source-backed claims.
 ```
 
-## Bonus Task 6: Bring Your Own Use Case
+## Bonus Task 6: Bring your own use case
 
 Think of a topic your company or team actually needs real-time, web-grounded answers on. This could be competitive intelligence, regulatory changes, industry trends, supplier news, customer segment research, or anything else where outdated information causes problems.
 

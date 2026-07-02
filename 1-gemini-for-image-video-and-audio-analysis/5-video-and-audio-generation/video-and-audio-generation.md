@@ -4,7 +4,7 @@
 30 minutes
 
 ## Overview
-In this lab, you will use Gemini to generate a short holiday social media video clip for Cymbal-Mart, complete with a synchronized voiceover script. You will then use Google AI Studio to generate an audio track from the script. The result is a complete, production-ready promotional asset built entirely with AI tools.
+In this lab, you will use Gemini to generate a short holiday social media video clip for Cymbal Mart, complete with a synchronized voiceover script. You will then use Google AI Studio to generate an audio track from the script. The result is a complete, production-ready promotional asset built entirely with AI tools.
 
 ### You learn how to:
 - Generate a short video clip with Gemini's video creation tool.
@@ -17,11 +17,11 @@ In this lab, you will use Gemini to generate a short holiday social media video 
   <img src="images/cymbal-mart-logo.png" width="50%" alt="Cymbal-Mart Logo" />
 </p>
 
-Cymbal-Mart's Social Media team needs a **10-second holiday ad** for Instagram and TikTok. The brief: a family discovering new holiday gift ideas in-store, festive and cinematic, with the Cymbal-Mart logo appearing naturally in the environment. The team also needs a punchy voiceover script that matches the visual energy. Budget: zero production hours — it all needs to be AI-generated.
+Cymbal Mart's Social Media team needs a **10-second holiday ad** for Instagram and TikTok. The brief: a family discovering new holiday gift ideas in-store, festive and cinematic, with the Cymbal Mart logo appearing naturally in the environment. The team also needs a punchy voiceover script that matches the visual energy. Budget: zero production hours—it all needs to be AI-generated.
 
 ## Lab Instructions
 
-### Task 1: Generate the Video Clip
+### Task 1: Generate the video clip
 
 > [!IMPORTANT]
 > Video generation uses **Gemini** (gemini.google.com), not Gemini Enterprise. Make sure you are in the correct product before starting.
@@ -37,16 +37,16 @@ Cymbal-Mart's Social Media team needs a **10-second holiday ad** for Instagram a
 
 3. Copy the __Cymbal Mart__ logo above to the clipboard and then paste it in the chat box. 
 
-4. Copy and paste the following prompt into the chat, then press **Enter**:
+4. Copy and paste the following prompt into the chat, then press ENTER:
 
    ```text
-   You are a creative director producing a holiday social media ad for Cymbal-Mart, a modern omnichannel retailer.
+   You are a creative director producing a holiday social media ad for Cymbal Mart, a modern omnichannel retailer.
 
    Generate a 10-second cinematic video clip with the following specifications:
 
-   Visual: A young family — two parents and two children — moving excitedly through a festive Cymbal-Mart store. The children discover a display of holiday gifts and light up with excitement. The parents exchange a warm, knowing look. The Cymbal-Mart logo (from the uploaded file) appears naturally on shopping bags in the family's hands and on digital signage in the background.
+   Visual: A young family—two parents and two children—moving excitedly through a festive Cymbal Mart store. The children discover a display of holiday gifts and light up with excitement. The parents exchange a warm, knowing look. The Cymbal Mart logo (from the uploaded file) appears naturally on shopping bags in the family's hands and on digital signage in the background.
 
-   Style: Warm, festive lighting with a shallow depth of field. Slow push-in camera movement. Brand colors are blue and silver. The feel is smart, modern, and emotionally warm — not kitschy.
+   Style: Warm, festive lighting with a shallow depth of field. Slow push-in camera movement. Brand colors are blue and silver. The feel is smart, modern, and emotionally warm—not kitschy.
 
    The video should feel like a 10-second cut from a premium TV commercial.
    ```
@@ -57,17 +57,17 @@ Cymbal-Mart's Social Media team needs a **10-second holiday ad** for Instagram a
 
 6. If you don't like your results, try changing the prompt. 
 
-### Task 2: Write the Voiceover Script
+### Task 2: Write the voiceover script
 
 The video needs a voiceover that fits the 10-second runtime precisely.
 
 1. In a new Gemini chat (Gemini Enterprise is fine for this task), ask Gemini to write the script:
 
    ```text
-   Write a 10-second voiceover script for a Cymbal-Mart holiday TV commercial. The tone should be smart, warm, and festive — not cheesy. The script must:
+   Write a 10-second voiceover script for a Cymbal Mart holiday TV commercial. The tone should be smart, warm, and festive—not cheesy. The script must:
    - Open with a line that captures family excitement
    - Include a brief product or value mention (e.g., "thousands of gifts, all in one place")
-   - End with the Cymbal-Mart tagline: "More for everyone."
+   - End with the Cymbal Mart tagline: "More for everyone."
    - Time out to exactly 10 seconds when read at a natural pace
 
    After the script, provide a word count and an estimated reading time in seconds.
@@ -75,7 +75,7 @@ The video needs a voiceover that fits the 10-second runtime precisely.
 
 2. Review the output and refine if needed. Ask Gemini to make it shorter, punchier, or more specific to holiday gifting if the first version isn't quite right.
 
-### Task 3: Generate the Audio Track
+### Task 3: Generate the audio track
 
 1. Open [Google AI Studio](https://aistudio.google.com/) in a new tab.
 
@@ -113,7 +113,7 @@ The video needs a voiceover that fits the 10-second runtime precisely.
    [Sample Audio File](https://drive.google.com/file/d/1zXwfVMEppsvtdTfup9ZKNLJAaY_3CtV-/view?usp=sharing)
 
 
-### Bonus Task 4: Assemble the Full Ad Concept
+### Bonus Task 4: Assemble the full ad concept
 
 1. You have three AI-generated components, in a new chat, ask Gemini to bring them together into a brief creative brief document that describes:
    - The target platform (Instagram Reels, TikTok, YouTube Shorts)
@@ -127,7 +127,7 @@ The video needs a voiceover that fits the 10-second runtime precisely.
 
 1. Create a video clip, script, and voiceover for something relevant for your own work or personal use. 
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Generated a branded holiday video clip using Gemini's video creation tool.

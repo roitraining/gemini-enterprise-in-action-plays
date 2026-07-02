@@ -9,7 +9,7 @@ Meta-prompting means asking Gemini to improve a prompt before you use it. Instea
 This lab shows the difference a better prompt makes. You will run a simple, vague request through Deep Research, use meta-prompting to produce a stronger version, and run it again to compare the results.
 
 ### You learn how to:
-- Recognise the limitations of a vague Deep Research prompt.
+- Recognize the limitations of a vague Deep Research prompt.
 - Use meta-prompting to turn a weak prompt into a well-structured one.
 - Compare research quality before and after meta-prompting.
 
@@ -25,7 +25,7 @@ Your want to use meta-prompting to see if Gemini can help you build a prompt tha
 
 ## Lab Instructions
 
-### Task 1: Run a Weak Baseline Prompt
+### Task 1: Run a weak baseline prompt
 
 Start with the kind of prompt most people write on their first try.
 
@@ -52,13 +52,13 @@ Research [Company Name] and tell me if it would be a good investment for Cymbal 
 
 4. Review the research plan when it appears. Notice how broad or narrow the plan is given the vague prompt.
 
-5. Click **Start research**. When the output is ready, keep this tab open — you will compare it with Task 3.
+5. Click **Start research**. When the output is ready, keep this tab open—you will compare it with Task 3.
 
-### Task 2: Use Meta-Prompting to Build a Better Prompt
+### Task 2: Use Meta-Prompting to build a better prompt
 
 Now ask Gemini to improve the weak prompt before running Deep Research again.
 
-1. Open a **new chat** in Gemini Enterprise in a new borwser tab. Do **not** select Deep Research — use the regular chat mode for this step.
+1. Open a **new chat** in Gemini Enterprise in a new borwser tab. Do **not** select Deep Research—use the regular chat mode for this step.
 
 2. Paste the following prompt, replacing `[Company Name]` with the same company you chose:
 
@@ -69,15 +69,15 @@ Here is my rough question:
 "Research [Company Name] and tell me if it would be a good investment for a venture capital firm."
 ```
 
-3. Read the improved prompt Gemini returns. Notice what it added — structure, scope, output format, evidence standards — things you did not specify. That is meta-prompting: Gemini applied its own knowledge of what makes a good prompt so you did not have to.
+3. Read the improved prompt Gemini returns. Notice what it added—structure, scope, output format, evidence standards—things you did not specify. That is meta-prompting: Gemini applied its own knowledge of what makes a good prompt so you did not have to.
 
-### Task 3: Run Deep Research with the Improved Prompt
+### Task 3: Run Deep Research with the improved prompt
 
 1. Copy the improved prompt from Task 2.
 
 2. Open a **new chat**, select **Deep Research**, and paste the improved prompt.
 
-3. Review the research plan — compare it with the one from Task 1. A stronger prompt should produce a more detailed and better-organised plan.
+3. Review the research plan—compare it with the one from Task 1. A stronger prompt should produce a more detailed and better-organised plan.
 
 4. Click **Start research**.
 
@@ -88,7 +88,7 @@ Here is my rough question:
    - Which output would you actually use in a partner meeting?
 
 
-### Bonus Task 4: Apply Meta-Prompting to Your Own Work
+### Bonus Task 4: Apply Meta-Prompting to your own work
 
 Think of a research question relevant to your own organization. It does not need to be investment-related. Some ideas:
 
@@ -106,7 +106,7 @@ Think of a research question relevant to your own organization. It does not need
 
 3. Run the improved prompt and share one key finding with the group.
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Run a vague prompt through Deep Research and identified its limitations.

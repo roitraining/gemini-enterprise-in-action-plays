@@ -4,7 +4,7 @@
 15 minutes
 
 ## Overview
-In this lab, you will use Gemini's image generation model to place yourself — using your own headshot — into a Cymbal Capital Partners investment setting. This is a quick, fun introduction to Gemini's multimodal image generation capabilities and a great way to kick off the course.
+In this lab, you will use Gemini's image generation model to place yourself—using your own headshot—into a Cymbal Capital Partners investment setting. This is a quick, fun introduction to Gemini's multimodal image generation capabilities and a great way to kick off the course.
 
 ### You learn how to:
 - Upload an image file as context for an image generation prompt.
@@ -21,7 +21,7 @@ Cymbal Capital Partners is running an internal leadership spotlight campaign. Th
 
 ## Lab Instructions
 
-### Task 1: Generate Your Finance Portrait
+### Task 1: Generate your finance portrait
 
 1. Open Gemini Enterprise in your browser.
 
@@ -71,7 +71,7 @@ Cymbal Capital Partners is running an internal leadership spotlight campaign. Th
 
 1. Do something similar, but appropriate to your own workplace. Create an image you could use for a social media post that puts you into a scene that would be appropiate to your company. 
 
-## Congratulations
+## Congratulations!
 
 In this lab, you have:
 - Uploaded a personal image as generation context.
